@@ -1,0 +1,6614 @@
+{
+  "status": "planning-only; no Sentinel imagery retrieved",
+  "source": "Esri Wayback 32553, zoom 18",
+  "coordinateReferenceSystem": "EPSG:4326",
+  "sourceCollection": "Fatehabad, Haryana",
+  "target": "Sentinel-2 L2A",
+  "documentation": [
+    "https://documentation.dataspace.copernicus.eu/APIs/STAC.html",
+    "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html"
+  ],
+  "protocol": [
+    "Resolve field class, visible boundary and source-date seams before assigning temporal labels.",
+    "Find cloud-screened Sentinel observations close to the actual source acquisition, with before/after context. Suggested +/- 5-day windows below are search starting points, not evidence of burn timing.",
+    "Visible/NIR bands are 10 m; SWIR is 20 m. Match CRS, affine transform, pixel alignment and spatial support. Do not equate a downsampled high-resolution RGB screenshot with Sentinel data.",
+    "Quantify mixed pixels, field-size effects, domain shift and temporal mismatches. Keep all unreviewed labels provisional.",
+    "Freeze geographic/acquisition holdouts before training or selecting by model success."
+  ],
+  "scenes": [
+    {
+      "caseId": "C01",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-01-31"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-01-31",
+          "suggestedSearchStart": "2021-01-26",
+          "suggestedSearchEnd": "2021-02-05"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.58731079101562,
+              29.51133002730914
+            ],
+            [
+              75.59280395507812,
+              29.51133002730914
+            ],
+            [
+              75.59280395507812,
+              29.51611038606227
+            ],
+            [
+              75.58731079101562,
+              29.51611038606227
+            ],
+            [
+              75.58731079101562,
+              29.51133002730914
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "3a4ba503ec1703c5826d9d4a99889d396f4ab078d871011b2997f1d68bb2f5ec",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C02",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36346435546875,
+              29.487424847484778
+            ],
+            [
+              75.36895751953125,
+              29.487424847484778
+            ],
+            [
+              75.36895751953125,
+              29.49220633484872
+            ],
+            [
+              75.36346435546875,
+              29.49220633484872
+            ],
+            [
+              75.36346435546875,
+              29.487424847484778
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "bce1ab25bef57b555daf345717a6e39ff67de85e1efb40e5bcb555396044bcbf",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C03",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26046752929688,
+              29.294782899651672
+            ],
+            [
+              75.26596069335938,
+              29.294782899651672
+            ],
+            [
+              75.26596069335938,
+              29.299573451627968
+            ],
+            [
+              75.26046752929688,
+              29.299573451627968
+            ],
+            [
+              75.26046752929688,
+              29.294782899651672
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "be34d14896b2feced6e394f6700fe6b0c643bff1e31d6d4cd8bb784738970627",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C04",
+      "spatialHoldoutGroup": "spatial-C04",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-05-14"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.71365356445312,
+              29.510134902343825
+            ],
+            [
+              75.71914672851562,
+              29.510134902343825
+            ],
+            [
+              75.71914672851562,
+              29.514915317540922
+            ],
+            [
+              75.71365356445312,
+              29.514915317540922
+            ],
+            [
+              75.71365356445312,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "851ce3660f0d27c43be65ffb2aa15d92bbcdb924e274e426c76c11f407efc39c",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C05",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.505354261384962
+            ],
+            [
+              75.36346435546875,
+              29.505354261384962
+            ],
+            [
+              75.36346435546875,
+              29.510134902343825
+            ],
+            [
+              75.35797119140625,
+              29.510134902343825
+            ],
+            [
+              75.35797119140625,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "41ef40310d41833f680fae15c40fa06a6f20e95b384075c6a6e1e5ecdb1a199d",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C06",
+      "spatialHoldoutGroup": "spatial-C06",
+      "sourceDates": [
+        "2022-11-05",
+        "2023-04-17"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        },
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.3717041015625,
+              29.514915317540922
+            ],
+            [
+              75.377197265625,
+              29.514915317540922
+            ],
+            [
+              75.377197265625,
+              29.519695506953642
+            ],
+            [
+              75.3717041015625,
+              29.519695506953642
+            ],
+            [
+              75.3717041015625,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "46ddc8df9dc1a4afccb59a54d2dade616f492b310a50f1452382017416183bc7",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C07",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34561157226562,
+              29.529255208335538
+            ],
+            [
+              75.35110473632812,
+              29.529255208335538
+            ],
+            [
+              75.35110473632812,
+              29.534034720259505
+            ],
+            [
+              75.34561157226562,
+              29.534034720259505
+            ],
+            [
+              75.34561157226562,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "407cd7c7a4f00fba7bc5a784f5b425b68de9ee8040bb951de299715e93010b82",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C08",
+      "spatialHoldoutGroup": "spatial-C08",
+      "sourceDates": [
+        "2022-10-22"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-10-22",
+          "suggestedSearchStart": "2022-10-17",
+          "suggestedSearchEnd": "2022-10-27"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.37445068359375,
+              29.471883455244754
+            ],
+            [
+              75.37994384765625,
+              29.471883455244754
+            ],
+            [
+              75.37994384765625,
+              29.47666567590212
+            ],
+            [
+              75.37445068359375,
+              29.47666567590212
+            ],
+            [
+              75.37445068359375,
+              29.471883455244754
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "5b33e72ff33154b7c04f62a2f5a1dbc33f967bce9014311bc7de4a1d0ba12201",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C09",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24124145507812,
+              29.276816328368582
+            ],
+            [
+              75.24673461914062,
+              29.276816328368582
+            ],
+            [
+              75.24673461914062,
+              29.28160772298835
+            ],
+            [
+              75.24124145507812,
+              29.28160772298835
+            ],
+            [
+              75.24124145507812,
+              29.276816328368582
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "ddbfde369bafc27e9777a8f3daffaa167d3b8d7fff000d8814b0b1c30bd1e5c9",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C10",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.25772094726562,
+              29.301968643332767
+            ],
+            [
+              75.26321411132812,
+              29.301968643332767
+            ],
+            [
+              75.26321411132812,
+              29.306758858161302
+            ],
+            [
+              75.25772094726562,
+              29.306758858161302
+            ],
+            [
+              75.25772094726562,
+              29.301968643332767
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "c19aa19c434d78bf752844e9e592b6b5f355448aa3cdbb944f907b4210503052",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C11",
+      "spatialHoldoutGroup": "spatial-C11",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.28656005859375,
+              29.263638834879817
+            ],
+            [
+              75.29205322265625,
+              29.263638834879817
+            ],
+            [
+              75.29205322265625,
+              29.26843084723283
+            ],
+            [
+              75.28656005859375,
+              29.26843084723283
+            ],
+            [
+              75.28656005859375,
+              29.263638834879817
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "201d98f28f1205c48af31cfcdb9291314e1570bf175751c31168ee6c4c870f86",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C12",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-04-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55984497070312,
+              29.51133002730914
+            ],
+            [
+              75.56533813476562,
+              29.51133002730914
+            ],
+            [
+              75.56533813476562,
+              29.51611038606227
+            ],
+            [
+              75.55984497070312,
+              29.51611038606227
+            ],
+            [
+              75.55984497070312,
+              29.51133002730914
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "57dbb3c6d5f6b59db666c97fa2c9a76df1ccf402f8ce63ddd0d5a23c6f68ffcf",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C13",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-14"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67108154296875,
+              29.510134902343825
+            ],
+            [
+              75.67657470703125,
+              29.510134902343825
+            ],
+            [
+              75.67657470703125,
+              29.514915317540922
+            ],
+            [
+              75.67108154296875,
+              29.514915317540922
+            ],
+            [
+              75.67108154296875,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "4fe2a2898af525638b7f5e4e33b0ea871eca158e24c7ec2f80879c8596ea9bc1",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C14",
+      "spatialHoldoutGroup": "spatial-C14",
+      "sourceDates": [
+        "2021-06-06",
+        "2022-05-09",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-06-06",
+          "suggestedSearchStart": "2021-06-01",
+          "suggestedSearchEnd": "2021-06-11"
+        },
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.76309204101562,
+              29.529255208335538
+            ],
+            [
+              75.76858520507812,
+              29.529255208335538
+            ],
+            [
+              75.76858520507812,
+              29.534034720259505
+            ],
+            [
+              75.76309204101562,
+              29.534034720259505
+            ],
+            [
+              75.76309204101562,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "a0fe5a9f53ff450f75cc844b7e1b4123284c259213c98c3bd8a65780d04e2011",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C15",
+      "spatialHoldoutGroup": "spatial-C15",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-05-14"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.72601318359375,
+              29.50893976326839
+            ],
+            [
+              75.73150634765625,
+              29.50893976326839
+            ],
+            [
+              75.73150634765625,
+              29.513720234908053
+            ],
+            [
+              75.72601318359375,
+              29.513720234908053
+            ],
+            [
+              75.72601318359375,
+              29.50893976326839
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "3297cb6bdcfd701336d063a6327d40047002585b1d46bffa82747f01e6161371",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C16",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-01-31",
+        "2021-04-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-01-31",
+          "suggestedSearchStart": "2021-01-26",
+          "suggestedSearchEnd": "2021-02-05"
+        },
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.57632446289062,
+              29.510134902343825
+            ],
+            [
+              75.58181762695312,
+              29.510134902343825
+            ],
+            [
+              75.58181762695312,
+              29.514915317540922
+            ],
+            [
+              75.57632446289062,
+              29.514915317540922
+            ],
+            [
+              75.57632446289062,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "58ff82e897612d0e8f814ab160beb0dcc9783a21b9da241c1a7b7791d4a1f401",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C17",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-04-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.56808471679688,
+              29.514915317540922
+            ],
+            [
+              75.57357788085938,
+              29.514915317540922
+            ],
+            [
+              75.57357788085938,
+              29.519695506953642
+            ],
+            [
+              75.56808471679688,
+              29.519695506953642
+            ],
+            [
+              75.56808471679688,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "549587cd9808541d26afa4fc4d65513ed74458aec040749878d772907b1d9537",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C18",
+      "spatialHoldoutGroup": "spatial-C18",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.75485229492188,
+              29.517305440471745
+            ],
+            [
+              75.76034545898438,
+              29.517305440471745
+            ],
+            [
+              75.76034545898438,
+              29.522085516983797
+            ],
+            [
+              75.75485229492188,
+              29.522085516983797
+            ],
+            [
+              75.75485229492188,
+              29.517305440471745
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "9bfdff03ac6ee4cf7ec7317c603b6456689d962197a9460c00039f58507bfeee",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C19",
+      "spatialHoldoutGroup": "spatial-C18",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-05-14"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.75759887695312,
+              29.50893976326839
+            ],
+            [
+              75.76309204101562,
+              29.50893976326839
+            ],
+            [
+              75.76309204101562,
+              29.513720234908053
+            ],
+            [
+              75.75759887695312,
+              29.513720234908053
+            ],
+            [
+              75.75759887695312,
+              29.50893976326839
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "282cd842ebe072bb0e33d03c3a1221124200e940e22dd39ffda5acd697d11e86",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C20",
+      "spatialHoldoutGroup": "spatial-C15",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-05-14"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.73699951171875,
+              29.50893976326839
+            ],
+            [
+              75.74249267578125,
+              29.50893976326839
+            ],
+            [
+              75.74249267578125,
+              29.513720234908053
+            ],
+            [
+              75.73699951171875,
+              29.513720234908053
+            ],
+            [
+              75.73699951171875,
+              29.50893976326839
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "3767114f5bdcd2691674250102d7f22f1b9b18cce39d334038ae1f7c4beb146a",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C21",
+      "spatialHoldoutGroup": "spatial-C21",
+      "sourceDates": [
+        "2022-09-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.7342529296875,
+              29.52686536767757
+            ],
+            [
+              75.73974609375,
+              29.52686536767757
+            ],
+            [
+              75.73974609375,
+              29.531644992530452
+            ],
+            [
+              75.7342529296875,
+              29.531644992530452
+            ],
+            [
+              75.7342529296875,
+              29.52686536767757
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "b030296bafe2f7031aaa226e25b53c3faf78286ad3e19632db4e6d4aa8474387",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C22",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35934448242188,
+              29.513720234908053
+            ],
+            [
+              75.36483764648438,
+              29.513720234908053
+            ],
+            [
+              75.36483764648438,
+              29.51850048076899
+            ],
+            [
+              75.35934448242188,
+              29.51850048076899
+            ],
+            [
+              75.35934448242188,
+              29.513720234908053
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "b2d69e280b099c565829c11f79de2e2c018edd7a5d18b6690acb0af1620c6482",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C23",
+      "spatialHoldoutGroup": "spatial-C21",
+      "sourceDates": [
+        "2022-09-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.7232666015625,
+              29.530450107491053
+            ],
+            [
+              75.728759765625,
+              29.530450107491053
+            ],
+            [
+              75.728759765625,
+              29.535229562948455
+            ],
+            [
+              75.7232666015625,
+              29.535229562948455
+            ],
+            [
+              75.7232666015625,
+              29.530450107491053
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "ba85045ebb74b82c7330ec90e9a798f6216d4fb6ed41e67c1e27f33fe5b1ec05",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C24",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.65872192382812,
+              29.517305440471745
+            ],
+            [
+              75.66421508789062,
+              29.517305440471745
+            ],
+            [
+              75.66421508789062,
+              29.522085516983797
+            ],
+            [
+              75.65872192382812,
+              29.522085516983797
+            ],
+            [
+              75.65872192382812,
+              29.517305440471745
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "0fc3cf911f394667954ad715591b75838183c34fd7bd651fd38c171a6e4254e7",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C25",
+      "spatialHoldoutGroup": "spatial-C25",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27008056640625,
+              29.250459642950652
+            ],
+            [
+              75.27557373046875,
+              29.250459642950652
+            ],
+            [
+              75.27557373046875,
+              29.255252272863014
+            ],
+            [
+              75.27008056640625,
+              29.255252272863014
+            ],
+            [
+              75.27008056640625,
+              29.250459642950652
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "a5811caff6e499ba926284d662affd26f1b982edfae85056ecefc1f1a77faf36",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C26",
+      "spatialHoldoutGroup": "spatial-C26",
+      "sourceDates": [
+        "2021-01-31"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-01-31",
+          "suggestedSearchStart": "2021-01-26",
+          "suggestedSearchEnd": "2021-02-05"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.61065673828125,
+              29.51133002730914
+            ],
+            [
+              75.61614990234375,
+              29.51133002730914
+            ],
+            [
+              75.61614990234375,
+              29.51611038606227
+            ],
+            [
+              75.61065673828125,
+              29.51611038606227
+            ],
+            [
+              75.61065673828125,
+              29.51133002730914
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "87edfee3c5c270e95f5ab74f899e5daeb186be3357f97550a1f24173834763f7",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C27",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2021-01-31",
+        "2022-05-09"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-01-31",
+          "suggestedSearchStart": "2021-01-26",
+          "suggestedSearchEnd": "2021-02-05"
+        },
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.65460205078125,
+              29.510134902343825
+            ],
+            [
+              75.66009521484375,
+              29.510134902343825
+            ],
+            [
+              75.66009521484375,
+              29.514915317540922
+            ],
+            [
+              75.65460205078125,
+              29.514915317540922
+            ],
+            [
+              75.65460205078125,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "d20aef7a63cd208fd7a7a9497db728ca2382367c3155047890194e2327758ebd",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C28",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.2618408203125,
+              29.279212053761192
+            ],
+            [
+              75.267333984375,
+              29.279212053761192
+            ],
+            [
+              75.267333984375,
+              29.284003336047167
+            ],
+            [
+              75.2618408203125,
+              29.284003336047167
+            ],
+            [
+              75.2618408203125,
+              29.279212053761192
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "9b5adb0a351717d0f4442a5f3167e12fb2147b7a061af12d1d05fedc72d08494",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C29",
+      "spatialHoldoutGroup": "spatial-C25",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.255252272863014
+            ],
+            [
+              75.27145385742188,
+              29.255252272863014
+            ],
+            [
+              75.27145385742188,
+              29.260044678228475
+            ],
+            [
+              75.26596069335938,
+              29.260044678228475
+            ],
+            [
+              75.26596069335938,
+              29.255252272863014
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "7bca91b73abfaaaba88fb3c18007ec6d7edac0ce3d186b6b9a1bb66982fd6562",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C30",
+      "spatialHoldoutGroup": "spatial-C15",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.73287963867188,
+              29.51611038606227
+            ],
+            [
+              75.73837280273438,
+              29.51611038606227
+            ],
+            [
+              75.73837280273438,
+              29.520890519025365
+            ],
+            [
+              75.73287963867188,
+              29.520890519025365
+            ],
+            [
+              75.73287963867188,
+              29.51611038606227
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "3145f729a6e8758d1fbbb1c64efda9335e80cb2923d9ce8208087c00fe71c94e",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C31",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.25634765625,
+              29.287596650313468
+            ],
+            [
+              75.2618408203125,
+              29.287596650313468
+            ],
+            [
+              75.2618408203125,
+              29.2923875393859
+            ],
+            [
+              75.25634765625,
+              29.2923875393859
+            ],
+            [
+              75.25634765625,
+              29.287596650313468
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "5b67ee79a14448d11e63d516a9029f44dfefa25d1085c891e7ef62b644317e3b",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C32",
+      "spatialHoldoutGroup": "spatial-C25",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27557373046875,
+              29.250459642950652
+            ],
+            [
+              75.28106689453125,
+              29.250459642950652
+            ],
+            [
+              75.28106689453125,
+              29.255252272863014
+            ],
+            [
+              75.27557373046875,
+              29.255252272863014
+            ],
+            [
+              75.27557373046875,
+              29.250459642950652
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "dcda5015516116a2dac536442bb9f66c15a04f038794fd95c0f3130da4117f24",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C33",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-01-31"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-01-31",
+          "suggestedSearchStart": "2021-01-26",
+          "suggestedSearchEnd": "2021-02-05"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.59280395507812,
+              29.513720234908053
+            ],
+            [
+              75.59829711914062,
+              29.513720234908053
+            ],
+            [
+              75.59829711914062,
+              29.51850048076899
+            ],
+            [
+              75.59280395507812,
+              29.51850048076899
+            ],
+            [
+              75.59280395507812,
+              29.513720234908053
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "bb2223afc5fb7fadae2ee8b9877a8f4e19df7af520b1c072fd95d6373cfb83c8",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C34",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34149169921875,
+              29.513720234908053
+            ],
+            [
+              75.34698486328125,
+              29.513720234908053
+            ],
+            [
+              75.34698486328125,
+              29.51850048076899
+            ],
+            [
+              75.34149169921875,
+              29.51850048076899
+            ],
+            [
+              75.34149169921875,
+              29.513720234908053
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "ed6100f92e35fdca6083a16739cf1560c83bbb176104964405d4fff6a000cd69",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C35",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2020-11-18",
+        "2023-09-09"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2020-11-18",
+          "suggestedSearchStart": "2020-11-13",
+          "suggestedSearchEnd": "2020-11-23"
+        },
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.25222778320312,
+              29.310351371763005
+            ],
+            [
+              75.25772094726562,
+              29.310351371763005
+            ],
+            [
+              75.25772094726562,
+              29.315141193187284
+            ],
+            [
+              75.25222778320312,
+              29.315141193187284
+            ],
+            [
+              75.25222778320312,
+              29.310351371763005
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "1caaea8f438a2b027ebd02c41061bfd6b2fd4e66d1f797f4a3dbdae6ef3c7c97",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C36",
+      "spatialHoldoutGroup": "spatial-C36",
+      "sourceDates": [
+        "2021-01-31",
+        "2021-02-05",
+        "2022-05-09"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-01-31",
+          "suggestedSearchStart": "2021-01-26",
+          "suggestedSearchEnd": "2021-02-05"
+        },
+        {
+          "sourceDate": "2021-02-05",
+          "suggestedSearchStart": "2021-01-31",
+          "suggestedSearchEnd": "2021-02-10"
+        },
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.6243896484375,
+              29.50893976326839
+            ],
+            [
+              75.6298828125,
+              29.50893976326839
+            ],
+            [
+              75.6298828125,
+              29.513720234908053
+            ],
+            [
+              75.6243896484375,
+              29.513720234908053
+            ],
+            [
+              75.6243896484375,
+              29.50893976326839
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "fd47dfbd4f5c964792c2bf41da1352a272ca475206bc64dd6c49fbd6aa06ee68",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C37",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.49220633484872
+            ],
+            [
+              75.36346435546875,
+              29.49220633484872
+            ],
+            [
+              75.36346435546875,
+              29.49698759653576
+            ],
+            [
+              75.35797119140625,
+              29.49698759653576
+            ],
+            [
+              75.35797119140625,
+              29.49220633484872
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "0379f2c58d99aab1252356241fb1d2efa729bd9ab0ec955768681b54221521b5",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C38",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34011840820312,
+              29.534034720259505
+            ],
+            [
+              75.34561157226562,
+              29.534034720259505
+            ],
+            [
+              75.34561157226562,
+              29.538814006308733
+            ],
+            [
+              75.34011840820312,
+              29.538814006308733
+            ],
+            [
+              75.34011840820312,
+              29.534034720259505
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "5a694b16a8d193a8dceaee0d8ffe5e807488333e944252b914f41a22e525107a",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C39",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2023-04-17",
+        "2021-04-29",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        },
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55435180664062,
+              29.51611038606227
+            ],
+            [
+              75.55984497070312,
+              29.51611038606227
+            ],
+            [
+              75.55984497070312,
+              29.520890519025365
+            ],
+            [
+              75.55435180664062,
+              29.520890519025365
+            ],
+            [
+              75.55435180664062,
+              29.51611038606227
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "72a9570b3f03525fbf0efd870538332555881cdb484ea91b8f546c082bd6b1d8",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C40",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-05-14",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66558837890625,
+              29.514915317540922
+            ],
+            [
+              75.67108154296875,
+              29.514915317540922
+            ],
+            [
+              75.67108154296875,
+              29.519695506953642
+            ],
+            [
+              75.66558837890625,
+              29.519695506953642
+            ],
+            [
+              75.66558837890625,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "0a486e8396cdd846fec330f1c281aa1ad60821de008efbe461d89a51561ae21f",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C41",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.299573451627968
+            ],
+            [
+              75.27145385742188,
+              29.299573451627968
+            ],
+            [
+              75.27145385742188,
+              29.304363778844838
+            ],
+            [
+              75.26596069335938,
+              29.304363778844838
+            ],
+            [
+              75.26596069335938,
+              29.299573451627968
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "d9dc42c20d77e48d2dc5180f7896deb7e618a3b465ab17014d7e00f7d537f8ea",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C42",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36346435546875,
+              29.49220633484872
+            ],
+            [
+              75.36895751953125,
+              29.49220633484872
+            ],
+            [
+              75.36895751953125,
+              29.49698759653576
+            ],
+            [
+              75.36346435546875,
+              29.49698759653576
+            ],
+            [
+              75.36346435546875,
+              29.49220633484872
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "9b04e3fb60b8826058be4d02aa3340da518f1fa8e56534c96b4577d716a57fa9",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C43",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34561157226562,
+              29.534034720259505
+            ],
+            [
+              75.35110473632812,
+              29.534034720259505
+            ],
+            [
+              75.35110473632812,
+              29.538814006308733
+            ],
+            [
+              75.34561157226562,
+              29.538814006308733
+            ],
+            [
+              75.34561157226562,
+              29.534034720259505
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "a5af4e2fa9e677dbe5c6136a7143e39f2d325e4cfac7388a75fd0910a3e06e68",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C44",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-04-29",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55984497070312,
+              29.51611038606227
+            ],
+            [
+              75.56533813476562,
+              29.51611038606227
+            ],
+            [
+              75.56533813476562,
+              29.520890519025365
+            ],
+            [
+              75.55984497070312,
+              29.520890519025365
+            ],
+            [
+              75.55984497070312,
+              29.51611038606227
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "b18c339db4b6459b1c4963deb31d0252eef08ed37778d3d470d07cf7f73e0353",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C45",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-05-14",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67108154296875,
+              29.514915317540922
+            ],
+            [
+              75.67657470703125,
+              29.514915317540922
+            ],
+            [
+              75.67657470703125,
+              29.519695506953642
+            ],
+            [
+              75.67108154296875,
+              29.519695506953642
+            ],
+            [
+              75.67108154296875,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "e75e062d9602fba01648b2f374b66d4e3352223ca4c1cc89700eafe36fd7284a",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C46",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.25497436523438,
+              29.294782899651672
+            ],
+            [
+              75.26046752929688,
+              29.294782899651672
+            ],
+            [
+              75.26046752929688,
+              29.299573451627968
+            ],
+            [
+              75.25497436523438,
+              29.299573451627968
+            ],
+            [
+              75.25497436523438,
+              29.294782899651672
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "42504561c8449de767160de9461afa3376e286370fab386b47b287cf728bbbeb",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C47",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36895751953125,
+              29.49220633484872
+            ],
+            [
+              75.37445068359375,
+              29.49220633484872
+            ],
+            [
+              75.37445068359375,
+              29.49698759653576
+            ],
+            [
+              75.36895751953125,
+              29.49698759653576
+            ],
+            [
+              75.36895751953125,
+              29.49220633484872
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "de23a691297215e15152f60a031b1675db1272e37336e4860e138a9f52061988",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C48",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35110473632812,
+              29.534034720259505
+            ],
+            [
+              75.35659790039062,
+              29.534034720259505
+            ],
+            [
+              75.35659790039062,
+              29.538814006308733
+            ],
+            [
+              75.35110473632812,
+              29.538814006308733
+            ],
+            [
+              75.35110473632812,
+              29.534034720259505
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "d946e3900f6e1b8bd6fe0fa5e460f61582a7ac5edd47b901f8ab1b658e8db747",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C49",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2023-04-17",
+        "2021-04-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        },
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55435180664062,
+              29.51133002730914
+            ],
+            [
+              75.55984497070312,
+              29.51133002730914
+            ],
+            [
+              75.55984497070312,
+              29.51611038606227
+            ],
+            [
+              75.55435180664062,
+              29.51611038606227
+            ],
+            [
+              75.55435180664062,
+              29.51133002730914
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "2ca78077cc5fd127ece341b6196c3d2cf05b605885c7ab372ba2895b13e4f8ec",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C50",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-05-14"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67657470703125,
+              29.514915317540922
+            ],
+            [
+              75.68206787109375,
+              29.514915317540922
+            ],
+            [
+              75.68206787109375,
+              29.519695506953642
+            ],
+            [
+              75.67657470703125,
+              29.519695506953642
+            ],
+            [
+              75.67657470703125,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "96c544384564f021753c6dfd6a8523685a3f677b2bff207eb5c9097f5382fe13",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C51",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.294782899651672
+            ],
+            [
+              75.27145385742188,
+              29.294782899651672
+            ],
+            [
+              75.27145385742188,
+              29.299573451627968
+            ],
+            [
+              75.26596069335938,
+              29.299573451627968
+            ],
+            [
+              75.26596069335938,
+              29.294782899651672
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "c4de45d4e33e074aaf198dd22f05ae1e38713ad36b98d0faafc2a8a46bc32764",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C52",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.487424847484778
+            ],
+            [
+              75.36346435546875,
+              29.487424847484778
+            ],
+            [
+              75.36346435546875,
+              29.49220633484872
+            ],
+            [
+              75.35797119140625,
+              29.49220633484872
+            ],
+            [
+              75.35797119140625,
+              29.487424847484778
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "7e54c72996edef3853bb4f15f2c0f7c092986e0223a0dab95d5837a58f38ceb2",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C53",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34011840820312,
+              29.529255208335538
+            ],
+            [
+              75.34561157226562,
+              29.529255208335538
+            ],
+            [
+              75.34561157226562,
+              29.534034720259505
+            ],
+            [
+              75.34011840820312,
+              29.534034720259505
+            ],
+            [
+              75.34011840820312,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "bf7d9154378024218170e10fc63a6610a8fbcc625161a92662e070ce07d97ebc",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C54",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2023-04-17",
+        "2021-04-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        },
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55435180664062,
+              29.506549442788607
+            ],
+            [
+              75.55984497070312,
+              29.506549442788607
+            ],
+            [
+              75.55984497070312,
+              29.51133002730914
+            ],
+            [
+              75.55435180664062,
+              29.51133002730914
+            ],
+            [
+              75.55435180664062,
+              29.506549442788607
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "bd27a7c2ac4af28dfdd03e61e94718c1182ffb1d15a8968318084189f70a942c",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C55",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-05-14"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66558837890625,
+              29.510134902343825
+            ],
+            [
+              75.67108154296875,
+              29.510134902343825
+            ],
+            [
+              75.67108154296875,
+              29.514915317540922
+            ],
+            [
+              75.66558837890625,
+              29.514915317540922
+            ],
+            [
+              75.66558837890625,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "2165befabe06391fe8918aff82e4340e890ac90b7f306e0f36698c7cf89bddbb",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C56",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.289992122938877
+            ],
+            [
+              75.27145385742188,
+              29.289992122938877
+            ],
+            [
+              75.27145385742188,
+              29.294782899651672
+            ],
+            [
+              75.26596069335938,
+              29.294782899651672
+            ],
+            [
+              75.26596069335938,
+              29.289992122938877
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "9390367a42186551923cfc929ec07e87daffff2f0c7e3246a032f1963b8ac032",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C57",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05",
+        "2023-04-17"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        },
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36895751953125,
+              29.487424847484778
+            ],
+            [
+              75.37445068359375,
+              29.487424847484778
+            ],
+            [
+              75.37445068359375,
+              29.49220633484872
+            ],
+            [
+              75.36895751953125,
+              29.49220633484872
+            ],
+            [
+              75.36895751953125,
+              29.487424847484778
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "e7623208f4cbf34b0e41768eb4006d434188b1531bcbd2269c7482f4e9ae51ee",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C58",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35110473632812,
+              29.529255208335538
+            ],
+            [
+              75.35659790039062,
+              29.529255208335538
+            ],
+            [
+              75.35659790039062,
+              29.534034720259505
+            ],
+            [
+              75.35110473632812,
+              29.534034720259505
+            ],
+            [
+              75.35110473632812,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "6438736146dfd5cdb4bbc6dfebef1e970ec9ff7101e934c4f9f3b38efc141cf3",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C59",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-04-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55984497070312,
+              29.506549442788607
+            ],
+            [
+              75.56533813476562,
+              29.506549442788607
+            ],
+            [
+              75.56533813476562,
+              29.51133002730914
+            ],
+            [
+              75.55984497070312,
+              29.51133002730914
+            ],
+            [
+              75.55984497070312,
+              29.506549442788607
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "5a917b71e510f8b4355398c5870551cd7411b86e0dce165f6d6c24723fa9f5fc",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C60",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-14"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67657470703125,
+              29.510134902343825
+            ],
+            [
+              75.68206787109375,
+              29.510134902343825
+            ],
+            [
+              75.68206787109375,
+              29.514915317540922
+            ],
+            [
+              75.67657470703125,
+              29.514915317540922
+            ],
+            [
+              75.67657470703125,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "9cacb31432712a551a56533db8b1df26b6ca4cbd91d79d7c100fb665a44bd448",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C61",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2020-11-18",
+        "2023-09-09"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2020-11-18",
+          "suggestedSearchStart": "2020-11-13",
+          "suggestedSearchEnd": "2020-11-23"
+        },
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24948120117188,
+              29.304363778844838
+            ],
+            [
+              75.25497436523438,
+              29.304363778844838
+            ],
+            [
+              75.25497436523438,
+              29.309153881279318
+            ],
+            [
+              75.24948120117188,
+              29.309153881279318
+            ],
+            [
+              75.24948120117188,
+              29.304363778844838
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "230da5062544cfeb38f02515c3203e7d9f8004f473a2d84dab044ff170ca9081",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C62",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.48264313446661
+            ],
+            [
+              75.36346435546875,
+              29.48264313446661
+            ],
+            [
+              75.36346435546875,
+              29.487424847484778
+            ],
+            [
+              75.35797119140625,
+              29.487424847484778
+            ],
+            [
+              75.35797119140625,
+              29.48264313446661
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "c9ea0ecf417dc14979c18f0d2ab7b23a5882c03728c0fa17f5687d366d48677e",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C63",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34011840820312,
+              29.524475470559373
+            ],
+            [
+              75.34561157226562,
+              29.524475470559373
+            ],
+            [
+              75.34561157226562,
+              29.529255208335538
+            ],
+            [
+              75.34011840820312,
+              29.529255208335538
+            ],
+            [
+              75.34011840820312,
+              29.524475470559373
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "69e7cf346d681efa7bd345e1d583c76c8bc1d7c180f185b4751850aa608f4bcb",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C64",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-04-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.56533813476562,
+              29.506549442788607
+            ],
+            [
+              75.57083129882812,
+              29.506549442788607
+            ],
+            [
+              75.57083129882812,
+              29.51133002730914
+            ],
+            [
+              75.56533813476562,
+              29.51133002730914
+            ],
+            [
+              75.56533813476562,
+              29.506549442788607
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "1aacd54cc128efc719795169bfb1f517cd67fb8c067479af5dcc4db1d255b83e",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C65",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2021-01-31",
+        "2022-05-09",
+        "2022-05-14"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-01-31",
+          "suggestedSearchStart": "2021-01-26",
+          "suggestedSearchEnd": "2021-02-05"
+        },
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66558837890625,
+              29.505354261384962
+            ],
+            [
+              75.67108154296875,
+              29.505354261384962
+            ],
+            [
+              75.67108154296875,
+              29.510134902343825
+            ],
+            [
+              75.66558837890625,
+              29.510134902343825
+            ],
+            [
+              75.66558837890625,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "22873846981641ee7841b0c882fec560007258386c31064734010ce61d900448",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C66",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.304363778844838
+            ],
+            [
+              75.27145385742188,
+              29.304363778844838
+            ],
+            [
+              75.27145385742188,
+              29.309153881279318
+            ],
+            [
+              75.26596069335938,
+              29.309153881279318
+            ],
+            [
+              75.26596069335938,
+              29.304363778844838
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "d402d17c2c5f245e4647b585f50c3c60f3e879c83818597ce2da769fb2244e84",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C67",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36346435546875,
+              29.48264313446661
+            ],
+            [
+              75.36895751953125,
+              29.48264313446661
+            ],
+            [
+              75.36895751953125,
+              29.487424847484778
+            ],
+            [
+              75.36346435546875,
+              29.487424847484778
+            ],
+            [
+              75.36346435546875,
+              29.48264313446661
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "0a2f523c0edad8d8682155cbd726c6deb9391be3bb5ea14b694c02b1f3e7636b",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C68",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34561157226562,
+              29.524475470559373
+            ],
+            [
+              75.35110473632812,
+              29.524475470559373
+            ],
+            [
+              75.35110473632812,
+              29.529255208335538
+            ],
+            [
+              75.34561157226562,
+              29.529255208335538
+            ],
+            [
+              75.34561157226562,
+              29.524475470559373
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "082640af0bae1212f62bfacc923c0eb3a86a140580d795a1fb799895b35327af",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C69",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2023-04-17"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54885864257812,
+              29.520890519025365
+            ],
+            [
+              75.55435180664062,
+              29.520890519025365
+            ],
+            [
+              75.55435180664062,
+              29.52567042617583
+            ],
+            [
+              75.54885864257812,
+              29.52567042617583
+            ],
+            [
+              75.54885864257812,
+              29.520890519025365
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "39b09f1521cf5a20b0e21b9e5bb676681ecb3355bc65db0c2de81858eb0f4df3",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C70",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-14"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67108154296875,
+              29.505354261384962
+            ],
+            [
+              75.67657470703125,
+              29.505354261384962
+            ],
+            [
+              75.67657470703125,
+              29.510134902343825
+            ],
+            [
+              75.67108154296875,
+              29.510134902343825
+            ],
+            [
+              75.67108154296875,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "41aaad65bc2bf37a6d6426083cf62becadded047b97cec1070ddedc4468a77c6",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C71",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.304363778844838
+            ],
+            [
+              75.27694702148438,
+              29.304363778844838
+            ],
+            [
+              75.27694702148438,
+              29.309153881279318
+            ],
+            [
+              75.27145385742188,
+              29.309153881279318
+            ],
+            [
+              75.27145385742188,
+              29.304363778844838
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "4c330c87232fa98af8c61f0a52cf7236de126b87ef045d953c18f0b829535df5",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C72",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05",
+        "2023-04-17"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        },
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36895751953125,
+              29.48264313446661
+            ],
+            [
+              75.37445068359375,
+              29.48264313446661
+            ],
+            [
+              75.37445068359375,
+              29.487424847484778
+            ],
+            [
+              75.36895751953125,
+              29.487424847484778
+            ],
+            [
+              75.36895751953125,
+              29.48264313446661
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "98b4c47cafaf791016c4637743660cd8d3a4a45363b18a2fe635156290ba9b00",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C73",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35110473632812,
+              29.524475470559373
+            ],
+            [
+              75.35659790039062,
+              29.524475470559373
+            ],
+            [
+              75.35659790039062,
+              29.529255208335538
+            ],
+            [
+              75.35110473632812,
+              29.529255208335538
+            ],
+            [
+              75.35110473632812,
+              29.524475470559373
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "cabd1c74a4a9f94e04fc724625b1c985faaef7f48ded9065705b6cabd0f28909",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C74",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2023-04-17",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55435180664062,
+              29.520890519025365
+            ],
+            [
+              75.55984497070312,
+              29.520890519025365
+            ],
+            [
+              75.55984497070312,
+              29.52567042617583
+            ],
+            [
+              75.55435180664062,
+              29.52567042617583
+            ],
+            [
+              75.55435180664062,
+              29.520890519025365
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "c9a84f9a5222af456cbc91a8b3b8a505b131582db6e6a454fc174fa8f859f1f5",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C75",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-14"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67657470703125,
+              29.505354261384962
+            ],
+            [
+              75.68206787109375,
+              29.505354261384962
+            ],
+            [
+              75.68206787109375,
+              29.510134902343825
+            ],
+            [
+              75.67657470703125,
+              29.510134902343825
+            ],
+            [
+              75.67657470703125,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "3c0c833fb7676a55a47ff825107e4d94ebc1984958a461079ea72978c94d2b9f",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C76",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24948120117188,
+              29.299573451627968
+            ],
+            [
+              75.25497436523438,
+              29.299573451627968
+            ],
+            [
+              75.25497436523438,
+              29.304363778844838
+            ],
+            [
+              75.24948120117188,
+              29.304363778844838
+            ],
+            [
+              75.24948120117188,
+              29.299573451627968
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "05fa61f9b9df41d707100ccdbb8317097f40bfe07217c5c0262286fdf8787c94",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C77",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35247802734375,
+              29.49698759653576
+            ],
+            [
+              75.35797119140625,
+              29.49698759653576
+            ],
+            [
+              75.35797119140625,
+              29.501768632523273
+            ],
+            [
+              75.35247802734375,
+              29.501768632523273
+            ],
+            [
+              75.35247802734375,
+              29.49698759653576
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "12320bed74263925479f31382930d7325283027d9548cf3ae4e873aa2e4fc8bb",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C78",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.33462524414062,
+              29.538814006308733
+            ],
+            [
+              75.34011840820312,
+              29.538814006308733
+            ],
+            [
+              75.34011840820312,
+              29.543593066460602
+            ],
+            [
+              75.33462524414062,
+              29.543593066460602
+            ],
+            [
+              75.33462524414062,
+              29.538814006308733
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "c762ead7e0d337403ad0635060bd7b4b734dd3bbc41af24e25234194362b34f8",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C79",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2022-09-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55984497070312,
+              29.520890519025365
+            ],
+            [
+              75.56533813476562,
+              29.520890519025365
+            ],
+            [
+              75.56533813476562,
+              29.52567042617583
+            ],
+            [
+              75.55984497070312,
+              29.52567042617583
+            ],
+            [
+              75.55984497070312,
+              29.520890519025365
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "c610db28ff0dacd09d65039a2f2910c56a44f7687941b08a988db5c2ddc52a11",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C80",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66558837890625,
+              29.519695506953642
+            ],
+            [
+              75.67108154296875,
+              29.519695506953642
+            ],
+            [
+              75.67108154296875,
+              29.524475470559373
+            ],
+            [
+              75.66558837890625,
+              29.524475470559373
+            ],
+            [
+              75.66558837890625,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "5d8f4c465972c5988c8f744d119c26e7135ca2d59b76ffec2b485ecf977d5bb8",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C81",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.299573451627968
+            ],
+            [
+              75.27694702148438,
+              29.299573451627968
+            ],
+            [
+              75.27694702148438,
+              29.304363778844838
+            ],
+            [
+              75.27145385742188,
+              29.304363778844838
+            ],
+            [
+              75.27145385742188,
+              29.299573451627968
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "2f36a8a4a8856f0ff8f6fab6d85178dad9a056cc03d165e61eef3da2fae2a00d",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C82",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.49698759653576
+            ],
+            [
+              75.36346435546875,
+              29.49698759653576
+            ],
+            [
+              75.36346435546875,
+              29.501768632523273
+            ],
+            [
+              75.35797119140625,
+              29.501768632523273
+            ],
+            [
+              75.35797119140625,
+              29.49698759653576
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "0d798d4e342737810129c50aa4768bccfd742be4223d1e97f7daf27252391dc4",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C83",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34011840820312,
+              29.538814006308733
+            ],
+            [
+              75.34561157226562,
+              29.538814006308733
+            ],
+            [
+              75.34561157226562,
+              29.543593066460602
+            ],
+            [
+              75.34011840820312,
+              29.543593066460602
+            ],
+            [
+              75.34011840820312,
+              29.538814006308733
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "d7240d94d27f890600bac5d78e9988a21a8f3fe734367368b0b5edcb2e43a89e",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C84",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2022-09-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.56533813476562,
+              29.520890519025365
+            ],
+            [
+              75.57083129882812,
+              29.520890519025365
+            ],
+            [
+              75.57083129882812,
+              29.52567042617583
+            ],
+            [
+              75.56533813476562,
+              29.52567042617583
+            ],
+            [
+              75.56533813476562,
+              29.520890519025365
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "dd9a3826a986bad279ef0eeedd7f2bd775cfa2a718664437cf2169ceb4cd591a",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C85",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67108154296875,
+              29.519695506953642
+            ],
+            [
+              75.67657470703125,
+              29.519695506953642
+            ],
+            [
+              75.67657470703125,
+              29.524475470559373
+            ],
+            [
+              75.67108154296875,
+              29.524475470559373
+            ],
+            [
+              75.67108154296875,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "be815acb4833ecf45a7dea159b274cac7eeee69dde15a6236d092453f71d19c4",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C86",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24948120117188,
+              29.294782899651672
+            ],
+            [
+              75.25497436523438,
+              29.294782899651672
+            ],
+            [
+              75.25497436523438,
+              29.299573451627968
+            ],
+            [
+              75.24948120117188,
+              29.299573451627968
+            ],
+            [
+              75.24948120117188,
+              29.294782899651672
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "7c89bfe6fb079a06d9148ae53dca6f094fd82770018b494ef9bd2bb9c3e21cd7",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C87",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36346435546875,
+              29.49698759653576
+            ],
+            [
+              75.36895751953125,
+              29.49698759653576
+            ],
+            [
+              75.36895751953125,
+              29.501768632523273
+            ],
+            [
+              75.36346435546875,
+              29.501768632523273
+            ],
+            [
+              75.36346435546875,
+              29.49698759653576
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "0a4695b3d3740284b6c05640cc8a4110b9ca1552c2c58d022059a83ff49300b3",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C88",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34561157226562,
+              29.538814006308733
+            ],
+            [
+              75.35110473632812,
+              29.538814006308733
+            ],
+            [
+              75.35110473632812,
+              29.543593066460602
+            ],
+            [
+              75.34561157226562,
+              29.543593066460602
+            ],
+            [
+              75.34561157226562,
+              29.538814006308733
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "e0311104e4acb72f8e478274904fc042f5b5ce1ffcbfb7c4698d4c0cec014a1b",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C89",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2022-09-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.57083129882812,
+              29.520890519025365
+            ],
+            [
+              75.57632446289062,
+              29.520890519025365
+            ],
+            [
+              75.57632446289062,
+              29.52567042617583
+            ],
+            [
+              75.57083129882812,
+              29.52567042617583
+            ],
+            [
+              75.57083129882812,
+              29.520890519025365
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "61e1c92e31c0ca25f1907c4cf919b53a4902611425853a493788754dd4170f80",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C90",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-09-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-09-29",
+          "suggestedSearchStart": "2022-09-24",
+          "suggestedSearchEnd": "2022-10-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67657470703125,
+              29.519695506953642
+            ],
+            [
+              75.68206787109375,
+              29.519695506953642
+            ],
+            [
+              75.68206787109375,
+              29.524475470559373
+            ],
+            [
+              75.67657470703125,
+              29.524475470559373
+            ],
+            [
+              75.67657470703125,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "5626a94e61b9f2a8981ba747d13ddc31166baad477b77779c8b63e7577659140",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C91",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.294782899651672
+            ],
+            [
+              75.27694702148438,
+              29.294782899651672
+            ],
+            [
+              75.27694702148438,
+              29.299573451627968
+            ],
+            [
+              75.27145385742188,
+              29.299573451627968
+            ],
+            [
+              75.27145385742188,
+              29.294782899651672
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "05208b404f7ac428fde6ea7fe3c5c279cefc623ae47ddb3a7014cfa134daed75",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C92",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36895751953125,
+              29.49698759653576
+            ],
+            [
+              75.37445068359375,
+              29.49698759653576
+            ],
+            [
+              75.37445068359375,
+              29.501768632523273
+            ],
+            [
+              75.36895751953125,
+              29.501768632523273
+            ],
+            [
+              75.36895751953125,
+              29.49698759653576
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "15a99a1fc2d32ef658d7c1c5a93fd33dfe8cbaa99d1786ad10e40381013d5a3b",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C93",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35110473632812,
+              29.538814006308733
+            ],
+            [
+              75.35659790039062,
+              29.538814006308733
+            ],
+            [
+              75.35659790039062,
+              29.543593066460602
+            ],
+            [
+              75.35110473632812,
+              29.543593066460602
+            ],
+            [
+              75.35110473632812,
+              29.538814006308733
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "74cbeba925955dd7c1d0033f2ebd8bd8460fe98f18973832eb09712897f2358c",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C94",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2023-04-17"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54885864257812,
+              29.51611038606227
+            ],
+            [
+              75.55435180664062,
+              29.51611038606227
+            ],
+            [
+              75.55435180664062,
+              29.520890519025365
+            ],
+            [
+              75.54885864257812,
+              29.520890519025365
+            ],
+            [
+              75.54885864257812,
+              29.51611038606227
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "6123566910fcc96324fdfab890b2bc43aa26eb3a58d23b56c319f02d4cc46383",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C95",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.68206787109375,
+              29.519695506953642
+            ],
+            [
+              75.68756103515625,
+              29.519695506953642
+            ],
+            [
+              75.68756103515625,
+              29.524475470559373
+            ],
+            [
+              75.68206787109375,
+              29.524475470559373
+            ],
+            [
+              75.68206787109375,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "0909fcae015afada55a44aa20dac513dfe18e2ecb4fbc45b17d0d08f893830cd",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C96",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24948120117188,
+              29.289992122938877
+            ],
+            [
+              75.25497436523438,
+              29.289992122938877
+            ],
+            [
+              75.25497436523438,
+              29.294782899651672
+            ],
+            [
+              75.24948120117188,
+              29.294782899651672
+            ],
+            [
+              75.24948120117188,
+              29.289992122938877
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "874efd2549509285544640db15461b08616860a62075e09fb973c7ce657392d3",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C97",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05",
+        "2023-04-17"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        },
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.37445068359375,
+              29.49698759653576
+            ],
+            [
+              75.37994384765625,
+              29.49698759653576
+            ],
+            [
+              75.37994384765625,
+              29.501768632523273
+            ],
+            [
+              75.37445068359375,
+              29.501768632523273
+            ],
+            [
+              75.37445068359375,
+              29.49698759653576
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "76c0b02188e5d839176ef3d5b5a4ac29b4efc3dfe8d025b39e6fecf666e5bd9d",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C98",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35659790039062,
+              29.538814006308733
+            ],
+            [
+              75.36209106445312,
+              29.538814006308733
+            ],
+            [
+              75.36209106445312,
+              29.543593066460602
+            ],
+            [
+              75.35659790039062,
+              29.543593066460602
+            ],
+            [
+              75.35659790039062,
+              29.538814006308733
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "87d37a2d0ec419ca60b3515296ee08cf2494616289739e59333fe51e67f5a6e5",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C99",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2023-04-17"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54885864257812,
+              29.51133002730914
+            ],
+            [
+              75.55435180664062,
+              29.51133002730914
+            ],
+            [
+              75.55435180664062,
+              29.51611038606227
+            ],
+            [
+              75.54885864257812,
+              29.51611038606227
+            ],
+            [
+              75.54885864257812,
+              29.51133002730914
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "ba55796cbff70dd8db87b42aa6990e3ca1e0c850eb009fcbbeb786d9bcfa96ce",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C100",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-09",
+        "2022-05-14"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        },
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.68206787109375,
+              29.514915317540922
+            ],
+            [
+              75.68756103515625,
+              29.514915317540922
+            ],
+            [
+              75.68756103515625,
+              29.519695506953642
+            ],
+            [
+              75.68206787109375,
+              29.519695506953642
+            ],
+            [
+              75.68206787109375,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "1f22faf42d3a3f7798a1114223ec6ec8a0e4066bc1ca151a2e7d2894f1fec71b",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C101",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.289992122938877
+            ],
+            [
+              75.27694702148438,
+              29.289992122938877
+            ],
+            [
+              75.27694702148438,
+              29.294782899651672
+            ],
+            [
+              75.27145385742188,
+              29.294782899651672
+            ],
+            [
+              75.27145385742188,
+              29.289992122938877
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "22c72caaec5d8067db2de7f69bc5bf693e20fe327e36ab35fd6cc91af0362966",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C102",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35247802734375,
+              29.49220633484872
+            ],
+            [
+              75.35797119140625,
+              29.49220633484872
+            ],
+            [
+              75.35797119140625,
+              29.49698759653576
+            ],
+            [
+              75.35247802734375,
+              29.49698759653576
+            ],
+            [
+              75.35247802734375,
+              29.49220633484872
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "78bb1aa6ae39ec36df356ef779685db768d83c0b4f6bfe6114085bb62f70a523",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C103",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.33462524414062,
+              29.534034720259505
+            ],
+            [
+              75.34011840820312,
+              29.534034720259505
+            ],
+            [
+              75.34011840820312,
+              29.538814006308733
+            ],
+            [
+              75.33462524414062,
+              29.538814006308733
+            ],
+            [
+              75.33462524414062,
+              29.534034720259505
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "e5a07aa50d78936f26052b4b4a99fd5cdd1ef3c0ff218a55b8749d52487549cb",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C104",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2023-04-17"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54885864257812,
+              29.506549442788607
+            ],
+            [
+              75.55435180664062,
+              29.506549442788607
+            ],
+            [
+              75.55435180664062,
+              29.51133002730914
+            ],
+            [
+              75.54885864257812,
+              29.51133002730914
+            ],
+            [
+              75.54885864257812,
+              29.506549442788607
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "7bd88b7c155ba6a608cb1af6e1c51512b53a58665f2fe3335211a5f195b18032",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C105",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2021-01-31",
+        "2022-05-09"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-01-31",
+          "suggestedSearchStart": "2021-01-26",
+          "suggestedSearchEnd": "2021-02-05"
+        },
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66009521484375,
+              29.510134902343825
+            ],
+            [
+              75.66558837890625,
+              29.510134902343825
+            ],
+            [
+              75.66558837890625,
+              29.514915317540922
+            ],
+            [
+              75.66009521484375,
+              29.514915317540922
+            ],
+            [
+              75.66009521484375,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "d28ca3ccfc291bc04869e1d5a3f825d6c0c64f0171bf06873b42f0fc91bc98ea",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C106",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24948120117188,
+              29.285201121512543
+            ],
+            [
+              75.25497436523438,
+              29.285201121512543
+            ],
+            [
+              75.25497436523438,
+              29.289992122938877
+            ],
+            [
+              75.24948120117188,
+              29.289992122938877
+            ],
+            [
+              75.24948120117188,
+              29.285201121512543
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "a2ecd5b4fbfdd6cc85b6a0ea009e237c6e137190b1b67db270cb9db63110b0dc",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C107",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05",
+        "2023-04-17"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        },
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.37445068359375,
+              29.49220633484872
+            ],
+            [
+              75.37994384765625,
+              29.49220633484872
+            ],
+            [
+              75.37994384765625,
+              29.49698759653576
+            ],
+            [
+              75.37445068359375,
+              29.49698759653576
+            ],
+            [
+              75.37445068359375,
+              29.49220633484872
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "94cadf639fdd737bb3468b1e0ddee1b00a0823a072fba4d535b2fa8af2ca5db6",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C108",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35659790039062,
+              29.534034720259505
+            ],
+            [
+              75.36209106445312,
+              29.534034720259505
+            ],
+            [
+              75.36209106445312,
+              29.538814006308733
+            ],
+            [
+              75.35659790039062,
+              29.538814006308733
+            ],
+            [
+              75.35659790039062,
+              29.534034720259505
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "c2aa1ff282bc2d2c02336eaa1f2ec7b1270fdf31fad4e51ac465a81d7efb19a0",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C109",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-04-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.57083129882812,
+              29.506549442788607
+            ],
+            [
+              75.57632446289062,
+              29.506549442788607
+            ],
+            [
+              75.57632446289062,
+              29.51133002730914
+            ],
+            [
+              75.57083129882812,
+              29.51133002730914
+            ],
+            [
+              75.57083129882812,
+              29.506549442788607
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "9d9ad901bfbb94d940acfccb98b71f636f32316aba35ecfd9ad2bbd9a2abdf58",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C110",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-14"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.68206787109375,
+              29.510134902343825
+            ],
+            [
+              75.68756103515625,
+              29.510134902343825
+            ],
+            [
+              75.68756103515625,
+              29.514915317540922
+            ],
+            [
+              75.68206787109375,
+              29.514915317540922
+            ],
+            [
+              75.68206787109375,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "bc886b4001c36e7964cb6c4afa88138664b61b62596542dedf74b4827b9c413d",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C111",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.285201121512543
+            ],
+            [
+              75.27145385742188,
+              29.285201121512543
+            ],
+            [
+              75.27145385742188,
+              29.289992122938877
+            ],
+            [
+              75.26596069335938,
+              29.289992122938877
+            ],
+            [
+              75.26596069335938,
+              29.285201121512543
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "746d02c4cebd2c3ea361a186c44cb2d7a95a4dac35bc08cd0cf40cee1581a13a",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C112",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35247802734375,
+              29.487424847484778
+            ],
+            [
+              75.35797119140625,
+              29.487424847484778
+            ],
+            [
+              75.35797119140625,
+              29.49220633484872
+            ],
+            [
+              75.35247802734375,
+              29.49220633484872
+            ],
+            [
+              75.35247802734375,
+              29.487424847484778
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "f6bdd8a6a6bea3439c116398e089f7e5cbf257bd8f905b46122dcb68acabf4e0",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C113",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.33462524414062,
+              29.529255208335538
+            ],
+            [
+              75.34011840820312,
+              29.529255208335538
+            ],
+            [
+              75.34011840820312,
+              29.534034720259505
+            ],
+            [
+              75.33462524414062,
+              29.534034720259505
+            ],
+            [
+              75.33462524414062,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "e85cc9c24f77be14334ed9d566ac48d7bc04876dafc581e343ecbaed5887a7ff",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C114",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2023-04-17"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54885864257812,
+              29.501768632523273
+            ],
+            [
+              75.55435180664062,
+              29.501768632523273
+            ],
+            [
+              75.55435180664062,
+              29.506549442788607
+            ],
+            [
+              75.54885864257812,
+              29.506549442788607
+            ],
+            [
+              75.54885864257812,
+              29.501768632523273
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "657f993b935a9e326bd890fbad18515b7d8d48bba3a899978df4bfc1beb5d455",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C115",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2021-01-31",
+        "2022-05-09"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-01-31",
+          "suggestedSearchStart": "2021-01-26",
+          "suggestedSearchEnd": "2021-02-05"
+        },
+        {
+          "sourceDate": "2022-05-09",
+          "suggestedSearchStart": "2022-05-04",
+          "suggestedSearchEnd": "2022-05-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66009521484375,
+              29.505354261384962
+            ],
+            [
+              75.66558837890625,
+              29.505354261384962
+            ],
+            [
+              75.66558837890625,
+              29.510134902343825
+            ],
+            [
+              75.66009521484375,
+              29.510134902343825
+            ],
+            [
+              75.66009521484375,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "b40e2798b25096cf74c0fdb2fe13353df0e44d60bd57c36feb456f1e5fcb0f9f",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C116",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2023-09-09"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.285201121512543
+            ],
+            [
+              75.27694702148438,
+              29.285201121512543
+            ],
+            [
+              75.27694702148438,
+              29.289992122938877
+            ],
+            [
+              75.27145385742188,
+              29.289992122938877
+            ],
+            [
+              75.27145385742188,
+              29.285201121512543
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "415d667db3bc9091de1b533128d506c54238b4b353ab367cc6026a2c4105af52",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C117",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-11-05",
+        "2023-04-17"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        },
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.37445068359375,
+              29.487424847484778
+            ],
+            [
+              75.37994384765625,
+              29.487424847484778
+            ],
+            [
+              75.37994384765625,
+              29.49220633484872
+            ],
+            [
+              75.37445068359375,
+              29.49220633484872
+            ],
+            [
+              75.37445068359375,
+              29.487424847484778
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "ce33affcc70e58d4b37293fa0378414a988bd3df2861f2c6c718cc801f2b4f4e",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C118",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35659790039062,
+              29.529255208335538
+            ],
+            [
+              75.36209106445312,
+              29.529255208335538
+            ],
+            [
+              75.36209106445312,
+              29.534034720259505
+            ],
+            [
+              75.35659790039062,
+              29.534034720259505
+            ],
+            [
+              75.35659790039062,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "1e95443c9cd0f7a4f40810d10b5afda368b37780443b68b5f2f11c18d8ec4f5b",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C119",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2023-04-17",
+        "2021-04-29"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        },
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55435180664062,
+              29.501768632523273
+            ],
+            [
+              75.55984497070312,
+              29.501768632523273
+            ],
+            [
+              75.55984497070312,
+              29.506549442788607
+            ],
+            [
+              75.55435180664062,
+              29.506549442788607
+            ],
+            [
+              75.55435180664062,
+              29.501768632523273
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "753fa215ab74e0a0dbf392a9b2db61096c7095a134af81b6aa724c5b7e4c53e0",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C120",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-14"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.68206787109375,
+              29.505354261384962
+            ],
+            [
+              75.68756103515625,
+              29.505354261384962
+            ],
+            [
+              75.68756103515625,
+              29.510134902343825
+            ],
+            [
+              75.68206787109375,
+              29.510134902343825
+            ],
+            [
+              75.68206787109375,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "3219c0654a24314ad1f76364a2ad99463603c613e4676231312e20e51291519f",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C121",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2020-11-18"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2020-11-18",
+          "suggestedSearchStart": "2020-11-13",
+          "suggestedSearchEnd": "2020-11-23"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24398803710938,
+              29.309153881279318
+            ],
+            [
+              75.24948120117188,
+              29.309153881279318
+            ],
+            [
+              75.24948120117188,
+              29.313943758908497
+            ],
+            [
+              75.24398803710938,
+              29.313943758908497
+            ],
+            [
+              75.24398803710938,
+              29.309153881279318
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "1594bbd5fcbda0454001d84e9c7b9b1785baaf8884a62b34bea843b98be4c686",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C122",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-10-22",
+        "2022-11-05"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-10-22",
+          "suggestedSearchStart": "2022-10-17",
+          "suggestedSearchEnd": "2022-10-27"
+        },
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35247802734375,
+              29.48264313446661
+            ],
+            [
+              75.35797119140625,
+              29.48264313446661
+            ],
+            [
+              75.35797119140625,
+              29.487424847484778
+            ],
+            [
+              75.35247802734375,
+              29.487424847484778
+            ],
+            [
+              75.35247802734375,
+              29.48264313446661
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "54053185658b7fa57f8335ddeeb264e59343d9d8f7122b335553c845f09e54c5",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C123",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.33462524414062,
+              29.524475470559373
+            ],
+            [
+              75.34011840820312,
+              29.524475470559373
+            ],
+            [
+              75.34011840820312,
+              29.529255208335538
+            ],
+            [
+              75.33462524414062,
+              29.529255208335538
+            ],
+            [
+              75.33462524414062,
+              29.524475470559373
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "7db84d01e019f140a8f57749eb7ea6c4fb6822b62a155d7939b525f32c7fc4c7",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C124",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-04-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55984497070312,
+              29.501768632523273
+            ],
+            [
+              75.56533813476562,
+              29.501768632523273
+            ],
+            [
+              75.56533813476562,
+              29.506549442788607
+            ],
+            [
+              75.55984497070312,
+              29.506549442788607
+            ],
+            [
+              75.55984497070312,
+              29.501768632523273
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "1e335fb86c0331d7c05fa5cf169ec971cdc0132cf8654b09d2424e6cfbe20e40",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C125",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2021-01-31"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-01-31",
+          "suggestedSearchStart": "2021-01-26",
+          "suggestedSearchEnd": "2021-02-05"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66009521484375,
+              29.50057339468696
+            ],
+            [
+              75.66558837890625,
+              29.50057339468696
+            ],
+            [
+              75.66558837890625,
+              29.505354261384962
+            ],
+            [
+              75.66009521484375,
+              29.505354261384962
+            ],
+            [
+              75.66009521484375,
+              29.50057339468696
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "f3e4a0316c7bd55d385658fe83c6032c69f899e617985cbc3562d64388a96860",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C126",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2020-11-18",
+        "2023-09-09"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2020-11-18",
+          "suggestedSearchStart": "2020-11-13",
+          "suggestedSearchEnd": "2020-11-23"
+        },
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26046752929688,
+              29.309153881279318
+            ],
+            [
+              75.26596069335938,
+              29.309153881279318
+            ],
+            [
+              75.26596069335938,
+              29.313943758908497
+            ],
+            [
+              75.26046752929688,
+              29.313943758908497
+            ],
+            [
+              75.26046752929688,
+              29.309153881279318
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "635676247829aa5c31213d010d32c32a204e0a67a6d60e2de3440449064d1570",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C127",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2023-04-17"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.37445068359375,
+              29.48264313446661
+            ],
+            [
+              75.37994384765625,
+              29.48264313446661
+            ],
+            [
+              75.37994384765625,
+              29.487424847484778
+            ],
+            [
+              75.37445068359375,
+              29.487424847484778
+            ],
+            [
+              75.37445068359375,
+              29.48264313446661
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "a866ad73de24ea5c766fc0fd2af98e11f0a60f0f54fea07f7048efb33c32bbeb",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C128",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35659790039062,
+              29.524475470559373
+            ],
+            [
+              75.36209106445312,
+              29.524475470559373
+            ],
+            [
+              75.36209106445312,
+              29.529255208335538
+            ],
+            [
+              75.35659790039062,
+              29.529255208335538
+            ],
+            [
+              75.35659790039062,
+              29.524475470559373
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "1c1a479b1182fae2406b3d6de401c3c1043654b40ac8476b907191fe9c296435",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C129",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-04-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.56533813476562,
+              29.501768632523273
+            ],
+            [
+              75.57083129882812,
+              29.501768632523273
+            ],
+            [
+              75.57083129882812,
+              29.506549442788607
+            ],
+            [
+              75.56533813476562,
+              29.506549442788607
+            ],
+            [
+              75.56533813476562,
+              29.501768632523273
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "943a672f42e28de4d715d378e2f3a00230ba420725058659f1a79756b5cba294",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C130",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2021-01-31",
+        "2022-05-14"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-01-31",
+          "suggestedSearchStart": "2021-01-26",
+          "suggestedSearchEnd": "2021-02-05"
+        },
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66558837890625,
+              29.50057339468696
+            ],
+            [
+              75.67108154296875,
+              29.50057339468696
+            ],
+            [
+              75.67108154296875,
+              29.505354261384962
+            ],
+            [
+              75.66558837890625,
+              29.505354261384962
+            ],
+            [
+              75.66558837890625,
+              29.50057339468696
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "119165578974fcd2513fbbc56643325d9377e2f1edde23dae1a08b90afb9162d",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C131",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2020-11-18",
+        "2023-09-09"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2020-11-18",
+          "suggestedSearchStart": "2020-11-13",
+          "suggestedSearchEnd": "2020-11-23"
+        },
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.309153881279318
+            ],
+            [
+              75.27145385742188,
+              29.309153881279318
+            ],
+            [
+              75.27145385742188,
+              29.313943758908497
+            ],
+            [
+              75.26596069335938,
+              29.313943758908497
+            ],
+            [
+              75.26596069335938,
+              29.309153881279318
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "4b3ad19cba18d1d4e1a820abca73972975c4634339d4485fb71dfc7d576de3cc",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C132",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-10-22",
+        "2022-11-05"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-10-22",
+          "suggestedSearchStart": "2022-10-17",
+          "suggestedSearchEnd": "2022-10-27"
+        },
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35247802734375,
+              29.477861195816843
+            ],
+            [
+              75.35797119140625,
+              29.477861195816843
+            ],
+            [
+              75.35797119140625,
+              29.48264313446661
+            ],
+            [
+              75.35247802734375,
+              29.48264313446661
+            ],
+            [
+              75.35247802734375,
+              29.477861195816843
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "cdc0be8dca40a63658d4162cc4db29e09d300b7b212dc0f98e530e3f063ae0d3",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C133",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.33462524414062,
+              29.519695506953642
+            ],
+            [
+              75.34011840820312,
+              29.519695506953642
+            ],
+            [
+              75.34011840820312,
+              29.524475470559373
+            ],
+            [
+              75.33462524414062,
+              29.524475470559373
+            ],
+            [
+              75.33462524414062,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "9d71d071fb32f0dab5c140bbee9f33d97e6929e0700da661b023abc2929f17b7",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C134",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2021-04-29"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2021-04-29",
+          "suggestedSearchStart": "2021-04-24",
+          "suggestedSearchEnd": "2021-05-04"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.57083129882812,
+              29.501768632523273
+            ],
+            [
+              75.57632446289062,
+              29.501768632523273
+            ],
+            [
+              75.57632446289062,
+              29.506549442788607
+            ],
+            [
+              75.57083129882812,
+              29.506549442788607
+            ],
+            [
+              75.57083129882812,
+              29.501768632523273
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "4c98f8372557a3a133379bbb3735ad71c0e9fb7a940c7244f88b106f1dd53656",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C135",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-14"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67108154296875,
+              29.50057339468696
+            ],
+            [
+              75.67657470703125,
+              29.50057339468696
+            ],
+            [
+              75.67657470703125,
+              29.505354261384962
+            ],
+            [
+              75.67108154296875,
+              29.505354261384962
+            ],
+            [
+              75.67108154296875,
+              29.50057339468696
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "1dde447f9950abf59550bbf69604e9cf40bb3ec1595c03032de0e0a602a12bf2",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C136",
+      "spatialHoldoutGroup": "spatial-C03",
+      "sourceDates": [
+        "2020-11-18",
+        "2023-09-09"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2020-11-18",
+          "suggestedSearchStart": "2020-11-13",
+          "suggestedSearchEnd": "2020-11-23"
+        },
+        {
+          "sourceDate": "2023-09-09",
+          "suggestedSearchStart": "2023-09-04",
+          "suggestedSearchEnd": "2023-09-14"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.309153881279318
+            ],
+            [
+              75.27694702148438,
+              29.309153881279318
+            ],
+            [
+              75.27694702148438,
+              29.313943758908497
+            ],
+            [
+              75.27145385742188,
+              29.313943758908497
+            ],
+            [
+              75.27145385742188,
+              29.309153881279318
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "41a243f931c6a2efbc2ad9279659730219a0939e6f96622761c48fc32b6e495e",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C137",
+      "spatialHoldoutGroup": "spatial-C02",
+      "sourceDates": [
+        "2022-10-22",
+        "2022-11-05"
+      ],
+      "dateSeam": true,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-10-22",
+          "suggestedSearchStart": "2022-10-17",
+          "suggestedSearchEnd": "2022-10-27"
+        },
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.477861195816843
+            ],
+            [
+              75.36346435546875,
+              29.477861195816843
+            ],
+            [
+              75.36346435546875,
+              29.48264313446661
+            ],
+            [
+              75.35797119140625,
+              29.48264313446661
+            ],
+            [
+              75.35797119140625,
+              29.477861195816843
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "1c5e8fd2b17289c0f4ec515016575e44193c198edd32b5141b1eb837dca53096",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C138",
+      "spatialHoldoutGroup": "spatial-C07",
+      "sourceDates": [
+        "2022-11-05"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-11-05",
+          "suggestedSearchStart": "2022-10-31",
+          "suggestedSearchEnd": "2022-11-10"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34011840820312,
+              29.519695506953642
+            ],
+            [
+              75.34561157226562,
+              29.519695506953642
+            ],
+            [
+              75.34561157226562,
+              29.524475470559373
+            ],
+            [
+              75.34011840820312,
+              29.524475470559373
+            ],
+            [
+              75.34011840820312,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "fb2c368fa01592d8993390b5610c58f9b00fca050d5267f63edc01d25e15f23d",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C139",
+      "spatialHoldoutGroup": "spatial-C01",
+      "sourceDates": [
+        "2023-04-17"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2023-04-17",
+          "suggestedSearchStart": "2023-04-12",
+          "suggestedSearchEnd": "2023-04-22"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54336547851562,
+              29.52567042617583
+            ],
+            [
+              75.54885864257812,
+              29.52567042617583
+            ],
+            [
+              75.54885864257812,
+              29.530450107491053
+            ],
+            [
+              75.54336547851562,
+              29.530450107491053
+            ],
+            [
+              75.54336547851562,
+              29.52567042617583
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "b5de60e07937a2a5027973577e2c58ffba4c58638642f136b212ac4396727bba",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    },
+    {
+      "caseId": "C140",
+      "spatialHoldoutGroup": "spatial-C13",
+      "sourceDates": [
+        "2022-05-14"
+      ],
+      "dateSeam": false,
+      "searchWindows": [
+        {
+          "sourceDate": "2022-05-14",
+          "suggestedSearchStart": "2022-05-09",
+          "suggestedSearchEnd": "2022-05-19"
+        }
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67657470703125,
+              29.50057339468696
+            ],
+            [
+              75.68206787109375,
+              29.50057339468696
+            ],
+            [
+              75.68206787109375,
+              29.505354261384962
+            ],
+            [
+              75.67657470703125,
+              29.505354261384962
+            ],
+            [
+              75.67657470703125,
+              29.50057339468696
+            ]
+          ]
+        ]
+      },
+      "nativeInputSha256": "f7d8d33ec007c67dd83660aa6c4e3b2f492fb2daffb02b746aecb9bf055afbd8",
+      "sentinelMatch": null,
+      "expertReviewed": false
+    }
+  ]
+}

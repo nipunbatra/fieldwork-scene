@@ -1,0 +1,6354 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "C01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.58731079101562,
+              29.51133002730914
+            ],
+            [
+              75.59280395507812,
+              29.51133002730914
+            ],
+            [
+              75.59280395507812,
+              29.51611038606227
+            ],
+            [
+              75.58731079101562,
+              29.51611038606227
+            ],
+            [
+              75.58731079101562,
+              29.51133002730914
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C01",
+        "source_dates": [
+          "2021-01-31"
+        ],
+        "imageHash": "3a4ba503ec1703c5826d9d4a99889d396f4ab078d871011b2997f1d68bb2f5ec",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36346435546875,
+              29.487424847484778
+            ],
+            [
+              75.36895751953125,
+              29.487424847484778
+            ],
+            [
+              75.36895751953125,
+              29.49220633484872
+            ],
+            [
+              75.36346435546875,
+              29.49220633484872
+            ],
+            [
+              75.36346435546875,
+              29.487424847484778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C02",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "bce1ab25bef57b555daf345717a6e39ff67de85e1efb40e5bcb555396044bcbf",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C03",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26046752929688,
+              29.294782899651672
+            ],
+            [
+              75.26596069335938,
+              29.294782899651672
+            ],
+            [
+              75.26596069335938,
+              29.299573451627968
+            ],
+            [
+              75.26046752929688,
+              29.299573451627968
+            ],
+            [
+              75.26046752929688,
+              29.294782899651672
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C03",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "be34d14896b2feced6e394f6700fe6b0c643bff1e31d6d4cd8bb784738970627",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C04",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.71365356445312,
+              29.510134902343825
+            ],
+            [
+              75.71914672851562,
+              29.510134902343825
+            ],
+            [
+              75.71914672851562,
+              29.514915317540922
+            ],
+            [
+              75.71365356445312,
+              29.514915317540922
+            ],
+            [
+              75.71365356445312,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C04",
+        "source_dates": [
+          "2022-05-09",
+          "2022-05-14"
+        ],
+        "imageHash": "851ce3660f0d27c43be65ffb2aa15d92bbcdb924e274e426c76c11f407efc39c",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C04",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C05",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.505354261384962
+            ],
+            [
+              75.36346435546875,
+              29.505354261384962
+            ],
+            [
+              75.36346435546875,
+              29.510134902343825
+            ],
+            [
+              75.35797119140625,
+              29.510134902343825
+            ],
+            [
+              75.35797119140625,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C05",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "41ef40310d41833f680fae15c40fa06a6f20e95b384075c6a6e1e5ecdb1a199d",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C06",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.3717041015625,
+              29.514915317540922
+            ],
+            [
+              75.377197265625,
+              29.514915317540922
+            ],
+            [
+              75.377197265625,
+              29.519695506953642
+            ],
+            [
+              75.3717041015625,
+              29.519695506953642
+            ],
+            [
+              75.3717041015625,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C06",
+        "source_dates": [
+          "2022-11-05",
+          "2023-04-17"
+        ],
+        "imageHash": "46ddc8df9dc1a4afccb59a54d2dade616f492b310a50f1452382017416183bc7",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C06",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C07",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34561157226562,
+              29.529255208335538
+            ],
+            [
+              75.35110473632812,
+              29.529255208335538
+            ],
+            [
+              75.35110473632812,
+              29.534034720259505
+            ],
+            [
+              75.34561157226562,
+              29.534034720259505
+            ],
+            [
+              75.34561157226562,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C07",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "407cd7c7a4f00fba7bc5a784f5b425b68de9ee8040bb951de299715e93010b82",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C08",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.37445068359375,
+              29.471883455244754
+            ],
+            [
+              75.37994384765625,
+              29.471883455244754
+            ],
+            [
+              75.37994384765625,
+              29.47666567590212
+            ],
+            [
+              75.37445068359375,
+              29.47666567590212
+            ],
+            [
+              75.37445068359375,
+              29.471883455244754
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C08",
+        "source_dates": [
+          "2022-10-22"
+        ],
+        "imageHash": "5b33e72ff33154b7c04f62a2f5a1dbc33f967bce9014311bc7de4a1d0ba12201",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C08",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C09",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24124145507812,
+              29.276816328368582
+            ],
+            [
+              75.24673461914062,
+              29.276816328368582
+            ],
+            [
+              75.24673461914062,
+              29.28160772298835
+            ],
+            [
+              75.24124145507812,
+              29.28160772298835
+            ],
+            [
+              75.24124145507812,
+              29.276816328368582
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C09",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "ddbfde369bafc27e9777a8f3daffaa167d3b8d7fff000d8814b0b1c30bd1e5c9",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C10",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.25772094726562,
+              29.301968643332767
+            ],
+            [
+              75.26321411132812,
+              29.301968643332767
+            ],
+            [
+              75.26321411132812,
+              29.306758858161302
+            ],
+            [
+              75.25772094726562,
+              29.306758858161302
+            ],
+            [
+              75.25772094726562,
+              29.301968643332767
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C10",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "c19aa19c434d78bf752844e9e592b6b5f355448aa3cdbb944f907b4210503052",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C11",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.28656005859375,
+              29.263638834879817
+            ],
+            [
+              75.29205322265625,
+              29.263638834879817
+            ],
+            [
+              75.29205322265625,
+              29.26843084723283
+            ],
+            [
+              75.28656005859375,
+              29.26843084723283
+            ],
+            [
+              75.28656005859375,
+              29.263638834879817
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C11",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "201d98f28f1205c48af31cfcdb9291314e1570bf175751c31168ee6c4c870f86",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C11",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C12",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55984497070312,
+              29.51133002730914
+            ],
+            [
+              75.56533813476562,
+              29.51133002730914
+            ],
+            [
+              75.56533813476562,
+              29.51611038606227
+            ],
+            [
+              75.55984497070312,
+              29.51611038606227
+            ],
+            [
+              75.55984497070312,
+              29.51133002730914
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C12",
+        "source_dates": [
+          "2021-04-29"
+        ],
+        "imageHash": "57dbb3c6d5f6b59db666c97fa2c9a76df1ccf402f8ce63ddd0d5a23c6f68ffcf",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C13",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67108154296875,
+              29.510134902343825
+            ],
+            [
+              75.67657470703125,
+              29.510134902343825
+            ],
+            [
+              75.67657470703125,
+              29.514915317540922
+            ],
+            [
+              75.67108154296875,
+              29.514915317540922
+            ],
+            [
+              75.67108154296875,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C13",
+        "source_dates": [
+          "2022-05-14"
+        ],
+        "imageHash": "4fe2a2898af525638b7f5e4e33b0ea871eca158e24c7ec2f80879c8596ea9bc1",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C14",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.76309204101562,
+              29.529255208335538
+            ],
+            [
+              75.76858520507812,
+              29.529255208335538
+            ],
+            [
+              75.76858520507812,
+              29.534034720259505
+            ],
+            [
+              75.76309204101562,
+              29.534034720259505
+            ],
+            [
+              75.76309204101562,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C14",
+        "source_dates": [
+          "2021-06-06",
+          "2022-05-09",
+          "2022-09-29"
+        ],
+        "imageHash": "a0fe5a9f53ff450f75cc844b7e1b4123284c259213c98c3bd8a65780d04e2011",
+        "sampling_group": "initial-study",
+        "spatial_holdout_group": "spatial-C14",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C15",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.72601318359375,
+              29.50893976326839
+            ],
+            [
+              75.73150634765625,
+              29.50893976326839
+            ],
+            [
+              75.73150634765625,
+              29.513720234908053
+            ],
+            [
+              75.72601318359375,
+              29.513720234908053
+            ],
+            [
+              75.72601318359375,
+              29.50893976326839
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C15",
+        "source_dates": [
+          "2022-05-09",
+          "2022-05-14"
+        ],
+        "imageHash": "3297cb6bdcfd701336d063a6327d40047002585b1d46bffa82747f01e6161371",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C15",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C16",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.57632446289062,
+              29.510134902343825
+            ],
+            [
+              75.58181762695312,
+              29.510134902343825
+            ],
+            [
+              75.58181762695312,
+              29.514915317540922
+            ],
+            [
+              75.57632446289062,
+              29.514915317540922
+            ],
+            [
+              75.57632446289062,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C16",
+        "source_dates": [
+          "2021-01-31",
+          "2021-04-29"
+        ],
+        "imageHash": "58ff82e897612d0e8f814ab160beb0dcc9783a21b9da241c1a7b7791d4a1f401",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C17",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.56808471679688,
+              29.514915317540922
+            ],
+            [
+              75.57357788085938,
+              29.514915317540922
+            ],
+            [
+              75.57357788085938,
+              29.519695506953642
+            ],
+            [
+              75.56808471679688,
+              29.519695506953642
+            ],
+            [
+              75.56808471679688,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C17",
+        "source_dates": [
+          "2021-04-29"
+        ],
+        "imageHash": "549587cd9808541d26afa4fc4d65513ed74458aec040749878d772907b1d9537",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C18",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.75485229492188,
+              29.517305440471745
+            ],
+            [
+              75.76034545898438,
+              29.517305440471745
+            ],
+            [
+              75.76034545898438,
+              29.522085516983797
+            ],
+            [
+              75.75485229492188,
+              29.522085516983797
+            ],
+            [
+              75.75485229492188,
+              29.517305440471745
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C18",
+        "source_dates": [
+          "2022-05-09",
+          "2022-09-29"
+        ],
+        "imageHash": "9bfdff03ac6ee4cf7ec7317c603b6456689d962197a9460c00039f58507bfeee",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C18",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C19",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.75759887695312,
+              29.50893976326839
+            ],
+            [
+              75.76309204101562,
+              29.50893976326839
+            ],
+            [
+              75.76309204101562,
+              29.513720234908053
+            ],
+            [
+              75.75759887695312,
+              29.513720234908053
+            ],
+            [
+              75.75759887695312,
+              29.50893976326839
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C19",
+        "source_dates": [
+          "2022-05-09",
+          "2022-05-14"
+        ],
+        "imageHash": "282cd842ebe072bb0e33d03c3a1221124200e940e22dd39ffda5acd697d11e86",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C18",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C20",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.73699951171875,
+              29.50893976326839
+            ],
+            [
+              75.74249267578125,
+              29.50893976326839
+            ],
+            [
+              75.74249267578125,
+              29.513720234908053
+            ],
+            [
+              75.73699951171875,
+              29.513720234908053
+            ],
+            [
+              75.73699951171875,
+              29.50893976326839
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C20",
+        "source_dates": [
+          "2022-05-09",
+          "2022-05-14"
+        ],
+        "imageHash": "3767114f5bdcd2691674250102d7f22f1b9b18cce39d334038ae1f7c4beb146a",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C15",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C21",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.7342529296875,
+              29.52686536767757
+            ],
+            [
+              75.73974609375,
+              29.52686536767757
+            ],
+            [
+              75.73974609375,
+              29.531644992530452
+            ],
+            [
+              75.7342529296875,
+              29.531644992530452
+            ],
+            [
+              75.7342529296875,
+              29.52686536767757
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C21",
+        "source_dates": [
+          "2022-09-29"
+        ],
+        "imageHash": "b030296bafe2f7031aaa226e25b53c3faf78286ad3e19632db4e6d4aa8474387",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C21",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C22",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35934448242188,
+              29.513720234908053
+            ],
+            [
+              75.36483764648438,
+              29.513720234908053
+            ],
+            [
+              75.36483764648438,
+              29.51850048076899
+            ],
+            [
+              75.35934448242188,
+              29.51850048076899
+            ],
+            [
+              75.35934448242188,
+              29.513720234908053
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C22",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "b2d69e280b099c565829c11f79de2e2c018edd7a5d18b6690acb0af1620c6482",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C23",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.7232666015625,
+              29.530450107491053
+            ],
+            [
+              75.728759765625,
+              29.530450107491053
+            ],
+            [
+              75.728759765625,
+              29.535229562948455
+            ],
+            [
+              75.7232666015625,
+              29.535229562948455
+            ],
+            [
+              75.7232666015625,
+              29.530450107491053
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C23",
+        "source_dates": [
+          "2022-09-29"
+        ],
+        "imageHash": "ba85045ebb74b82c7330ec90e9a798f6216d4fb6ed41e67c1e27f33fe5b1ec05",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C21",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C24",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.65872192382812,
+              29.517305440471745
+            ],
+            [
+              75.66421508789062,
+              29.517305440471745
+            ],
+            [
+              75.66421508789062,
+              29.522085516983797
+            ],
+            [
+              75.65872192382812,
+              29.522085516983797
+            ],
+            [
+              75.65872192382812,
+              29.517305440471745
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C24",
+        "source_dates": [
+          "2022-05-09",
+          "2022-09-29"
+        ],
+        "imageHash": "0fc3cf911f394667954ad715591b75838183c34fd7bd651fd38c171a6e4254e7",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C25",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27008056640625,
+              29.250459642950652
+            ],
+            [
+              75.27557373046875,
+              29.250459642950652
+            ],
+            [
+              75.27557373046875,
+              29.255252272863014
+            ],
+            [
+              75.27008056640625,
+              29.255252272863014
+            ],
+            [
+              75.27008056640625,
+              29.250459642950652
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C25",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "a5811caff6e499ba926284d662affd26f1b982edfae85056ecefc1f1a77faf36",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C25",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.61065673828125,
+              29.51133002730914
+            ],
+            [
+              75.61614990234375,
+              29.51133002730914
+            ],
+            [
+              75.61614990234375,
+              29.51611038606227
+            ],
+            [
+              75.61065673828125,
+              29.51611038606227
+            ],
+            [
+              75.61065673828125,
+              29.51133002730914
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C26",
+        "source_dates": [
+          "2021-01-31"
+        ],
+        "imageHash": "87edfee3c5c270e95f5ab74f899e5daeb186be3357f97550a1f24173834763f7",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C26",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C27",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.65460205078125,
+              29.510134902343825
+            ],
+            [
+              75.66009521484375,
+              29.510134902343825
+            ],
+            [
+              75.66009521484375,
+              29.514915317540922
+            ],
+            [
+              75.65460205078125,
+              29.514915317540922
+            ],
+            [
+              75.65460205078125,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C27",
+        "source_dates": [
+          "2021-01-31",
+          "2022-05-09"
+        ],
+        "imageHash": "d20aef7a63cd208fd7a7a9497db728ca2382367c3155047890194e2327758ebd",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C28",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.2618408203125,
+              29.279212053761192
+            ],
+            [
+              75.267333984375,
+              29.279212053761192
+            ],
+            [
+              75.267333984375,
+              29.284003336047167
+            ],
+            [
+              75.2618408203125,
+              29.284003336047167
+            ],
+            [
+              75.2618408203125,
+              29.279212053761192
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C28",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "9b5adb0a351717d0f4442a5f3167e12fb2147b7a061af12d1d05fedc72d08494",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C29",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.255252272863014
+            ],
+            [
+              75.27145385742188,
+              29.255252272863014
+            ],
+            [
+              75.27145385742188,
+              29.260044678228475
+            ],
+            [
+              75.26596069335938,
+              29.260044678228475
+            ],
+            [
+              75.26596069335938,
+              29.255252272863014
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C29",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "7bca91b73abfaaaba88fb3c18007ec6d7edac0ce3d186b6b9a1bb66982fd6562",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C25",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C30",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.73287963867188,
+              29.51611038606227
+            ],
+            [
+              75.73837280273438,
+              29.51611038606227
+            ],
+            [
+              75.73837280273438,
+              29.520890519025365
+            ],
+            [
+              75.73287963867188,
+              29.520890519025365
+            ],
+            [
+              75.73287963867188,
+              29.51611038606227
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C30",
+        "source_dates": [
+          "2022-05-09",
+          "2022-09-29"
+        ],
+        "imageHash": "3145f729a6e8758d1fbbb1c64efda9335e80cb2923d9ce8208087c00fe71c94e",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C15",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C31",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.25634765625,
+              29.287596650313468
+            ],
+            [
+              75.2618408203125,
+              29.287596650313468
+            ],
+            [
+              75.2618408203125,
+              29.2923875393859
+            ],
+            [
+              75.25634765625,
+              29.2923875393859
+            ],
+            [
+              75.25634765625,
+              29.287596650313468
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C31",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "5b67ee79a14448d11e63d516a9029f44dfefa25d1085c891e7ef62b644317e3b",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C32",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27557373046875,
+              29.250459642950652
+            ],
+            [
+              75.28106689453125,
+              29.250459642950652
+            ],
+            [
+              75.28106689453125,
+              29.255252272863014
+            ],
+            [
+              75.27557373046875,
+              29.255252272863014
+            ],
+            [
+              75.27557373046875,
+              29.250459642950652
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C32",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "dcda5015516116a2dac536442bb9f66c15a04f038794fd95c0f3130da4117f24",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C25",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C33",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.59280395507812,
+              29.513720234908053
+            ],
+            [
+              75.59829711914062,
+              29.513720234908053
+            ],
+            [
+              75.59829711914062,
+              29.51850048076899
+            ],
+            [
+              75.59280395507812,
+              29.51850048076899
+            ],
+            [
+              75.59280395507812,
+              29.513720234908053
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C33",
+        "source_dates": [
+          "2021-01-31"
+        ],
+        "imageHash": "bb2223afc5fb7fadae2ee8b9877a8f4e19df7af520b1c072fd95d6373cfb83c8",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C34",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34149169921875,
+              29.513720234908053
+            ],
+            [
+              75.34698486328125,
+              29.513720234908053
+            ],
+            [
+              75.34698486328125,
+              29.51850048076899
+            ],
+            [
+              75.34149169921875,
+              29.51850048076899
+            ],
+            [
+              75.34149169921875,
+              29.513720234908053
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C34",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "ed6100f92e35fdca6083a16739cf1560c83bbb176104964405d4fff6a000cd69",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C35",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.25222778320312,
+              29.310351371763005
+            ],
+            [
+              75.25772094726562,
+              29.310351371763005
+            ],
+            [
+              75.25772094726562,
+              29.315141193187284
+            ],
+            [
+              75.25222778320312,
+              29.315141193187284
+            ],
+            [
+              75.25222778320312,
+              29.310351371763005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C35",
+        "source_dates": [
+          "2020-11-18",
+          "2023-09-09"
+        ],
+        "imageHash": "1caaea8f438a2b027ebd02c41061bfd6b2fd4e66d1f797f4a3dbdae6ef3c7c97",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C36",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.6243896484375,
+              29.50893976326839
+            ],
+            [
+              75.6298828125,
+              29.50893976326839
+            ],
+            [
+              75.6298828125,
+              29.513720234908053
+            ],
+            [
+              75.6243896484375,
+              29.513720234908053
+            ],
+            [
+              75.6243896484375,
+              29.50893976326839
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C36",
+        "source_dates": [
+          "2021-01-31",
+          "2021-02-05",
+          "2022-05-09"
+        ],
+        "imageHash": "fd47dfbd4f5c964792c2bf41da1352a272ca475206bc64dd6c49fbd6aa06ee68",
+        "sampling_group": "remaining-student-candidate",
+        "spatial_holdout_group": "spatial-C36",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C37",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.49220633484872
+            ],
+            [
+              75.36346435546875,
+              29.49220633484872
+            ],
+            [
+              75.36346435546875,
+              29.49698759653576
+            ],
+            [
+              75.35797119140625,
+              29.49698759653576
+            ],
+            [
+              75.35797119140625,
+              29.49220633484872
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C37",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "0379f2c58d99aab1252356241fb1d2efa729bd9ab0ec955768681b54221521b5",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C38",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34011840820312,
+              29.534034720259505
+            ],
+            [
+              75.34561157226562,
+              29.534034720259505
+            ],
+            [
+              75.34561157226562,
+              29.538814006308733
+            ],
+            [
+              75.34011840820312,
+              29.538814006308733
+            ],
+            [
+              75.34011840820312,
+              29.534034720259505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C38",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "5a694b16a8d193a8dceaee0d8ffe5e807488333e944252b914f41a22e525107a",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C39",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55435180664062,
+              29.51611038606227
+            ],
+            [
+              75.55984497070312,
+              29.51611038606227
+            ],
+            [
+              75.55984497070312,
+              29.520890519025365
+            ],
+            [
+              75.55435180664062,
+              29.520890519025365
+            ],
+            [
+              75.55435180664062,
+              29.51611038606227
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C39",
+        "source_dates": [
+          "2021-04-29",
+          "2022-09-29",
+          "2023-04-17"
+        ],
+        "imageHash": "72a9570b3f03525fbf0efd870538332555881cdb484ea91b8f546c082bd6b1d8",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C40",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66558837890625,
+              29.514915317540922
+            ],
+            [
+              75.67108154296875,
+              29.514915317540922
+            ],
+            [
+              75.67108154296875,
+              29.519695506953642
+            ],
+            [
+              75.66558837890625,
+              29.519695506953642
+            ],
+            [
+              75.66558837890625,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C40",
+        "source_dates": [
+          "2022-05-09",
+          "2022-05-14",
+          "2022-09-29"
+        ],
+        "imageHash": "0a486e8396cdd846fec330f1c281aa1ad60821de008efbe461d89a51561ae21f",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C41",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.299573451627968
+            ],
+            [
+              75.27145385742188,
+              29.299573451627968
+            ],
+            [
+              75.27145385742188,
+              29.304363778844838
+            ],
+            [
+              75.26596069335938,
+              29.304363778844838
+            ],
+            [
+              75.26596069335938,
+              29.299573451627968
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C41",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "d9dc42c20d77e48d2dc5180f7896deb7e618a3b465ab17014d7e00f7d537f8ea",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C42",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36346435546875,
+              29.49220633484872
+            ],
+            [
+              75.36895751953125,
+              29.49220633484872
+            ],
+            [
+              75.36895751953125,
+              29.49698759653576
+            ],
+            [
+              75.36346435546875,
+              29.49698759653576
+            ],
+            [
+              75.36346435546875,
+              29.49220633484872
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C42",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "9b04e3fb60b8826058be4d02aa3340da518f1fa8e56534c96b4577d716a57fa9",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C43",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34561157226562,
+              29.534034720259505
+            ],
+            [
+              75.35110473632812,
+              29.534034720259505
+            ],
+            [
+              75.35110473632812,
+              29.538814006308733
+            ],
+            [
+              75.34561157226562,
+              29.538814006308733
+            ],
+            [
+              75.34561157226562,
+              29.534034720259505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C43",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "a5af4e2fa9e677dbe5c6136a7143e39f2d325e4cfac7388a75fd0910a3e06e68",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C44",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55984497070312,
+              29.51611038606227
+            ],
+            [
+              75.56533813476562,
+              29.51611038606227
+            ],
+            [
+              75.56533813476562,
+              29.520890519025365
+            ],
+            [
+              75.55984497070312,
+              29.520890519025365
+            ],
+            [
+              75.55984497070312,
+              29.51611038606227
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C44",
+        "source_dates": [
+          "2021-04-29",
+          "2022-09-29"
+        ],
+        "imageHash": "b18c339db4b6459b1c4963deb31d0252eef08ed37778d3d470d07cf7f73e0353",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C45",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67108154296875,
+              29.514915317540922
+            ],
+            [
+              75.67657470703125,
+              29.514915317540922
+            ],
+            [
+              75.67657470703125,
+              29.519695506953642
+            ],
+            [
+              75.67108154296875,
+              29.519695506953642
+            ],
+            [
+              75.67108154296875,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C45",
+        "source_dates": [
+          "2022-05-09",
+          "2022-05-14",
+          "2022-09-29"
+        ],
+        "imageHash": "e75e062d9602fba01648b2f374b66d4e3352223ca4c1cc89700eafe36fd7284a",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C46",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.25497436523438,
+              29.294782899651672
+            ],
+            [
+              75.26046752929688,
+              29.294782899651672
+            ],
+            [
+              75.26046752929688,
+              29.299573451627968
+            ],
+            [
+              75.25497436523438,
+              29.299573451627968
+            ],
+            [
+              75.25497436523438,
+              29.294782899651672
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C46",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "42504561c8449de767160de9461afa3376e286370fab386b47b287cf728bbbeb",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C47",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36895751953125,
+              29.49220633484872
+            ],
+            [
+              75.37445068359375,
+              29.49220633484872
+            ],
+            [
+              75.37445068359375,
+              29.49698759653576
+            ],
+            [
+              75.36895751953125,
+              29.49698759653576
+            ],
+            [
+              75.36895751953125,
+              29.49220633484872
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C47",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "de23a691297215e15152f60a031b1675db1272e37336e4860e138a9f52061988",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C48",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35110473632812,
+              29.534034720259505
+            ],
+            [
+              75.35659790039062,
+              29.534034720259505
+            ],
+            [
+              75.35659790039062,
+              29.538814006308733
+            ],
+            [
+              75.35110473632812,
+              29.538814006308733
+            ],
+            [
+              75.35110473632812,
+              29.534034720259505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C48",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "d946e3900f6e1b8bd6fe0fa5e460f61582a7ac5edd47b901f8ab1b658e8db747",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C49",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55435180664062,
+              29.51133002730914
+            ],
+            [
+              75.55984497070312,
+              29.51133002730914
+            ],
+            [
+              75.55984497070312,
+              29.51611038606227
+            ],
+            [
+              75.55435180664062,
+              29.51611038606227
+            ],
+            [
+              75.55435180664062,
+              29.51133002730914
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C49",
+        "source_dates": [
+          "2021-04-29",
+          "2023-04-17"
+        ],
+        "imageHash": "2ca78077cc5fd127ece341b6196c3d2cf05b605885c7ab372ba2895b13e4f8ec",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C50",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67657470703125,
+              29.514915317540922
+            ],
+            [
+              75.68206787109375,
+              29.514915317540922
+            ],
+            [
+              75.68206787109375,
+              29.519695506953642
+            ],
+            [
+              75.67657470703125,
+              29.519695506953642
+            ],
+            [
+              75.67657470703125,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C50",
+        "source_dates": [
+          "2022-05-09",
+          "2022-05-14"
+        ],
+        "imageHash": "96c544384564f021753c6dfd6a8523685a3f677b2bff207eb5c9097f5382fe13",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C51",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.294782899651672
+            ],
+            [
+              75.27145385742188,
+              29.294782899651672
+            ],
+            [
+              75.27145385742188,
+              29.299573451627968
+            ],
+            [
+              75.26596069335938,
+              29.299573451627968
+            ],
+            [
+              75.26596069335938,
+              29.294782899651672
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C51",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "c4de45d4e33e074aaf198dd22f05ae1e38713ad36b98d0faafc2a8a46bc32764",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C52",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.487424847484778
+            ],
+            [
+              75.36346435546875,
+              29.487424847484778
+            ],
+            [
+              75.36346435546875,
+              29.49220633484872
+            ],
+            [
+              75.35797119140625,
+              29.49220633484872
+            ],
+            [
+              75.35797119140625,
+              29.487424847484778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C52",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "7e54c72996edef3853bb4f15f2c0f7c092986e0223a0dab95d5837a58f38ceb2",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C53",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34011840820312,
+              29.529255208335538
+            ],
+            [
+              75.34561157226562,
+              29.529255208335538
+            ],
+            [
+              75.34561157226562,
+              29.534034720259505
+            ],
+            [
+              75.34011840820312,
+              29.534034720259505
+            ],
+            [
+              75.34011840820312,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C53",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "bf7d9154378024218170e10fc63a6610a8fbcc625161a92662e070ce07d97ebc",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C54",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55435180664062,
+              29.506549442788607
+            ],
+            [
+              75.55984497070312,
+              29.506549442788607
+            ],
+            [
+              75.55984497070312,
+              29.51133002730914
+            ],
+            [
+              75.55435180664062,
+              29.51133002730914
+            ],
+            [
+              75.55435180664062,
+              29.506549442788607
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C54",
+        "source_dates": [
+          "2021-04-29",
+          "2023-04-17"
+        ],
+        "imageHash": "bd27a7c2ac4af28dfdd03e61e94718c1182ffb1d15a8968318084189f70a942c",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C55",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66558837890625,
+              29.510134902343825
+            ],
+            [
+              75.67108154296875,
+              29.510134902343825
+            ],
+            [
+              75.67108154296875,
+              29.514915317540922
+            ],
+            [
+              75.66558837890625,
+              29.514915317540922
+            ],
+            [
+              75.66558837890625,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C55",
+        "source_dates": [
+          "2022-05-09",
+          "2022-05-14"
+        ],
+        "imageHash": "2165befabe06391fe8918aff82e4340e890ac90b7f306e0f36698c7cf89bddbb",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C56",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.289992122938877
+            ],
+            [
+              75.27145385742188,
+              29.289992122938877
+            ],
+            [
+              75.27145385742188,
+              29.294782899651672
+            ],
+            [
+              75.26596069335938,
+              29.294782899651672
+            ],
+            [
+              75.26596069335938,
+              29.289992122938877
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C56",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "9390367a42186551923cfc929ec07e87daffff2f0c7e3246a032f1963b8ac032",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C57",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36895751953125,
+              29.487424847484778
+            ],
+            [
+              75.37445068359375,
+              29.487424847484778
+            ],
+            [
+              75.37445068359375,
+              29.49220633484872
+            ],
+            [
+              75.36895751953125,
+              29.49220633484872
+            ],
+            [
+              75.36895751953125,
+              29.487424847484778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C57",
+        "source_dates": [
+          "2022-11-05",
+          "2023-04-17"
+        ],
+        "imageHash": "e7623208f4cbf34b0e41768eb4006d434188b1531bcbd2269c7482f4e9ae51ee",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C58",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35110473632812,
+              29.529255208335538
+            ],
+            [
+              75.35659790039062,
+              29.529255208335538
+            ],
+            [
+              75.35659790039062,
+              29.534034720259505
+            ],
+            [
+              75.35110473632812,
+              29.534034720259505
+            ],
+            [
+              75.35110473632812,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C58",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "6438736146dfd5cdb4bbc6dfebef1e970ec9ff7101e934c4f9f3b38efc141cf3",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C59",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55984497070312,
+              29.506549442788607
+            ],
+            [
+              75.56533813476562,
+              29.506549442788607
+            ],
+            [
+              75.56533813476562,
+              29.51133002730914
+            ],
+            [
+              75.55984497070312,
+              29.51133002730914
+            ],
+            [
+              75.55984497070312,
+              29.506549442788607
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C59",
+        "source_dates": [
+          "2021-04-29"
+        ],
+        "imageHash": "5a917b71e510f8b4355398c5870551cd7411b86e0dce165f6d6c24723fa9f5fc",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C60",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67657470703125,
+              29.510134902343825
+            ],
+            [
+              75.68206787109375,
+              29.510134902343825
+            ],
+            [
+              75.68206787109375,
+              29.514915317540922
+            ],
+            [
+              75.67657470703125,
+              29.514915317540922
+            ],
+            [
+              75.67657470703125,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C60",
+        "source_dates": [
+          "2022-05-14"
+        ],
+        "imageHash": "9cacb31432712a551a56533db8b1df26b6ca4cbd91d79d7c100fb665a44bd448",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C61",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24948120117188,
+              29.304363778844838
+            ],
+            [
+              75.25497436523438,
+              29.304363778844838
+            ],
+            [
+              75.25497436523438,
+              29.309153881279318
+            ],
+            [
+              75.24948120117188,
+              29.309153881279318
+            ],
+            [
+              75.24948120117188,
+              29.304363778844838
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C61",
+        "source_dates": [
+          "2020-11-18",
+          "2023-09-09"
+        ],
+        "imageHash": "230da5062544cfeb38f02515c3203e7d9f8004f473a2d84dab044ff170ca9081",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C62",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.48264313446661
+            ],
+            [
+              75.36346435546875,
+              29.48264313446661
+            ],
+            [
+              75.36346435546875,
+              29.487424847484778
+            ],
+            [
+              75.35797119140625,
+              29.487424847484778
+            ],
+            [
+              75.35797119140625,
+              29.48264313446661
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C62",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "c9ea0ecf417dc14979c18f0d2ab7b23a5882c03728c0fa17f5687d366d48677e",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C63",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34011840820312,
+              29.524475470559373
+            ],
+            [
+              75.34561157226562,
+              29.524475470559373
+            ],
+            [
+              75.34561157226562,
+              29.529255208335538
+            ],
+            [
+              75.34011840820312,
+              29.529255208335538
+            ],
+            [
+              75.34011840820312,
+              29.524475470559373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C63",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "69e7cf346d681efa7bd345e1d583c76c8bc1d7c180f185b4751850aa608f4bcb",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C64",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.56533813476562,
+              29.506549442788607
+            ],
+            [
+              75.57083129882812,
+              29.506549442788607
+            ],
+            [
+              75.57083129882812,
+              29.51133002730914
+            ],
+            [
+              75.56533813476562,
+              29.51133002730914
+            ],
+            [
+              75.56533813476562,
+              29.506549442788607
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C64",
+        "source_dates": [
+          "2021-04-29"
+        ],
+        "imageHash": "1aacd54cc128efc719795169bfb1f517cd67fb8c067479af5dcc4db1d255b83e",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C65",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66558837890625,
+              29.505354261384962
+            ],
+            [
+              75.67108154296875,
+              29.505354261384962
+            ],
+            [
+              75.67108154296875,
+              29.510134902343825
+            ],
+            [
+              75.66558837890625,
+              29.510134902343825
+            ],
+            [
+              75.66558837890625,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C65",
+        "source_dates": [
+          "2021-01-31",
+          "2022-05-09",
+          "2022-05-14"
+        ],
+        "imageHash": "22873846981641ee7841b0c882fec560007258386c31064734010ce61d900448",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C66",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.304363778844838
+            ],
+            [
+              75.27145385742188,
+              29.304363778844838
+            ],
+            [
+              75.27145385742188,
+              29.309153881279318
+            ],
+            [
+              75.26596069335938,
+              29.309153881279318
+            ],
+            [
+              75.26596069335938,
+              29.304363778844838
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C66",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "d402d17c2c5f245e4647b585f50c3c60f3e879c83818597ce2da769fb2244e84",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C67",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36346435546875,
+              29.48264313446661
+            ],
+            [
+              75.36895751953125,
+              29.48264313446661
+            ],
+            [
+              75.36895751953125,
+              29.487424847484778
+            ],
+            [
+              75.36346435546875,
+              29.487424847484778
+            ],
+            [
+              75.36346435546875,
+              29.48264313446661
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C67",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "0a2f523c0edad8d8682155cbd726c6deb9391be3bb5ea14b694c02b1f3e7636b",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C68",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34561157226562,
+              29.524475470559373
+            ],
+            [
+              75.35110473632812,
+              29.524475470559373
+            ],
+            [
+              75.35110473632812,
+              29.529255208335538
+            ],
+            [
+              75.34561157226562,
+              29.529255208335538
+            ],
+            [
+              75.34561157226562,
+              29.524475470559373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C68",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "082640af0bae1212f62bfacc923c0eb3a86a140580d795a1fb799895b35327af",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C69",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54885864257812,
+              29.520890519025365
+            ],
+            [
+              75.55435180664062,
+              29.520890519025365
+            ],
+            [
+              75.55435180664062,
+              29.52567042617583
+            ],
+            [
+              75.54885864257812,
+              29.52567042617583
+            ],
+            [
+              75.54885864257812,
+              29.520890519025365
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C69",
+        "source_dates": [
+          "2023-04-17"
+        ],
+        "imageHash": "39b09f1521cf5a20b0e21b9e5bb676681ecb3355bc65db0c2de81858eb0f4df3",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C70",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67108154296875,
+              29.505354261384962
+            ],
+            [
+              75.67657470703125,
+              29.505354261384962
+            ],
+            [
+              75.67657470703125,
+              29.510134902343825
+            ],
+            [
+              75.67108154296875,
+              29.510134902343825
+            ],
+            [
+              75.67108154296875,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C70",
+        "source_dates": [
+          "2022-05-14"
+        ],
+        "imageHash": "41aaad65bc2bf37a6d6426083cf62becadded047b97cec1070ddedc4468a77c6",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C71",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.304363778844838
+            ],
+            [
+              75.27694702148438,
+              29.304363778844838
+            ],
+            [
+              75.27694702148438,
+              29.309153881279318
+            ],
+            [
+              75.27145385742188,
+              29.309153881279318
+            ],
+            [
+              75.27145385742188,
+              29.304363778844838
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C71",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "4c330c87232fa98af8c61f0a52cf7236de126b87ef045d953c18f0b829535df5",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C72",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36895751953125,
+              29.48264313446661
+            ],
+            [
+              75.37445068359375,
+              29.48264313446661
+            ],
+            [
+              75.37445068359375,
+              29.487424847484778
+            ],
+            [
+              75.36895751953125,
+              29.487424847484778
+            ],
+            [
+              75.36895751953125,
+              29.48264313446661
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C72",
+        "source_dates": [
+          "2022-11-05",
+          "2023-04-17"
+        ],
+        "imageHash": "98b4c47cafaf791016c4637743660cd8d3a4a45363b18a2fe635156290ba9b00",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C73",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35110473632812,
+              29.524475470559373
+            ],
+            [
+              75.35659790039062,
+              29.524475470559373
+            ],
+            [
+              75.35659790039062,
+              29.529255208335538
+            ],
+            [
+              75.35110473632812,
+              29.529255208335538
+            ],
+            [
+              75.35110473632812,
+              29.524475470559373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C73",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "cabd1c74a4a9f94e04fc724625b1c985faaef7f48ded9065705b6cabd0f28909",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C74",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55435180664062,
+              29.520890519025365
+            ],
+            [
+              75.55984497070312,
+              29.520890519025365
+            ],
+            [
+              75.55984497070312,
+              29.52567042617583
+            ],
+            [
+              75.55435180664062,
+              29.52567042617583
+            ],
+            [
+              75.55435180664062,
+              29.520890519025365
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C74",
+        "source_dates": [
+          "2022-09-29",
+          "2023-04-17"
+        ],
+        "imageHash": "c9a84f9a5222af456cbc91a8b3b8a505b131582db6e6a454fc174fa8f859f1f5",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C75",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67657470703125,
+              29.505354261384962
+            ],
+            [
+              75.68206787109375,
+              29.505354261384962
+            ],
+            [
+              75.68206787109375,
+              29.510134902343825
+            ],
+            [
+              75.67657470703125,
+              29.510134902343825
+            ],
+            [
+              75.67657470703125,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C75",
+        "source_dates": [
+          "2022-05-14"
+        ],
+        "imageHash": "3c0c833fb7676a55a47ff825107e4d94ebc1984958a461079ea72978c94d2b9f",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C76",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24948120117188,
+              29.299573451627968
+            ],
+            [
+              75.25497436523438,
+              29.299573451627968
+            ],
+            [
+              75.25497436523438,
+              29.304363778844838
+            ],
+            [
+              75.24948120117188,
+              29.304363778844838
+            ],
+            [
+              75.24948120117188,
+              29.299573451627968
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C76",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "05fa61f9b9df41d707100ccdbb8317097f40bfe07217c5c0262286fdf8787c94",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C77",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35247802734375,
+              29.49698759653576
+            ],
+            [
+              75.35797119140625,
+              29.49698759653576
+            ],
+            [
+              75.35797119140625,
+              29.501768632523273
+            ],
+            [
+              75.35247802734375,
+              29.501768632523273
+            ],
+            [
+              75.35247802734375,
+              29.49698759653576
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C77",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "12320bed74263925479f31382930d7325283027d9548cf3ae4e873aa2e4fc8bb",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C78",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.33462524414062,
+              29.538814006308733
+            ],
+            [
+              75.34011840820312,
+              29.538814006308733
+            ],
+            [
+              75.34011840820312,
+              29.543593066460602
+            ],
+            [
+              75.33462524414062,
+              29.543593066460602
+            ],
+            [
+              75.33462524414062,
+              29.538814006308733
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C78",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "c762ead7e0d337403ad0635060bd7b4b734dd3bbc41af24e25234194362b34f8",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C79",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55984497070312,
+              29.520890519025365
+            ],
+            [
+              75.56533813476562,
+              29.520890519025365
+            ],
+            [
+              75.56533813476562,
+              29.52567042617583
+            ],
+            [
+              75.55984497070312,
+              29.52567042617583
+            ],
+            [
+              75.55984497070312,
+              29.520890519025365
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C79",
+        "source_dates": [
+          "2022-09-29"
+        ],
+        "imageHash": "c610db28ff0dacd09d65039a2f2910c56a44f7687941b08a988db5c2ddc52a11",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C80",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66558837890625,
+              29.519695506953642
+            ],
+            [
+              75.67108154296875,
+              29.519695506953642
+            ],
+            [
+              75.67108154296875,
+              29.524475470559373
+            ],
+            [
+              75.66558837890625,
+              29.524475470559373
+            ],
+            [
+              75.66558837890625,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C80",
+        "source_dates": [
+          "2022-05-09",
+          "2022-09-29"
+        ],
+        "imageHash": "5d8f4c465972c5988c8f744d119c26e7135ca2d59b76ffec2b485ecf977d5bb8",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C81",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.299573451627968
+            ],
+            [
+              75.27694702148438,
+              29.299573451627968
+            ],
+            [
+              75.27694702148438,
+              29.304363778844838
+            ],
+            [
+              75.27145385742188,
+              29.304363778844838
+            ],
+            [
+              75.27145385742188,
+              29.299573451627968
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C81",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "2f36a8a4a8856f0ff8f6fab6d85178dad9a056cc03d165e61eef3da2fae2a00d",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C82",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.49698759653576
+            ],
+            [
+              75.36346435546875,
+              29.49698759653576
+            ],
+            [
+              75.36346435546875,
+              29.501768632523273
+            ],
+            [
+              75.35797119140625,
+              29.501768632523273
+            ],
+            [
+              75.35797119140625,
+              29.49698759653576
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C82",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "0d798d4e342737810129c50aa4768bccfd742be4223d1e97f7daf27252391dc4",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C83",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34011840820312,
+              29.538814006308733
+            ],
+            [
+              75.34561157226562,
+              29.538814006308733
+            ],
+            [
+              75.34561157226562,
+              29.543593066460602
+            ],
+            [
+              75.34011840820312,
+              29.543593066460602
+            ],
+            [
+              75.34011840820312,
+              29.538814006308733
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C83",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "d7240d94d27f890600bac5d78e9988a21a8f3fe734367368b0b5edcb2e43a89e",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C84",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.56533813476562,
+              29.520890519025365
+            ],
+            [
+              75.57083129882812,
+              29.520890519025365
+            ],
+            [
+              75.57083129882812,
+              29.52567042617583
+            ],
+            [
+              75.56533813476562,
+              29.52567042617583
+            ],
+            [
+              75.56533813476562,
+              29.520890519025365
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C84",
+        "source_dates": [
+          "2022-09-29"
+        ],
+        "imageHash": "dd9a3826a986bad279ef0eeedd7f2bd775cfa2a718664437cf2169ceb4cd591a",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C85",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67108154296875,
+              29.519695506953642
+            ],
+            [
+              75.67657470703125,
+              29.519695506953642
+            ],
+            [
+              75.67657470703125,
+              29.524475470559373
+            ],
+            [
+              75.67108154296875,
+              29.524475470559373
+            ],
+            [
+              75.67108154296875,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C85",
+        "source_dates": [
+          "2022-05-09",
+          "2022-09-29"
+        ],
+        "imageHash": "be815acb4833ecf45a7dea159b274cac7eeee69dde15a6236d092453f71d19c4",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C86",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24948120117188,
+              29.294782899651672
+            ],
+            [
+              75.25497436523438,
+              29.294782899651672
+            ],
+            [
+              75.25497436523438,
+              29.299573451627968
+            ],
+            [
+              75.24948120117188,
+              29.299573451627968
+            ],
+            [
+              75.24948120117188,
+              29.294782899651672
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C86",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "7c89bfe6fb079a06d9148ae53dca6f094fd82770018b494ef9bd2bb9c3e21cd7",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C87",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36346435546875,
+              29.49698759653576
+            ],
+            [
+              75.36895751953125,
+              29.49698759653576
+            ],
+            [
+              75.36895751953125,
+              29.501768632523273
+            ],
+            [
+              75.36346435546875,
+              29.501768632523273
+            ],
+            [
+              75.36346435546875,
+              29.49698759653576
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C87",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "0a4695b3d3740284b6c05640cc8a4110b9ca1552c2c58d022059a83ff49300b3",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C88",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34561157226562,
+              29.538814006308733
+            ],
+            [
+              75.35110473632812,
+              29.538814006308733
+            ],
+            [
+              75.35110473632812,
+              29.543593066460602
+            ],
+            [
+              75.34561157226562,
+              29.543593066460602
+            ],
+            [
+              75.34561157226562,
+              29.538814006308733
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C88",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "e0311104e4acb72f8e478274904fc042f5b5ce1ffcbfb7c4698d4c0cec014a1b",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C89",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.57083129882812,
+              29.520890519025365
+            ],
+            [
+              75.57632446289062,
+              29.520890519025365
+            ],
+            [
+              75.57632446289062,
+              29.52567042617583
+            ],
+            [
+              75.57083129882812,
+              29.52567042617583
+            ],
+            [
+              75.57083129882812,
+              29.520890519025365
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C89",
+        "source_dates": [
+          "2022-09-29"
+        ],
+        "imageHash": "61e1c92e31c0ca25f1907c4cf919b53a4902611425853a493788754dd4170f80",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C90",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67657470703125,
+              29.519695506953642
+            ],
+            [
+              75.68206787109375,
+              29.519695506953642
+            ],
+            [
+              75.68206787109375,
+              29.524475470559373
+            ],
+            [
+              75.67657470703125,
+              29.524475470559373
+            ],
+            [
+              75.67657470703125,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C90",
+        "source_dates": [
+          "2022-05-09",
+          "2022-09-29"
+        ],
+        "imageHash": "5626a94e61b9f2a8981ba747d13ddc31166baad477b77779c8b63e7577659140",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C91",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.294782899651672
+            ],
+            [
+              75.27694702148438,
+              29.294782899651672
+            ],
+            [
+              75.27694702148438,
+              29.299573451627968
+            ],
+            [
+              75.27145385742188,
+              29.299573451627968
+            ],
+            [
+              75.27145385742188,
+              29.294782899651672
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C91",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "05208b404f7ac428fde6ea7fe3c5c279cefc623ae47ddb3a7014cfa134daed75",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C92",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.36895751953125,
+              29.49698759653576
+            ],
+            [
+              75.37445068359375,
+              29.49698759653576
+            ],
+            [
+              75.37445068359375,
+              29.501768632523273
+            ],
+            [
+              75.36895751953125,
+              29.501768632523273
+            ],
+            [
+              75.36895751953125,
+              29.49698759653576
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C92",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "15a99a1fc2d32ef658d7c1c5a93fd33dfe8cbaa99d1786ad10e40381013d5a3b",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C93",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35110473632812,
+              29.538814006308733
+            ],
+            [
+              75.35659790039062,
+              29.538814006308733
+            ],
+            [
+              75.35659790039062,
+              29.543593066460602
+            ],
+            [
+              75.35110473632812,
+              29.543593066460602
+            ],
+            [
+              75.35110473632812,
+              29.538814006308733
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C93",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "74cbeba925955dd7c1d0033f2ebd8bd8460fe98f18973832eb09712897f2358c",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C94",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54885864257812,
+              29.51611038606227
+            ],
+            [
+              75.55435180664062,
+              29.51611038606227
+            ],
+            [
+              75.55435180664062,
+              29.520890519025365
+            ],
+            [
+              75.54885864257812,
+              29.520890519025365
+            ],
+            [
+              75.54885864257812,
+              29.51611038606227
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C94",
+        "source_dates": [
+          "2023-04-17"
+        ],
+        "imageHash": "6123566910fcc96324fdfab890b2bc43aa26eb3a58d23b56c319f02d4cc46383",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C95",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.68206787109375,
+              29.519695506953642
+            ],
+            [
+              75.68756103515625,
+              29.519695506953642
+            ],
+            [
+              75.68756103515625,
+              29.524475470559373
+            ],
+            [
+              75.68206787109375,
+              29.524475470559373
+            ],
+            [
+              75.68206787109375,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C95",
+        "source_dates": [
+          "2022-05-09"
+        ],
+        "imageHash": "0909fcae015afada55a44aa20dac513dfe18e2ecb4fbc45b17d0d08f893830cd",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C96",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24948120117188,
+              29.289992122938877
+            ],
+            [
+              75.25497436523438,
+              29.289992122938877
+            ],
+            [
+              75.25497436523438,
+              29.294782899651672
+            ],
+            [
+              75.24948120117188,
+              29.294782899651672
+            ],
+            [
+              75.24948120117188,
+              29.289992122938877
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C96",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "874efd2549509285544640db15461b08616860a62075e09fb973c7ce657392d3",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C97",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.37445068359375,
+              29.49698759653576
+            ],
+            [
+              75.37994384765625,
+              29.49698759653576
+            ],
+            [
+              75.37994384765625,
+              29.501768632523273
+            ],
+            [
+              75.37445068359375,
+              29.501768632523273
+            ],
+            [
+              75.37445068359375,
+              29.49698759653576
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C97",
+        "source_dates": [
+          "2022-11-05",
+          "2023-04-17"
+        ],
+        "imageHash": "76c0b02188e5d839176ef3d5b5a4ac29b4efc3dfe8d025b39e6fecf666e5bd9d",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C98",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35659790039062,
+              29.538814006308733
+            ],
+            [
+              75.36209106445312,
+              29.538814006308733
+            ],
+            [
+              75.36209106445312,
+              29.543593066460602
+            ],
+            [
+              75.35659790039062,
+              29.543593066460602
+            ],
+            [
+              75.35659790039062,
+              29.538814006308733
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C98",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "87d37a2d0ec419ca60b3515296ee08cf2494616289739e59333fe51e67f5a6e5",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C99",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54885864257812,
+              29.51133002730914
+            ],
+            [
+              75.55435180664062,
+              29.51133002730914
+            ],
+            [
+              75.55435180664062,
+              29.51611038606227
+            ],
+            [
+              75.54885864257812,
+              29.51611038606227
+            ],
+            [
+              75.54885864257812,
+              29.51133002730914
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C99",
+        "source_dates": [
+          "2023-04-17"
+        ],
+        "imageHash": "ba55796cbff70dd8db87b42aa6990e3ca1e0c850eb009fcbbeb786d9bcfa96ce",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C100",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.68206787109375,
+              29.514915317540922
+            ],
+            [
+              75.68756103515625,
+              29.514915317540922
+            ],
+            [
+              75.68756103515625,
+              29.519695506953642
+            ],
+            [
+              75.68206787109375,
+              29.519695506953642
+            ],
+            [
+              75.68206787109375,
+              29.514915317540922
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C100",
+        "source_dates": [
+          "2022-05-09",
+          "2022-05-14"
+        ],
+        "imageHash": "1f22faf42d3a3f7798a1114223ec6ec8a0e4066bc1ca151a2e7d2894f1fec71b",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C101",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.289992122938877
+            ],
+            [
+              75.27694702148438,
+              29.289992122938877
+            ],
+            [
+              75.27694702148438,
+              29.294782899651672
+            ],
+            [
+              75.27145385742188,
+              29.294782899651672
+            ],
+            [
+              75.27145385742188,
+              29.289992122938877
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C101",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "22c72caaec5d8067db2de7f69bc5bf693e20fe327e36ab35fd6cc91af0362966",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C102",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35247802734375,
+              29.49220633484872
+            ],
+            [
+              75.35797119140625,
+              29.49220633484872
+            ],
+            [
+              75.35797119140625,
+              29.49698759653576
+            ],
+            [
+              75.35247802734375,
+              29.49698759653576
+            ],
+            [
+              75.35247802734375,
+              29.49220633484872
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C102",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "78bb1aa6ae39ec36df356ef779685db768d83c0b4f6bfe6114085bb62f70a523",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C103",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.33462524414062,
+              29.534034720259505
+            ],
+            [
+              75.34011840820312,
+              29.534034720259505
+            ],
+            [
+              75.34011840820312,
+              29.538814006308733
+            ],
+            [
+              75.33462524414062,
+              29.538814006308733
+            ],
+            [
+              75.33462524414062,
+              29.534034720259505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C103",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "e5a07aa50d78936f26052b4b4a99fd5cdd1ef3c0ff218a55b8749d52487549cb",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C104",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54885864257812,
+              29.506549442788607
+            ],
+            [
+              75.55435180664062,
+              29.506549442788607
+            ],
+            [
+              75.55435180664062,
+              29.51133002730914
+            ],
+            [
+              75.54885864257812,
+              29.51133002730914
+            ],
+            [
+              75.54885864257812,
+              29.506549442788607
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C104",
+        "source_dates": [
+          "2023-04-17"
+        ],
+        "imageHash": "7bd88b7c155ba6a608cb1af6e1c51512b53a58665f2fe3335211a5f195b18032",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C105",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66009521484375,
+              29.510134902343825
+            ],
+            [
+              75.66558837890625,
+              29.510134902343825
+            ],
+            [
+              75.66558837890625,
+              29.514915317540922
+            ],
+            [
+              75.66009521484375,
+              29.514915317540922
+            ],
+            [
+              75.66009521484375,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C105",
+        "source_dates": [
+          "2021-01-31",
+          "2022-05-09"
+        ],
+        "imageHash": "d28ca3ccfc291bc04869e1d5a3f825d6c0c64f0171bf06873b42f0fc91bc98ea",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C106",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24948120117188,
+              29.285201121512543
+            ],
+            [
+              75.25497436523438,
+              29.285201121512543
+            ],
+            [
+              75.25497436523438,
+              29.289992122938877
+            ],
+            [
+              75.24948120117188,
+              29.289992122938877
+            ],
+            [
+              75.24948120117188,
+              29.285201121512543
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C106",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "a2ecd5b4fbfdd6cc85b6a0ea009e237c6e137190b1b67db270cb9db63110b0dc",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C107",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.37445068359375,
+              29.49220633484872
+            ],
+            [
+              75.37994384765625,
+              29.49220633484872
+            ],
+            [
+              75.37994384765625,
+              29.49698759653576
+            ],
+            [
+              75.37445068359375,
+              29.49698759653576
+            ],
+            [
+              75.37445068359375,
+              29.49220633484872
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C107",
+        "source_dates": [
+          "2022-11-05",
+          "2023-04-17"
+        ],
+        "imageHash": "94cadf639fdd737bb3468b1e0ddee1b00a0823a072fba4d535b2fa8af2ca5db6",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C108",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35659790039062,
+              29.534034720259505
+            ],
+            [
+              75.36209106445312,
+              29.534034720259505
+            ],
+            [
+              75.36209106445312,
+              29.538814006308733
+            ],
+            [
+              75.35659790039062,
+              29.538814006308733
+            ],
+            [
+              75.35659790039062,
+              29.534034720259505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C108",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "c2aa1ff282bc2d2c02336eaa1f2ec7b1270fdf31fad4e51ac465a81d7efb19a0",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C109",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.57083129882812,
+              29.506549442788607
+            ],
+            [
+              75.57632446289062,
+              29.506549442788607
+            ],
+            [
+              75.57632446289062,
+              29.51133002730914
+            ],
+            [
+              75.57083129882812,
+              29.51133002730914
+            ],
+            [
+              75.57083129882812,
+              29.506549442788607
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C109",
+        "source_dates": [
+          "2021-04-29"
+        ],
+        "imageHash": "9d9ad901bfbb94d940acfccb98b71f636f32316aba35ecfd9ad2bbd9a2abdf58",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C110",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.68206787109375,
+              29.510134902343825
+            ],
+            [
+              75.68756103515625,
+              29.510134902343825
+            ],
+            [
+              75.68756103515625,
+              29.514915317540922
+            ],
+            [
+              75.68206787109375,
+              29.514915317540922
+            ],
+            [
+              75.68206787109375,
+              29.510134902343825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C110",
+        "source_dates": [
+          "2022-05-14"
+        ],
+        "imageHash": "bc886b4001c36e7964cb6c4afa88138664b61b62596542dedf74b4827b9c413d",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C111",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.285201121512543
+            ],
+            [
+              75.27145385742188,
+              29.285201121512543
+            ],
+            [
+              75.27145385742188,
+              29.289992122938877
+            ],
+            [
+              75.26596069335938,
+              29.289992122938877
+            ],
+            [
+              75.26596069335938,
+              29.285201121512543
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C111",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "746d02c4cebd2c3ea361a186c44cb2d7a95a4dac35bc08cd0cf40cee1581a13a",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C112",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35247802734375,
+              29.487424847484778
+            ],
+            [
+              75.35797119140625,
+              29.487424847484778
+            ],
+            [
+              75.35797119140625,
+              29.49220633484872
+            ],
+            [
+              75.35247802734375,
+              29.49220633484872
+            ],
+            [
+              75.35247802734375,
+              29.487424847484778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C112",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "f6bdd8a6a6bea3439c116398e089f7e5cbf257bd8f905b46122dcb68acabf4e0",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C113",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.33462524414062,
+              29.529255208335538
+            ],
+            [
+              75.34011840820312,
+              29.529255208335538
+            ],
+            [
+              75.34011840820312,
+              29.534034720259505
+            ],
+            [
+              75.33462524414062,
+              29.534034720259505
+            ],
+            [
+              75.33462524414062,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C113",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "e85cc9c24f77be14334ed9d566ac48d7bc04876dafc581e343ecbaed5887a7ff",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C114",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54885864257812,
+              29.501768632523273
+            ],
+            [
+              75.55435180664062,
+              29.501768632523273
+            ],
+            [
+              75.55435180664062,
+              29.506549442788607
+            ],
+            [
+              75.54885864257812,
+              29.506549442788607
+            ],
+            [
+              75.54885864257812,
+              29.501768632523273
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C114",
+        "source_dates": [
+          "2023-04-17"
+        ],
+        "imageHash": "657f993b935a9e326bd890fbad18515b7d8d48bba3a899978df4bfc1beb5d455",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C115",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66009521484375,
+              29.505354261384962
+            ],
+            [
+              75.66558837890625,
+              29.505354261384962
+            ],
+            [
+              75.66558837890625,
+              29.510134902343825
+            ],
+            [
+              75.66009521484375,
+              29.510134902343825
+            ],
+            [
+              75.66009521484375,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C115",
+        "source_dates": [
+          "2021-01-31",
+          "2022-05-09"
+        ],
+        "imageHash": "b40e2798b25096cf74c0fdb2fe13353df0e44d60bd57c36feb456f1e5fcb0f9f",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C116",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.285201121512543
+            ],
+            [
+              75.27694702148438,
+              29.285201121512543
+            ],
+            [
+              75.27694702148438,
+              29.289992122938877
+            ],
+            [
+              75.27145385742188,
+              29.289992122938877
+            ],
+            [
+              75.27145385742188,
+              29.285201121512543
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C116",
+        "source_dates": [
+          "2023-09-09"
+        ],
+        "imageHash": "415d667db3bc9091de1b533128d506c54238b4b353ab367cc6026a2c4105af52",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C117",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.37445068359375,
+              29.487424847484778
+            ],
+            [
+              75.37994384765625,
+              29.487424847484778
+            ],
+            [
+              75.37994384765625,
+              29.49220633484872
+            ],
+            [
+              75.37445068359375,
+              29.49220633484872
+            ],
+            [
+              75.37445068359375,
+              29.487424847484778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C117",
+        "source_dates": [
+          "2022-11-05",
+          "2023-04-17"
+        ],
+        "imageHash": "ce33affcc70e58d4b37293fa0378414a988bd3df2861f2c6c718cc801f2b4f4e",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C118",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35659790039062,
+              29.529255208335538
+            ],
+            [
+              75.36209106445312,
+              29.529255208335538
+            ],
+            [
+              75.36209106445312,
+              29.534034720259505
+            ],
+            [
+              75.35659790039062,
+              29.534034720259505
+            ],
+            [
+              75.35659790039062,
+              29.529255208335538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C118",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "1e95443c9cd0f7a4f40810d10b5afda368b37780443b68b5f2f11c18d8ec4f5b",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C119",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55435180664062,
+              29.501768632523273
+            ],
+            [
+              75.55984497070312,
+              29.501768632523273
+            ],
+            [
+              75.55984497070312,
+              29.506549442788607
+            ],
+            [
+              75.55435180664062,
+              29.506549442788607
+            ],
+            [
+              75.55435180664062,
+              29.501768632523273
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C119",
+        "source_dates": [
+          "2021-04-29",
+          "2023-04-17"
+        ],
+        "imageHash": "753fa215ab74e0a0dbf392a9b2db61096c7095a134af81b6aa724c5b7e4c53e0",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C120",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.68206787109375,
+              29.505354261384962
+            ],
+            [
+              75.68756103515625,
+              29.505354261384962
+            ],
+            [
+              75.68756103515625,
+              29.510134902343825
+            ],
+            [
+              75.68206787109375,
+              29.510134902343825
+            ],
+            [
+              75.68206787109375,
+              29.505354261384962
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C120",
+        "source_dates": [
+          "2022-05-14"
+        ],
+        "imageHash": "3219c0654a24314ad1f76364a2ad99463603c613e4676231312e20e51291519f",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C121",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.24398803710938,
+              29.309153881279318
+            ],
+            [
+              75.24948120117188,
+              29.309153881279318
+            ],
+            [
+              75.24948120117188,
+              29.313943758908497
+            ],
+            [
+              75.24398803710938,
+              29.313943758908497
+            ],
+            [
+              75.24398803710938,
+              29.309153881279318
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C121",
+        "source_dates": [
+          "2020-11-18"
+        ],
+        "imageHash": "1594bbd5fcbda0454001d84e9c7b9b1785baaf8884a62b34bea843b98be4c686",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C122",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35247802734375,
+              29.48264313446661
+            ],
+            [
+              75.35797119140625,
+              29.48264313446661
+            ],
+            [
+              75.35797119140625,
+              29.487424847484778
+            ],
+            [
+              75.35247802734375,
+              29.487424847484778
+            ],
+            [
+              75.35247802734375,
+              29.48264313446661
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C122",
+        "source_dates": [
+          "2022-10-22",
+          "2022-11-05"
+        ],
+        "imageHash": "54053185658b7fa57f8335ddeeb264e59343d9d8f7122b335553c845f09e54c5",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C123",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.33462524414062,
+              29.524475470559373
+            ],
+            [
+              75.34011840820312,
+              29.524475470559373
+            ],
+            [
+              75.34011840820312,
+              29.529255208335538
+            ],
+            [
+              75.33462524414062,
+              29.529255208335538
+            ],
+            [
+              75.33462524414062,
+              29.524475470559373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C123",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "7db84d01e019f140a8f57749eb7ea6c4fb6822b62a155d7939b525f32c7fc4c7",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C124",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55984497070312,
+              29.501768632523273
+            ],
+            [
+              75.56533813476562,
+              29.501768632523273
+            ],
+            [
+              75.56533813476562,
+              29.506549442788607
+            ],
+            [
+              75.55984497070312,
+              29.506549442788607
+            ],
+            [
+              75.55984497070312,
+              29.501768632523273
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C124",
+        "source_dates": [
+          "2021-04-29"
+        ],
+        "imageHash": "1e335fb86c0331d7c05fa5cf169ec971cdc0132cf8654b09d2424e6cfbe20e40",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C125",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66009521484375,
+              29.50057339468696
+            ],
+            [
+              75.66558837890625,
+              29.50057339468696
+            ],
+            [
+              75.66558837890625,
+              29.505354261384962
+            ],
+            [
+              75.66009521484375,
+              29.505354261384962
+            ],
+            [
+              75.66009521484375,
+              29.50057339468696
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C125",
+        "source_dates": [
+          "2021-01-31"
+        ],
+        "imageHash": "f3e4a0316c7bd55d385658fe83c6032c69f899e617985cbc3562d64388a96860",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C126",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26046752929688,
+              29.309153881279318
+            ],
+            [
+              75.26596069335938,
+              29.309153881279318
+            ],
+            [
+              75.26596069335938,
+              29.313943758908497
+            ],
+            [
+              75.26046752929688,
+              29.313943758908497
+            ],
+            [
+              75.26046752929688,
+              29.309153881279318
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C126",
+        "source_dates": [
+          "2020-11-18",
+          "2023-09-09"
+        ],
+        "imageHash": "635676247829aa5c31213d010d32c32a204e0a67a6d60e2de3440449064d1570",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C127",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.37445068359375,
+              29.48264313446661
+            ],
+            [
+              75.37994384765625,
+              29.48264313446661
+            ],
+            [
+              75.37994384765625,
+              29.487424847484778
+            ],
+            [
+              75.37445068359375,
+              29.487424847484778
+            ],
+            [
+              75.37445068359375,
+              29.48264313446661
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C127",
+        "source_dates": [
+          "2023-04-17"
+        ],
+        "imageHash": "a866ad73de24ea5c766fc0fd2af98e11f0a60f0f54fea07f7048efb33c32bbeb",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C128",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35659790039062,
+              29.524475470559373
+            ],
+            [
+              75.36209106445312,
+              29.524475470559373
+            ],
+            [
+              75.36209106445312,
+              29.529255208335538
+            ],
+            [
+              75.35659790039062,
+              29.529255208335538
+            ],
+            [
+              75.35659790039062,
+              29.524475470559373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C128",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "1c1a479b1182fae2406b3d6de401c3c1043654b40ac8476b907191fe9c296435",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C129",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.56533813476562,
+              29.501768632523273
+            ],
+            [
+              75.57083129882812,
+              29.501768632523273
+            ],
+            [
+              75.57083129882812,
+              29.506549442788607
+            ],
+            [
+              75.56533813476562,
+              29.506549442788607
+            ],
+            [
+              75.56533813476562,
+              29.501768632523273
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C129",
+        "source_dates": [
+          "2021-04-29"
+        ],
+        "imageHash": "943a672f42e28de4d715d378e2f3a00230ba420725058659f1a79756b5cba294",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C130",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.66558837890625,
+              29.50057339468696
+            ],
+            [
+              75.67108154296875,
+              29.50057339468696
+            ],
+            [
+              75.67108154296875,
+              29.505354261384962
+            ],
+            [
+              75.66558837890625,
+              29.505354261384962
+            ],
+            [
+              75.66558837890625,
+              29.50057339468696
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C130",
+        "source_dates": [
+          "2021-01-31",
+          "2022-05-14"
+        ],
+        "imageHash": "119165578974fcd2513fbbc56643325d9377e2f1edde23dae1a08b90afb9162d",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C131",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.26596069335938,
+              29.309153881279318
+            ],
+            [
+              75.27145385742188,
+              29.309153881279318
+            ],
+            [
+              75.27145385742188,
+              29.313943758908497
+            ],
+            [
+              75.26596069335938,
+              29.313943758908497
+            ],
+            [
+              75.26596069335938,
+              29.309153881279318
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C131",
+        "source_dates": [
+          "2020-11-18",
+          "2023-09-09"
+        ],
+        "imageHash": "4b3ad19cba18d1d4e1a820abca73972975c4634339d4485fb71dfc7d576de3cc",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C132",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35247802734375,
+              29.477861195816843
+            ],
+            [
+              75.35797119140625,
+              29.477861195816843
+            ],
+            [
+              75.35797119140625,
+              29.48264313446661
+            ],
+            [
+              75.35247802734375,
+              29.48264313446661
+            ],
+            [
+              75.35247802734375,
+              29.477861195816843
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C132",
+        "source_dates": [
+          "2022-10-22",
+          "2022-11-05"
+        ],
+        "imageHash": "cdc0be8dca40a63658d4162cc4db29e09d300b7b212dc0f98e530e3f063ae0d3",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C133",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.33462524414062,
+              29.519695506953642
+            ],
+            [
+              75.34011840820312,
+              29.519695506953642
+            ],
+            [
+              75.34011840820312,
+              29.524475470559373
+            ],
+            [
+              75.33462524414062,
+              29.524475470559373
+            ],
+            [
+              75.33462524414062,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C133",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "9d71d071fb32f0dab5c140bbee9f33d97e6929e0700da661b023abc2929f17b7",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C134",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.57083129882812,
+              29.501768632523273
+            ],
+            [
+              75.57632446289062,
+              29.501768632523273
+            ],
+            [
+              75.57632446289062,
+              29.506549442788607
+            ],
+            [
+              75.57083129882812,
+              29.506549442788607
+            ],
+            [
+              75.57083129882812,
+              29.501768632523273
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C134",
+        "source_dates": [
+          "2021-04-29"
+        ],
+        "imageHash": "4c98f8372557a3a133379bbb3735ad71c0e9fb7a940c7244f88b106f1dd53656",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C135",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67108154296875,
+              29.50057339468696
+            ],
+            [
+              75.67657470703125,
+              29.50057339468696
+            ],
+            [
+              75.67657470703125,
+              29.505354261384962
+            ],
+            [
+              75.67108154296875,
+              29.505354261384962
+            ],
+            [
+              75.67108154296875,
+              29.50057339468696
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C135",
+        "source_dates": [
+          "2022-05-14"
+        ],
+        "imageHash": "1dde447f9950abf59550bbf69604e9cf40bb3ec1595c03032de0e0a602a12bf2",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C136",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.27145385742188,
+              29.309153881279318
+            ],
+            [
+              75.27694702148438,
+              29.309153881279318
+            ],
+            [
+              75.27694702148438,
+              29.313943758908497
+            ],
+            [
+              75.27145385742188,
+              29.313943758908497
+            ],
+            [
+              75.27145385742188,
+              29.309153881279318
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C136",
+        "source_dates": [
+          "2020-11-18",
+          "2023-09-09"
+        ],
+        "imageHash": "41a243f931c6a2efbc2ad9279659730219a0939e6f96622761c48fc32b6e495e",
+        "sampling_group": "neighborhood-C03",
+        "spatial_holdout_group": "spatial-C03",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C137",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35797119140625,
+              29.477861195816843
+            ],
+            [
+              75.36346435546875,
+              29.477861195816843
+            ],
+            [
+              75.36346435546875,
+              29.48264313446661
+            ],
+            [
+              75.35797119140625,
+              29.48264313446661
+            ],
+            [
+              75.35797119140625,
+              29.477861195816843
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C137",
+        "source_dates": [
+          "2022-10-22",
+          "2022-11-05"
+        ],
+        "imageHash": "1c5e8fd2b17289c0f4ec515016575e44193c198edd32b5141b1eb837dca53096",
+        "sampling_group": "neighborhood-C02",
+        "spatial_holdout_group": "spatial-C02",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": true,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C138",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.34011840820312,
+              29.519695506953642
+            ],
+            [
+              75.34561157226562,
+              29.519695506953642
+            ],
+            [
+              75.34561157226562,
+              29.524475470559373
+            ],
+            [
+              75.34011840820312,
+              29.524475470559373
+            ],
+            [
+              75.34011840820312,
+              29.519695506953642
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C138",
+        "source_dates": [
+          "2022-11-05"
+        ],
+        "imageHash": "fb2c368fa01592d8993390b5610c58f9b00fca050d5267f63edc01d25e15f23d",
+        "sampling_group": "neighborhood-C07",
+        "spatial_holdout_group": "spatial-C07",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C139",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.54336547851562,
+              29.52567042617583
+            ],
+            [
+              75.54885864257812,
+              29.52567042617583
+            ],
+            [
+              75.54885864257812,
+              29.530450107491053
+            ],
+            [
+              75.54336547851562,
+              29.530450107491053
+            ],
+            [
+              75.54336547851562,
+              29.52567042617583
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C139",
+        "source_dates": [
+          "2023-04-17"
+        ],
+        "imageHash": "b5de60e07937a2a5027973577e2c58ffba4c58638642f136b212ac4396727bba",
+        "sampling_group": "neighborhood-C12",
+        "spatial_holdout_group": "spatial-C01",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C140",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.67657470703125,
+              29.50057339468696
+            ],
+            [
+              75.68206787109375,
+              29.50057339468696
+            ],
+            [
+              75.68206787109375,
+              29.505354261384962
+            ],
+            [
+              75.67657470703125,
+              29.505354261384962
+            ],
+            [
+              75.67657470703125,
+              29.50057339468696
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "C140",
+        "source_dates": [
+          "2022-05-14"
+        ],
+        "imageHash": "f7d8d33ec007c67dd83660aa6c4e3b2f492fb2daffb02b746aecb9bf055afbd8",
+        "sampling_group": "neighborhood-C13",
+        "spatial_holdout_group": "spatial-C13",
+        "source_resolution": "Native Esri zoom-18 image; not Sentinel imagery",
+        "sentinel_status": "Not yet matched",
+        "review_status": "AI proposals; expert review required",
+        "date_seam": false,
+        "original_prediction_date_mismatch": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "status": "suggested components, not assigned train/validation/test splits",
+  "method": "Join explicit scene anchors and crop pairs separated by <=1024 native pixels; use transitive components. Widen separation and consider acquisition/domain grouping before evaluation.",
+  "groups": {
+    "spatial-C01": [
+      "C01",
+      "C12",
+      "C16",
+      "C17",
+      "C33",
+      "C39",
+      "C44",
+      "C49",
+      "C54",
+      "C59",
+      "C64",
+      "C69",
+      "C74",
+      "C79",
+      "C84",
+      "C89",
+      "C94",
+      "C99",
+      "C104",
+      "C109",
+      "C114",
+      "C119",
+      "C124",
+      "C129",
+      "C134",
+      "C139"
+    ],
+    "spatial-C02": [
+      "C02",
+      "C05",
+      "C22",
+      "C37",
+      "C42",
+      "C47",
+      "C52",
+      "C57",
+      "C62",
+      "C67",
+      "C72",
+      "C77",
+      "C82",
+      "C87",
+      "C92",
+      "C97",
+      "C102",
+      "C107",
+      "C112",
+      "C117",
+      "C122",
+      "C127",
+      "C132",
+      "C137"
+    ],
+    "spatial-C03": [
+      "C03",
+      "C09",
+      "C10",
+      "C28",
+      "C31",
+      "C35",
+      "C41",
+      "C46",
+      "C51",
+      "C56",
+      "C61",
+      "C66",
+      "C71",
+      "C76",
+      "C81",
+      "C86",
+      "C91",
+      "C96",
+      "C101",
+      "C106",
+      "C111",
+      "C116",
+      "C121",
+      "C126",
+      "C131",
+      "C136"
+    ],
+    "spatial-C04": [
+      "C04"
+    ],
+    "spatial-C06": [
+      "C06"
+    ],
+    "spatial-C07": [
+      "C07",
+      "C34",
+      "C38",
+      "C43",
+      "C48",
+      "C53",
+      "C58",
+      "C63",
+      "C68",
+      "C73",
+      "C78",
+      "C83",
+      "C88",
+      "C93",
+      "C98",
+      "C103",
+      "C108",
+      "C113",
+      "C118",
+      "C123",
+      "C128",
+      "C133",
+      "C138"
+    ],
+    "spatial-C08": [
+      "C08"
+    ],
+    "spatial-C11": [
+      "C11"
+    ],
+    "spatial-C13": [
+      "C13",
+      "C24",
+      "C27",
+      "C40",
+      "C45",
+      "C50",
+      "C55",
+      "C60",
+      "C65",
+      "C70",
+      "C75",
+      "C80",
+      "C85",
+      "C90",
+      "C95",
+      "C100",
+      "C105",
+      "C110",
+      "C115",
+      "C120",
+      "C125",
+      "C130",
+      "C135",
+      "C140"
+    ],
+    "spatial-C14": [
+      "C14"
+    ],
+    "spatial-C15": [
+      "C15",
+      "C20",
+      "C30"
+    ],
+    "spatial-C18": [
+      "C18",
+      "C19"
+    ],
+    "spatial-C21": [
+      "C21",
+      "C23"
+    ],
+    "spatial-C25": [
+      "C25",
+      "C29",
+      "C32"
+    ],
+    "spatial-C26": [
+      "C26"
+    ],
+    "spatial-C36": [
+      "C36"
+    ]
+  }
+}

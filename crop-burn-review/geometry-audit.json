@@ -1,0 +1,845 @@
+{
+  "method": "Pixel-center rasterization of all proposed regions. Overlap flags require at least 16 shared pixels and 1% of a region mask. Flags are review prompts, not automatic corrections; other boundary errors may exist.",
+  "cases": [
+    {
+      "caseId": "C01",
+      "unionPixels": 834718,
+      "overlapPixels": 6,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C02",
+      "unionPixels": 722918,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C03",
+      "unionPixels": 910518,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C04",
+      "unionPixels": 879234,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C05",
+      "unionPixels": 794618,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C06",
+      "unionPixels": 739640,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C07",
+      "unionPixels": 912845,
+      "overlapPixels": 3,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C08",
+      "unionPixels": 911956,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C09",
+      "unionPixels": 842402,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C10",
+      "unionPixels": 738127,
+      "overlapPixels": 50,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C11",
+      "unionPixels": 884135,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C12",
+      "unionPixels": 737462,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C13",
+      "unionPixels": 854384,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C14",
+      "unionPixels": 626195,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C15",
+      "unionPixels": 850120,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C16",
+      "unionPixels": 909146,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C17",
+      "unionPixels": 842237,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C18",
+      "unionPixels": 865743,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C19",
+      "unionPixels": 877230,
+      "overlapPixels": 195,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C20",
+      "unionPixels": 875090,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C21",
+      "unionPixels": 926612,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C22",
+      "unionPixels": 825838,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C23",
+      "unionPixels": 765445,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C24",
+      "unionPixels": 861905,
+      "overlapPixels": 989,
+      "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C25",
+      "unionPixels": 865817,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C26",
+      "unionPixels": 848678,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C27",
+      "unionPixels": 846097,
+      "overlapPixels": 9,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C28",
+      "unionPixels": 882849,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C29",
+      "unionPixels": 858560,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C30",
+      "unionPixels": 860033,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C31",
+      "unionPixels": 874538,
+      "overlapPixels": 400,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C32",
+      "unionPixels": 907428,
+      "overlapPixels": 164,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C33",
+      "unionPixels": 825116,
+      "overlapPixels": 53,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C34",
+      "unionPixels": 916522,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C35",
+      "unionPixels": 806772,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C36",
+      "unionPixels": 814808,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C37",
+      "unionPixels": 824874,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C38",
+      "unionPixels": 815101,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C39",
+      "unionPixels": 817210,
+      "overlapPixels": 3,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C40",
+      "unionPixels": 809368,
+      "overlapPixels": 31,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C41",
+      "unionPixels": 861066,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C42",
+      "unionPixels": 819962,
+      "overlapPixels": 127,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C43",
+      "unionPixels": 837343,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C44",
+      "unionPixels": 885754,
+      "overlapPixels": 173,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C45",
+      "unionPixels": 804840,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C46",
+      "unionPixels": 837300,
+      "overlapPixels": 61,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C47",
+      "unionPixels": 739264,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C48",
+      "unionPixels": 794465,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C49",
+      "unionPixels": 584388,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C50",
+      "unionPixels": 890481,
+      "overlapPixels": 110,
+      "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C51",
+      "unionPixels": 879753,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C52",
+      "unionPixels": 843515,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C53",
+      "unionPixels": 754321,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C54",
+      "unionPixels": 290871,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C55",
+      "unionPixels": 811427,
+      "overlapPixels": 17,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C56",
+      "unionPixels": 883644,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C57",
+      "unionPixels": 851599,
+      "overlapPixels": 232,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C58",
+      "unionPixels": 863294,
+      "overlapPixels": 46,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C59",
+      "unionPixels": 653150,
+      "overlapPixels": 29,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C60",
+      "unionPixels": 832916,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C61",
+      "unionPixels": 850331,
+      "overlapPixels": 89,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C62",
+      "unionPixels": 846904,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C63",
+      "unionPixels": 931133,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C64",
+      "unionPixels": 813274,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C65",
+      "unionPixels": 887002,
+      "overlapPixels": 1885,
+      "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C66",
+      "unionPixels": 712122,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C67",
+      "unionPixels": 868722,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C68",
+      "unionPixels": 710280,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C69",
+      "unionPixels": 838949,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C70",
+      "unionPixels": 863433,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C71",
+      "unionPixels": 788024,
+      "overlapPixels": 3,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C72",
+      "unionPixels": 883810,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C73",
+      "unionPixels": 156912,
+      "overlapPixels": 62,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C74",
+      "unionPixels": 907608,
+      "overlapPixels": 724,
+      "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C75",
+      "unionPixels": 880751,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C76",
+      "unionPixels": 870405,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C77",
+      "unionPixels": 855157,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C78",
+      "unionPixels": 896833,
+      "overlapPixels": 105,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C79",
+      "unionPixels": 770468,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C80",
+      "unionPixels": 871714,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C81",
+      "unionPixels": 755211,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C82",
+      "unionPixels": 518136,
+      "overlapPixels": 21,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C83",
+      "unionPixels": 910835,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C84",
+      "unionPixels": 814155,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C85",
+      "unionPixels": 897145,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C86",
+      "unionPixels": 846059,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C87",
+      "unionPixels": 550493,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C88",
+      "unionPixels": 918722,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C89",
+      "unionPixels": 864688,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C90",
+      "unionPixels": 763584,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C91",
+      "unionPixels": 898289,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C92",
+      "unionPixels": 770500,
+      "overlapPixels": 12,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C93",
+      "unionPixels": 837238,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C94",
+      "unionPixels": 817412,
+      "overlapPixels": 2,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C95",
+      "unionPixels": 768659,
+      "overlapPixels": 2007,
+      "boundaryReviewRegions": 4
+    },
+    {
+      "caseId": "C96",
+      "unionPixels": 900924,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C97",
+      "unionPixels": 825039,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C98",
+      "unionPixels": 928202,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C99",
+      "unionPixels": 815310,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C100",
+      "unionPixels": 917724,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C101",
+      "unionPixels": 875348,
+      "overlapPixels": 178,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C102",
+      "unionPixels": 842533,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C103",
+      "unionPixels": 837777,
+      "overlapPixels": 887,
+      "boundaryReviewRegions": 5
+    },
+    {
+      "caseId": "C104",
+      "unionPixels": 809885,
+      "overlapPixels": 34,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C105",
+      "unionPixels": 837591,
+      "overlapPixels": 604,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C106",
+      "unionPixels": 820419,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C107",
+      "unionPixels": 761442,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C108",
+      "unionPixels": 908008,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C109",
+      "unionPixels": 762999,
+      "overlapPixels": 342,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C110",
+      "unionPixels": 901077,
+      "overlapPixels": 8,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C111",
+      "unionPixels": 826672,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C112",
+      "unionPixels": 840776,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C113",
+      "unionPixels": 845282,
+      "overlapPixels": 519,
+      "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C114",
+      "unionPixels": 869615,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C115",
+      "unionPixels": 820305,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C116",
+      "unionPixels": 833483,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C117",
+      "unionPixels": 800362,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C118",
+      "unionPixels": 804907,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C119",
+      "unionPixels": 910290,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C120",
+      "unionPixels": 821683,
+      "overlapPixels": 172,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C121",
+      "unionPixels": 927437,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C122",
+      "unionPixels": 763974,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C123",
+      "unionPixels": 891479,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C124",
+      "unionPixels": 846705,
+      "overlapPixels": 4,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C125",
+      "unionPixels": 903972,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C126",
+      "unionPixels": 92154,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C127",
+      "unionPixels": 872151,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C128",
+      "unionPixels": 803681,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C129",
+      "unionPixels": 810783,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C130",
+      "unionPixels": 907017,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C131",
+      "unionPixels": 740179,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C132",
+      "unionPixels": 648912,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C133",
+      "unionPixels": 715275,
+      "overlapPixels": 11,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C134",
+      "unionPixels": 862745,
+      "overlapPixels": 549,
+      "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C135",
+      "unionPixels": 881000,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C136",
+      "unionPixels": 863003,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C137",
+      "unionPixels": 878700,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C138",
+      "unionPixels": 776703,
+      "overlapPixels": 70,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C139",
+      "unionPixels": 874180,
+      "overlapPixels": 116,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C140",
+      "unionPixels": 886455,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    }
+  ]
+}
