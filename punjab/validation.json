@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-09-10T12:03:30.620781+00:00",
+  "scope": "Automated export integrity and selected browser interactions; not annotation accuracy validation",
+  "studies": [
+    {
+      "id": "punjab-ludhiana-2026-09-10",
+      "generatedAt": "2026-09-10T12:02:22.182Z",
+      "tiles": 100,
+      "regions": 4094,
+      "captureDates": [
+        20231027
+      ]
+    },
+    {
+      "id": "punjab-november-2026-09-10",
+      "generatedAt": "2026-09-10T12:02:22.424Z",
+      "tiles": 9,
+      "regions": 615,
+      "captureDates": [
+        20201109
+      ]
+    }
+  ],
+  "checks": [
+    "109 local input SHA-256 hashes match their accepted public runs",
+    "All planned tiles completed and contiguous in the Web Mercator grid",
+    "Native and overview metadata footprints at zooms 12\u201318 match each study capture date",
+    "All accepted polygon rings and holes pass geometry validation",
+    "GeoJSON and OBB coordinates exactly reproduce the saved pixel polygons and transforms",
+    "Region counts and accepted/all-recorded token totals reconcile without duplicate run IDs",
+    "Public manifests, GeoJSON and run records omit account/session event fields",
+    "Browser switches imagery and labels together between captures",
+    "Selected kiln and field polygons inspected against imagery; map panning and OBB controls exercised",
+    "Downloaded T063.field_48 GeoJSON matches export; its 1024 \u00d7 1024 binary mask matches exporter pixel-for-pixel",
+    "16 existing and geospatial tests pass; 3 opt-in integration tests skipped",
+    "TypeScript check and Vite production build pass"
+  ],
+  "limitations": [
+    "No independent expert review, field survey or burn-event ground truth",
+    "No infrared or before/after validation",
+    "Browser visual inspection covers selected examples, not every annotation"
+  ]
+}

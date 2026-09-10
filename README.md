@@ -40,6 +40,15 @@ Then open <http://127.0.0.1:8080/>.
 
 ## Hosting and maintenance
 
-GitHub Pages publishes the root of the `main` branch. `.nojekyll` keeps the page as plain static HTML. There are no package dependencies or build steps.
+GitHub Pages publishes the root of the `main` branch. `.nojekyll` keeps the page as plain static HTML. The original viewer has no package dependencies or build steps. The Punjab map vendors Leaflet 1.9.4 and also needs no build step.
 
 `index.html` is the complete source and artifact: CSS, viewer JavaScript, the `scene-data` JSON block, and the embedded image. To update the viewer, edit it, preview it locally, and push to `main`. To replace the underlying annotations, use the local Fieldwork export workflow and replace `index.html` with its generated single-file export. The inference application and local credentials are not part of this public repository.
+
+
+## Punjab geographic explorer
+
+[Open the Punjab map](https://nipunbatra.github.io/fieldwork-scene/punjab/) · [Field burning](https://nipunbatra.github.io/fieldwork-scene/punjab/?view=burn)
+
+`punjab/` adds a continuous 100-tile study near Ludhiana, India, plus a nine-tile November field study. Pan/zoom Esri Wayback imagery, inspect polygons and oriented boxes, filter tags, copy latitude/longitude, and download GeoJSON or binary masks. The field tab distinguishes burned-looking, partially burned-looking, unburned-looking, and uncertain appearance. These are model screening labels, without independently confirmed fire events.
+
+See [Punjab provenance and maintenance](punjab/README.md). The map streams imagery from Esri; this repository contains derived labels and sanitized run records, not source imagery tiles. The site needs internet access for that map. The original root screenshot viewer still works offline.
