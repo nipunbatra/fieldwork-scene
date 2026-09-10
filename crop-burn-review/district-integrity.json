@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-09-10T17:20:02.083372+00:00",
+  "scenes": 500,
+  "regions": 28263,
+  "districts": {
+    "Fatehabad": 140,
+    "Kaithal": 45,
+    "Karnal": 45,
+    "Ludhiana": 45,
+    "Sangrur": 45,
+    "Patiala": 45,
+    "Bathinda": 45,
+    "Jalandhar": 45,
+    "Kapurthala": 45
+  },
+  "baseline140BitForBitPreserved": true,
+  "geometryAndCatalogAgree": true,
+  "allNativeHashesVerified": true,
+  "allReleaseArchiveCRCsPass": true,
+  "allReviewRowsPending": true,
+  "publicPrivacyScanPassed": true,
+  "portableEmbeddedCases": 500,
+  "releaseAssets": 21,
+  "siteBytes": 688322352,
+  "allNewSourceDatesOctoberNovember": true,
+  "targetReached": true
+}
