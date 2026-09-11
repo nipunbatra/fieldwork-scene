@@ -1,0 +1,477 @@
+{
+  "createdAt": "2026-09-11T11:17:13.202152+00:00",
+  "viewerTag": "crop-burn-sentinel-2026-09-11",
+  "datasetTag": "crop-burn-600-2026-09-11",
+  "scenes": 600,
+  "regions": 34085,
+  "allArchiveCRCsPassed": true,
+  "originalReleaseFilesUnchanged": 22,
+  "allPortableCasesRegionsAndModelRecordsUnchanged": true,
+  "districts": [
+    {
+      "district": "Bathinda",
+      "scenes": 58,
+      "regions": 3118,
+      "unchangedDatasetMembers": [
+        {
+          "file": "manifest.json",
+          "sha256": "32e8938dd739ee50ac1a0534dffe990805af1e392969ece07695d0a01fdf16f4"
+        },
+        {
+          "file": "new-proposals.geojson",
+          "sha256": "dd992ed7f80d71efb215655dd76f82e01bf2b6fbf58b6349d55a650cd80e97a7"
+        },
+        {
+          "file": "model-runs.json",
+          "sha256": "e7b53087b28bc130d3f75df8f6ae811d3c3b82a0320d401e3f9b89bd9dfecf83"
+        },
+        {
+          "file": "review-queue.csv",
+          "sha256": "44c6adf5f807bc2bcfeae7485e02365e6c053713afacd9441eb00adb38247447"
+        }
+      ]
+    },
+    {
+      "district": "Fatehabad",
+      "scenes": 140,
+      "regions": 8242,
+      "unchangedDatasetMembers": [
+        {
+          "file": "manifest.json",
+          "sha256": "a43396f177aeaee89bec6bf0e4df602bdcd2508c8108a76baeae7e88ff44305e"
+        },
+        {
+          "file": "new-proposals.geojson",
+          "sha256": "0863029c7906c0f63de02d1b9d3b2520445d154789c5b29c3c59f42f5c6f0910"
+        },
+        {
+          "file": "model-runs.json",
+          "sha256": "3f79292e681c0e02747934b1c72c1cf5c5185f68a8f29fc976eb4e45d3291e2f"
+        },
+        {
+          "file": "review-queue.csv",
+          "sha256": "ed4d7a7f2aecd1514469d6483088d1de3aa16ce65d4992a455b1c707896e3174"
+        }
+      ]
+    },
+    {
+      "district": "Jalandhar",
+      "scenes": 58,
+      "regions": 3441,
+      "unchangedDatasetMembers": [
+        {
+          "file": "manifest.json",
+          "sha256": "74312a5fc0aff44cd8d4dd5f9c69034edd6e8bf3aa61f69c524ab80f7f8015fa"
+        },
+        {
+          "file": "new-proposals.geojson",
+          "sha256": "a9d5bce0d463616b0a24b42e0cfc07266fff703e4fefe7bb74facca6addfa949"
+        },
+        {
+          "file": "model-runs.json",
+          "sha256": "72778eb15714c4ccd309d97cfd377b423232df9a2c79ef9421e60647d061278d"
+        },
+        {
+          "file": "review-queue.csv",
+          "sha256": "544ee77bdff560fe6fa0bdd648b1a0294469d0e858640e7dbd599fa908f1043d"
+        }
+      ]
+    },
+    {
+      "district": "Kaithal",
+      "scenes": 58,
+      "regions": 3607,
+      "unchangedDatasetMembers": [
+        {
+          "file": "manifest.json",
+          "sha256": "8eae5e0ed187016484df774e8c7f3c82423449a75e1da099c04a335f4a8b0ae7"
+        },
+        {
+          "file": "new-proposals.geojson",
+          "sha256": "31b54ead8e0b159ae69bc2624cde34fa5ef0e50d1daf487a1f0a6a48315e1905"
+        },
+        {
+          "file": "model-runs.json",
+          "sha256": "12f0b07797245884cc6e469b39f296f2d4e62b9d4ed82cb0bcfe134bdc071308"
+        },
+        {
+          "file": "review-queue.csv",
+          "sha256": "3a5e2f6ee396dde60009c242763412c53c7b5f85796e62749aa1b18553ad50fe"
+        }
+      ]
+    },
+    {
+      "district": "Kapurthala",
+      "scenes": 58,
+      "regions": 2838,
+      "unchangedDatasetMembers": [
+        {
+          "file": "manifest.json",
+          "sha256": "2fd51412d2af5e2c062b81ec555aee631e25821482a505e494014b15ff81191d"
+        },
+        {
+          "file": "new-proposals.geojson",
+          "sha256": "186859cf8f4cde97349eef232a676f44f60968c4e9fec09200e2b0be133a6887"
+        },
+        {
+          "file": "model-runs.json",
+          "sha256": "f11f80638a97c389bf0d80a3ac35864febea01cfa37c189264395bbe8b204500"
+        },
+        {
+          "file": "review-queue.csv",
+          "sha256": "10f6933a80a28deb414818fc0ea426d99c412a44511dc56b461dc6613299cadd"
+        }
+      ]
+    },
+    {
+      "district": "Karnal",
+      "scenes": 57,
+      "regions": 3327,
+      "unchangedDatasetMembers": [
+        {
+          "file": "manifest.json",
+          "sha256": "54fde83b24e969d4263bc89eccb6c6cfbc3ab223e9eae76bc5ab8fab8ba1b147"
+        },
+        {
+          "file": "new-proposals.geojson",
+          "sha256": "629e60742edc8612322237e5b390b1038b83f631460c6e42cbc43de13835b954"
+        },
+        {
+          "file": "model-runs.json",
+          "sha256": "21f9f2ea8a69d8c5db40472a18c9039e3441d2c64750ffeaf1cf3b357f8742d3"
+        },
+        {
+          "file": "review-queue.csv",
+          "sha256": "6261613ef8e80a681cc99511c84adb9c5f703c0b8fc61cfdeb679f6f117fcba7"
+        }
+      ]
+    },
+    {
+      "district": "Ludhiana",
+      "scenes": 57,
+      "regions": 2763,
+      "unchangedDatasetMembers": [
+        {
+          "file": "manifest.json",
+          "sha256": "323cf9cac8a57a43ea944a9071a6bdb927aeda03e3a644d1f90588d92f700b81"
+        },
+        {
+          "file": "new-proposals.geojson",
+          "sha256": "836410245c37f4ba4f49d11cd204f193210314ab260c206f4ff02b13bcb5dff4"
+        },
+        {
+          "file": "model-runs.json",
+          "sha256": "fb646fa91476748ae1d0f3b3e272fb4e15ab15e4dc2d0638777cc27228585a83"
+        },
+        {
+          "file": "review-queue.csv",
+          "sha256": "31f068ac00909f43a573422de68f4c2cf6adc47797020f3bf1bcaf5717034369"
+        }
+      ]
+    },
+    {
+      "district": "Patiala",
+      "scenes": 57,
+      "regions": 3568,
+      "unchangedDatasetMembers": [
+        {
+          "file": "manifest.json",
+          "sha256": "8622fdae34794c4d150d7edebfdd61c78883f4f7268dfe20bf6d09cad0fcf5ab"
+        },
+        {
+          "file": "new-proposals.geojson",
+          "sha256": "bb5cd1428de9a77979b9430b10f8bd5b6fd2158deb0c09a3a389fa35c57240eb"
+        },
+        {
+          "file": "model-runs.json",
+          "sha256": "428644bca3b81458ba3016a5dc87292536a05761ed0be549ce8e7ac46a1b218d"
+        },
+        {
+          "file": "review-queue.csv",
+          "sha256": "45cfc801534a12e5c753d104a6d283aa7d4ddc17d8c2055c84cdb423e0794645"
+        }
+      ]
+    },
+    {
+      "district": "Sangrur",
+      "scenes": 57,
+      "regions": 3181,
+      "unchangedDatasetMembers": [
+        {
+          "file": "manifest.json",
+          "sha256": "c33bcf8f49c8a0b46f61db022e4d90075148a481015d9ec10f3438f2918c24ac"
+        },
+        {
+          "file": "new-proposals.geojson",
+          "sha256": "025ec9c607a501fe0f934186e2afc4abaf2080a7d8ee0ec4832e9562a7f4678c"
+        },
+        {
+          "file": "model-runs.json",
+          "sha256": "a1451d52897007d2049d8923617b3d1ba68b57c9684111b6382e93dbfb79dd57"
+        },
+        {
+          "file": "review-queue.csv",
+          "sha256": "c340aa3d059bd6e5a15c67f5531e5ec104d35287db0074a72c05f70c2f27dc5a"
+        }
+      ]
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "package-lock.json",
+      "sha256": "d92e6c78a8d0a62bea6754235fc189d7b0add147b2591ad6b26fa73f5ace2446"
+    },
+    {
+      "file": "package.json",
+      "sha256": "8a8fb9fbdd9644042a638f7cb79581e54353da843a9b0a12da89296186e7cfd5"
+    },
+    {
+      "file": "scripts/audit-crop-burn-inputs.ts",
+      "sha256": "91df1351ed8d7285b21f3c2da54d38c560503f6dc238c7a669dde73f9cd67afc"
+    },
+    {
+      "file": "scripts/build-crop-burn-browser.ts",
+      "sha256": "faa4423c00364424ebd2c2d7c2c129d0f3760deb541d2fa3f22208d93162c2a3"
+    },
+    {
+      "file": "scripts/build-crop-burn-district-browser.ts",
+      "sha256": "e57e4cc6d4276362b82c03d85d35788014dcdffd84d73be56813468e87cd48c1"
+    },
+    {
+      "file": "scripts/check-crop-burn-dates.ts",
+      "sha256": "31602b0dd1bee73e374f128a3eac7c3e068d4b7ce38ceff69cce43a43c77d3ec"
+    },
+    {
+      "file": "scripts/check-crop-burn-district-samples.ts",
+      "sha256": "36a2f8ce75f05cb879ce81c862b629967466f62e6a33fe913efa6f1cdcaefc2a"
+    },
+    {
+      "file": "scripts/crop-burn-browser-core.mjs",
+      "sha256": "5f482d45747abe5da8d0ce93cdd4e0c26cc3204366d184c1eed03f3d2e3d6117"
+    },
+    {
+      "file": "scripts/crop-burn-browser.css",
+      "sha256": "aad5079d8504bc3d8ca1c44b12550566a8615f161bfe199dc772a63a0a923b09"
+    },
+    {
+      "file": "scripts/crop-burn-browser.js",
+      "sha256": "8ac2cc04729b785c3669869dd2c36387cef4089bb8d7b12c08d9c749eb21ed90"
+    },
+    {
+      "file": "scripts/crop-burn-browser.template.html",
+      "sha256": "5202e455fe5c41979ce90bedc3ef776dc9bcc3edddaef329ca4ba52be1b4dd29"
+    },
+    {
+      "file": "scripts/crop-burn-quality.ts",
+      "sha256": "b3640e4b6639079baec1211dfa0983529df72c673f3377020cae348488184cc4"
+    },
+    {
+      "file": "scripts/crop-burn-review.template.html",
+      "sha256": "5e536c995b94df6b8f6d6167a0f1aff40992c2841b8b2abc414805a972935687"
+    },
+    {
+      "file": "scripts/crop-burn-sentinel-core.mjs",
+      "sha256": "7ec3357236c5e5435d7d716062277269b430ba653b9263681686eeb4ef928050"
+    },
+    {
+      "file": "scripts/crop-burn-sentinel-ui.js",
+      "sha256": "39fb082ccc09017ebf7052f2ab889a18bdd8d2a1fe756ccf20ad3e1c298efc66"
+    },
+    {
+      "file": "scripts/crop-burn-viewer-config.json",
+      "sha256": "c44d23335fc913b74d595320c837f1539f3a767d35042284351b31d8e40f7745"
+    },
+    {
+      "file": "scripts/download-crop-burn-native.py",
+      "sha256": "ed93d76d650e45c7653ef6b0cc2e89a5e530084cb125282ddabf386154c0dabb"
+    },
+    {
+      "file": "scripts/export-crop-burn-review.ts",
+      "sha256": "8ecefd2a693131432030879404c49c5b8c65ad96bd5af6d8c76116f2140b1410"
+    },
+    {
+      "file": "scripts/extend-crop-burn-target.py",
+      "sha256": "7fe80daed1b7aed1f443087422d60bd0e4348083eddc6ecc5270cf99877c9749"
+    },
+    {
+      "file": "scripts/fetch-crop-burn-district-metadata.ts",
+      "sha256": "64fd5adafa62d16bbf9910b9b55174e42022386f88d2b1a4e8c49de3bf02dd62"
+    },
+    {
+      "file": "scripts/finalize-crop-burn-districts.py",
+      "sha256": "4924376ba292eaf6920c3bf4082594a9b68a2eebe1c0027345696b1f05c06bea"
+    },
+    {
+      "file": "scripts/package-crop-burn-browser.py",
+      "sha256": "0a55a557822f1153282ed63039e452e4c3dc0b3ee071e2c48a8600607b793068"
+    },
+    {
+      "file": "scripts/package-crop-burn-districts.py",
+      "sha256": "2ff8b1ab8af558f04821b2341ec1bc12169ac331977962f4856efbd6744d9b54"
+    },
+    {
+      "file": "scripts/package-crop-burn-expansion.py",
+      "sha256": "cae19eb9b80a140c4ca4765286946222b27078aa9c709377d80bb9c648c372bd"
+    },
+    {
+      "file": "scripts/package-crop-burn-viewer.py",
+      "sha256": "1712ecbc54ed9cdec624ce8f173dcfabbf39298c675de26c6ffd266f33282d8e"
+    },
+    {
+      "file": "scripts/prepare-crop-burn-expansion.ts",
+      "sha256": "5096ce9ed43b20fc7d2c62885ccc0630cd8c583419ebe8a1092f92b5abf02fd0"
+    },
+    {
+      "file": "scripts/prepare-crop-burn-large.ts",
+      "sha256": "b0954a22f2763e3b66949a74b0a960fb59e1c56ec4699ac17b7048fa800b068f"
+    },
+    {
+      "file": "scripts/prepare-crop-burn-public.ts",
+      "sha256": "36c00668fbfd61c2324031c14f775de2f2cc6f23c6908c615d194a626c3e0c54"
+    },
+    {
+      "file": "scripts/reduce-crop-burn-target.py",
+      "sha256": "17afa5e3f0c41f0de4f35c82426fe3d10c82c5b70d20086dcf099a7c18447fb4"
+    },
+    {
+      "file": "scripts/review-crop-burn.ts",
+      "sha256": "da62647f43ad50869287dd078f14ed17e7f2dda3346c8a74998ab5c62d797fbe"
+    },
+    {
+      "file": "scripts/run-crop-burn-expansion.py",
+      "sha256": "ab604a983346e209ebf091b7d96a8152322825ad3d60ac5de3a5d444345524be"
+    },
+    {
+      "file": "scripts/select-crop-burn-districts.py",
+      "sha256": "4a8c2b96863632067395ab8e410002016c95f371c53520b27aa38ed7f0113ad8"
+    },
+    {
+      "file": "scripts/status-crop-burn-districts.py",
+      "sha256": "7c72eb46fb86b1e8da5449902a329834ff7e1f597f40a5c325af4e183677c3d5"
+    },
+    {
+      "file": "scripts/verify-crop-burn-browser.py",
+      "sha256": "b265648281607de1ae50c216bde7854b6fadb6b4bb7f269d46634594300f974c"
+    },
+    {
+      "file": "scripts/verify-crop-burn-districts.py",
+      "sha256": "10dbaeea79fd98f40d4089d534eef6791a1ab3b8d1d15e01fa0ed8c95e32d1fa"
+    },
+    {
+      "file": "scripts/verify-crop-burn-public.py",
+      "sha256": "bc7b92dc68a9158a17e74fd21236d7af01763fa342da0201e1f0ac03963aa2fb"
+    },
+    {
+      "file": "scripts/verify-crop-burn-selection.py",
+      "sha256": "5116a0604a490268da4bae65f8e329601b21959c59eb6312a3e3b673f66b8df6"
+    },
+    {
+      "file": "server/codex.ts",
+      "sha256": "64c513f3b03101714a531aefeaa7b2f03848405142a40fd75117c99c075344b6"
+    },
+    {
+      "file": "server/prompts.ts",
+      "sha256": "3b01776a17af49b32a8b6b9c9332fd82b09245c16429d0baa098ab1a5daa4114"
+    },
+    {
+      "file": "shared/geometry.ts",
+      "sha256": "4f6ed6f450cb77469b41285765682fbe5b198d684afa5a0967e49ac21849a09b"
+    },
+    {
+      "file": "shared/geospatial.ts",
+      "sha256": "3515b33887fa1f6be384eb071c2ab1e94b46ffee3e616ea2cf5e3f2231d73999"
+    },
+    {
+      "file": "shared/schema.ts",
+      "sha256": "46aab29ec855d7251947b664149fd5154a86799f49e2bc39adf46be00eca844e"
+    },
+    {
+      "file": "shared/types.ts",
+      "sha256": "aadc2593df7aa63b4b276c71cbae5d7b97da1f3de14aca2ca91e30bd5b8e2e37"
+    },
+    {
+      "file": "tests/crop-burn-browser.test.ts",
+      "sha256": "872a24c5e9e71953cc4a898a7954f817384e976b7775d20bfe39cb826b0624b3"
+    },
+    {
+      "file": "tests/crop-burn-sentinel.test.ts",
+      "sha256": "599f87fabb39d1ac7d7f8cce8f8a87d9a8111b60d042f06190b2aa2afcf8a4f4"
+    },
+    {
+      "file": "tests/fixtures/crop-burn-sentinel.json",
+      "sha256": "27d881f55de13a9ff5e34cab0524683f3aa513294923234a372cccfd9fa00b7c"
+    },
+    {
+      "file": "tsconfig.json",
+      "sha256": "55ed2b3e6a1088759163686b885f0cbd20b40436c834092a4fd43acebae3a2ea"
+    }
+  ],
+  "assets": [
+    {
+      "file": "fieldwork-600-portable.html.zip",
+      "bytes": 90988022,
+      "sha256": "54f5228b37e688727bb4698f1056736e892f732a666152d6a69c462c29485a7e",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-600-portable.html.zip"
+    },
+    {
+      "file": "fieldwork-bathinda-review.zip",
+      "bytes": 10656577,
+      "sha256": "b31eb075dd70d9e49f56e9c6be4d02065b390822194de352292ebda818c11852",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-bathinda-review.zip"
+    },
+    {
+      "file": "fieldwork-fatehabad-review.zip",
+      "bytes": 38923846,
+      "sha256": "1b1ed21ff6c4419d032ae3d4184b5aef009f8d40dce272bac5774c3c9ab7cde9",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-fatehabad-review.zip"
+    },
+    {
+      "file": "fieldwork-jalandhar-review.zip",
+      "bytes": 10024612,
+      "sha256": "1ac49db07d2c148e5cd6be00e26e7c0fa35032617cdeb0a0abecf5fc8f24181a",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-jalandhar-review.zip"
+    },
+    {
+      "file": "fieldwork-kaithal-review.zip",
+      "bytes": 10621105,
+      "sha256": "6cf355828404d6b4828138fc0883a62336d8e2c7a61b1b2d272a2b49e7577fc2",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-kaithal-review.zip"
+    },
+    {
+      "file": "fieldwork-kapurthala-review.zip",
+      "bytes": 9423302,
+      "sha256": "79c7def676f07b6c11ffc23436bf23498bfccedca7e058cb60fdeea808d728c5",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-kapurthala-review.zip"
+    },
+    {
+      "file": "fieldwork-karnal-review.zip",
+      "bytes": 8849469,
+      "sha256": "7158ab1cb1779a056139082ce65875bf8b30b4b381fa8557c9c1d1fcc018940d",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-karnal-review.zip"
+    },
+    {
+      "file": "fieldwork-ludhiana-review.zip",
+      "bytes": 8606729,
+      "sha256": "68054de358bbe8a5a70cd3f9819ab7f7995c89d99b1a1f81ecebe40104b922f4",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-ludhiana-review.zip"
+    },
+    {
+      "file": "fieldwork-patiala-review.zip",
+      "bytes": 9538002,
+      "sha256": "e6f658e91c60cbb6f4a15fcca7feaa21f3a29e2a2277a79c67442500bda906b0",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-patiala-review.zip"
+    },
+    {
+      "file": "fieldwork-sangrur-review.zip",
+      "bytes": 8398387,
+      "sha256": "605093b8dcb7f9619dc95809f2228385c3963d93446161b3f7c1d8f3e71be00b",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-sangrur-review.zip"
+    },
+    {
+      "file": "fieldwork-sentinel-viewer-source.zip",
+      "bytes": 152486,
+      "sha256": "4e281574f71a7bd6e38d6ae68ce7dfa3da7197738a98535454818f6daeae00a7",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-sentinel-viewer-source.zip"
+    }
+  ]
+}

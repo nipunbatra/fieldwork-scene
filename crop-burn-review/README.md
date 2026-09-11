@@ -1,5 +1,13 @@
 # Fieldwork crop-burn collection: 600 scenes across nine districts
 
+## Sentinel comparison viewer update
+
+The current viewer adds **Sentinel-2 / Compare** to every scene inspector, matching the chosen actual ESRI acquisition date. **Dimensions & pixel sizes** shows scene or oriented-field length and width at different map zooms and Sentinel resolutions. Read [the full method](sentinel-viewer-method.md). Sentinel lookup requires internet; ESRI previews, labels and measurements remain available offline in portable files.
+
+Updated portable viewers and software: https://github.com/nipunbatra/fieldwork-scene/releases/tag/crop-burn-sentinel-2026-09-11
+
+The following dataset documentation describes the frozen 600-scene release. Its images, labels, raw model records, manifests and historical archives are unchanged. On-demand Sentinel comparisons are session-local; export a comparison record to preserve a selected match. These are visual comparisons, not validated Sentinel labels or an RF-DETR training run.
+
 34,085 provisional regions from **600 native 1024 × 1024 satellite scenes** in Punjab and Haryana, India. Direction: **Nipun Batra**. Annotations: **GPT-6 Astra, high reasoning**, via the existing Codex subscription. Imagery: **Esri World Imagery Wayback and its source providers**. This release preserves all 500 previous images, annotations and model runs and adds 100 scenes. The complete collection has 140 Fatehabad scenes and 460 scenes across eight additional districts.
 
 These are AI proposals awaiting expert review. Labels describe visible appearance, not verified fire events or human ground truth.

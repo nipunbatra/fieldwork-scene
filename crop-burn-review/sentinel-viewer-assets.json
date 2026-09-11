@@ -1,0 +1,71 @@
+{
+  "tag": "crop-burn-sentinel-2026-09-11",
+  "assets": [
+    {
+      "file": "fieldwork-600-portable.html.zip",
+      "bytes": 90988022,
+      "sha256": "54f5228b37e688727bb4698f1056736e892f732a666152d6a69c462c29485a7e",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-600-portable.html.zip"
+    },
+    {
+      "file": "fieldwork-bathinda-review.zip",
+      "bytes": 10656577,
+      "sha256": "b31eb075dd70d9e49f56e9c6be4d02065b390822194de352292ebda818c11852",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-bathinda-review.zip"
+    },
+    {
+      "file": "fieldwork-fatehabad-review.zip",
+      "bytes": 38923846,
+      "sha256": "1b1ed21ff6c4419d032ae3d4184b5aef009f8d40dce272bac5774c3c9ab7cde9",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-fatehabad-review.zip"
+    },
+    {
+      "file": "fieldwork-jalandhar-review.zip",
+      "bytes": 10024612,
+      "sha256": "1ac49db07d2c148e5cd6be00e26e7c0fa35032617cdeb0a0abecf5fc8f24181a",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-jalandhar-review.zip"
+    },
+    {
+      "file": "fieldwork-kaithal-review.zip",
+      "bytes": 10621105,
+      "sha256": "6cf355828404d6b4828138fc0883a62336d8e2c7a61b1b2d272a2b49e7577fc2",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-kaithal-review.zip"
+    },
+    {
+      "file": "fieldwork-kapurthala-review.zip",
+      "bytes": 9423302,
+      "sha256": "79c7def676f07b6c11ffc23436bf23498bfccedca7e058cb60fdeea808d728c5",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-kapurthala-review.zip"
+    },
+    {
+      "file": "fieldwork-karnal-review.zip",
+      "bytes": 8849469,
+      "sha256": "7158ab1cb1779a056139082ce65875bf8b30b4b381fa8557c9c1d1fcc018940d",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-karnal-review.zip"
+    },
+    {
+      "file": "fieldwork-ludhiana-review.zip",
+      "bytes": 8606729,
+      "sha256": "68054de358bbe8a5a70cd3f9819ab7f7995c89d99b1a1f81ecebe40104b922f4",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-ludhiana-review.zip"
+    },
+    {
+      "file": "fieldwork-patiala-review.zip",
+      "bytes": 9538002,
+      "sha256": "e6f658e91c60cbb6f4a15fcca7feaa21f3a29e2a2277a79c67442500bda906b0",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-patiala-review.zip"
+    },
+    {
+      "file": "fieldwork-sangrur-review.zip",
+      "bytes": 8398387,
+      "sha256": "605093b8dcb7f9619dc95809f2228385c3963d93446161b3f7c1d8f3e71be00b",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-sangrur-review.zip"
+    },
+    {
+      "file": "fieldwork-sentinel-viewer-source.zip",
+      "bytes": 152486,
+      "sha256": "4e281574f71a7bd6e38d6ae68ce7dfa3da7197738a98535454818f6daeae00a7",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-sentinel-2026-09-11/fieldwork-sentinel-viewer-source.zip"
+    }
+  ]
+}

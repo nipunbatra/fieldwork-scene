@@ -1,12 +1,12 @@
 {
-  "buildId": "b0c7f12af7b8",
+  "buildId": "9f70bc05c858",
   "scenes": 600,
   "regions": 34085,
   "districts": 9,
-  "onlineHTMLBytes": 77313,
-  "catalogBytes": 1185325,
+  "onlineHTMLBytes": 100096,
+  "catalogBytes": 1185542,
   "compressedRegionIndexesBytes": 5263809,
-  "portableHTMLBytes": 169821350,
+  "portableHTMLBytes": 169844350,
   "allInputHashesVerified": true,
   "onlinePreviews": "JPEG display only; native tiles available on demand. Exact inference PNGs in district archives."
 }
