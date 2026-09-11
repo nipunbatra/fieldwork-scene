@@ -1,25 +1,72 @@
 {
-  "checkedAt": "2026-09-10T17:07:57.914608+00:00",
-  "npmTest": {
-    "passed": 23,
-    "failed": 0,
-    "skipped": 3,
-    "skippedScope": "Optional localhost server integration tests; unrelated to this static dataset publication"
-  },
-  "typescriptNoEmit": "passed",
-  "browserCoreChecks": "Class/district/date/tag filters, geographic polygon/provenance exports, binary mask/hole equivalence and overlap audit passed against an interim catalog. Final 500-scene artifact validation is separate.",
-  "downloader": "Verified exact hashes for two cached PNGs and rejected a deliberately mismatched hash.",
+  "checkedAt": "2026-09-11T05:28:48.160802+00:00",
+  "sceneTarget": 600,
+  "successfulCommands": [
+    {
+      "command": [
+        "python3",
+        "scripts/status-crop-burn-districts.py"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "/Users/nipun/git/gpt-label-vision/work/crop-burn-review/district-expansion/venv/bin/python",
+        "scripts/verify-crop-burn-selection.py"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/audit-crop-burn-inputs.ts"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/export-crop-burn-review.ts"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--import",
+        "tsx",
+        "scripts/build-crop-burn-district-browser.ts"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "npx",
+        "tsc",
+        "--noEmit"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "notes": "npm test includes browser filters and exports against the complete current district catalog. Optional localhost server integration tests are skipped; dataset and archive validation is recorded separately in district-integrity.json.",
   "sourceHashes": {
-    "scripts/crop-burn-browser.js": "c8b730becc5f2f464f0287208ae5167ac99bdd90de38a740ee932e1f2e10285b",
+    "scripts/crop-burn-browser.js": "6afb61c47fb145ee5b105949c7694ba02dbc5ef7a2d0eff134fe2edbc9d66864",
     "scripts/crop-burn-browser-core.mjs": "5f482d45747abe5da8d0ce93cdd4e0c26cc3204366d184c1eed03f3d2e3d6117",
     "scripts/crop-burn-browser.css": "4e236ecf616822ddcac0510ae6a34efa0f9eb84990cf44306b0aeb13b790ad61",
     "scripts/crop-burn-browser.template.html": "73301e9f46696abfa09de06826b962680636380ebefd51f1860f9f80b2bd7e39",
     "scripts/review-crop-burn.ts": "da62647f43ad50869287dd078f14ed17e7f2dda3346c8a74998ab5c62d797fbe",
-    "scripts/build-crop-burn-district-browser.ts": "d6dba41909aeae56e1c135b9f37ee2bbfeca33b7494d4d2f905329c3a1b76af2"
-  },
-  "latestSyntaxAndTypeCheck": {
-    "checkedAt": "2026-09-10T17:18:49.846650+00:00",
-    "browserJavaScriptSyntax": "passed",
-    "typescriptNoEmit": "passed"
+    "scripts/build-crop-burn-district-browser.ts": "db94ce148c4f6e32526e6d227d235e80736e25f3034d1043d0cbabd0975c32d6",
+    "scripts/download-crop-burn-native.py": "ed93d76d650e45c7653ef6b0cc2e89a5e530084cb125282ddabf386154c0dabb"
   }
 }

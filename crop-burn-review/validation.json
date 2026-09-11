@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-10T17:19:22.470Z",
-  "cases": 500,
-  "regions": 28263,
+  "checkedAt": "2026-09-11T05:28:37.690Z",
+  "cases": 600,
+  "regions": 34085,
   "allGeometryValid": true,
   "districts": [
     "Fatehabad",
@@ -16,21 +16,21 @@
   ],
   "districtCounts": {
     "Fatehabad": 140,
-    "Kaithal": 45,
-    "Karnal": 45,
-    "Ludhiana": 45,
-    "Sangrur": 45,
-    "Patiala": 45,
-    "Bathinda": 45,
-    "Jalandhar": 45,
-    "Kapurthala": 45
+    "Kaithal": 58,
+    "Karnal": 57,
+    "Ludhiana": 57,
+    "Sangrur": 57,
+    "Patiala": 57,
+    "Bathinda": 58,
+    "Jalandhar": 58,
+    "Kapurthala": 58
   },
   "inputHashesMatch": true,
   "structuredTagsValid": true,
   "tagReviewCount": 0,
   "newCropsDisjoint": true,
-  "boundaryReviewRegions": 266,
-  "spatialHoldoutGroupCount": 82,
+  "boundaryReviewRegions": 313,
+  "spatialHoldoutGroupCount": 80,
   "followupStudentServerWrites": 0,
   "model": "gpt-6-astra",
   "effort": "high",
@@ -105,7 +105,8 @@
     "C402",
     "C403",
     "C438",
-    "C439"
+    "C439",
+    "C443"
   ],
   "noNewHumanGroundTruth": true,
   "priorLabelsRestoredExactly": true

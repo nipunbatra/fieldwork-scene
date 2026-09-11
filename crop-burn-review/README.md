@@ -1,6 +1,6 @@
-# Fieldwork crop-burn collection: 500 scenes across nine districts
+# Fieldwork crop-burn collection: 600 scenes across nine districts
 
-28,263 provisional regions from **500 native 1024 × 1024 satellite scenes** in Punjab and Haryana, India. Direction: **Nipun Batra**. Annotations: **GPT-6 Astra, high reasoning**, via the existing Codex subscription. Imagery: **Esri World Imagery Wayback and its source providers**. This release preserves all 140 original images and model runs and adds 360 scenes, 45 in each of eight additional districts.
+34,085 provisional regions from **600 native 1024 × 1024 satellite scenes** in Punjab and Haryana, India. Direction: **Nipun Batra**. Annotations: **GPT-6 Astra, high reasoning**, via the existing Codex subscription. Imagery: **Esri World Imagery Wayback and its source providers**. This release preserves all 500 previous images, annotations and model runs and adds 100 scenes. The complete collection has 140 Fatehabad scenes and 460 scenes across eight additional districts.
 
 These are AI proposals awaiting expert review. Labels describe visible appearance, not verified fire events or human ground truth.
 
@@ -18,35 +18,35 @@ Prompts, tokens & model output contains the actual question, system prompt, raw 
 
 | District | State | Scenes | Regions | Burnt-looking | Partially burnt-looking |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Bathinda | Punjab | 45 | 2,413 | 11 | 1 |
+| Bathinda | Punjab | 58 | 3,118 | 11 | 1 |
 | Fatehabad | Haryana | 140 | 8,242 | 37 | 21 |
-| Jalandhar | Punjab | 45 | 2,625 | 0 | 0 |
-| Kaithal | Haryana | 45 | 2,703 | 0 | 10 |
-| Kapurthala | Punjab | 45 | 2,196 | 0 | 4 |
-| Karnal | Haryana | 45 | 2,585 | 0 | 1 |
-| Ludhiana | Punjab | 45 | 2,140 | 2 | 0 |
-| Patiala | Punjab | 45 | 2,800 | 1 | 39 |
-| Sangrur | Punjab | 45 | 2,559 | 0 | 0 |
+| Jalandhar | Punjab | 58 | 3,441 | 0 | 0 |
+| Kaithal | Haryana | 58 | 3,607 | 1 | 16 |
+| Kapurthala | Punjab | 58 | 2,838 | 0 | 4 |
+| Karnal | Haryana | 57 | 3,327 | 0 | 1 |
+| Ludhiana | Punjab | 57 | 2,763 | 2 | 0 |
+| Patiala | Punjab | 57 | 3,568 | 1 | 45 |
+| Sangrur | Punjab | 57 | 3,181 | 0 | 0 |
 
 | Proposed appearance | Regions |
 | --- | ---: |
-| burned-looking field | 51 |
-| partially burned-looking field | 76 |
-| unburned-looking field | 22,884 |
-| uncertain field | 4,721 |
-| non-field confounder | 531 |
+| burned-looking field | 52 |
+| partially burned-looking field | 88 |
+| unburned-looking field | 27,479 |
+| uncertain field | 5,843 |
+| non-field confounder | 623 |
 
 ## Sampling and source dates
 
-Frozen original worldwide 1024-pixel lattice crops, fully inside source district boundaries, with complete native-zoom metadata coverage. User reduced target to 500 (140 originals + 45 each in eight additional districts). Only all-source October/November crops selected. Preserve the first 32 dispatched Kaithal cases; fill remaining slots by least-represented sampling group, using original within-group order. Bathinda uses six autumn groups, the other districts eight. Kaithal includes more scenes in its first two groups because the user reduced scope after dispatch. No model outputs or classes used in selection. Purposive geographic sampling, not a random prevalence or accuracy benchmark. IDs retain original frozen-plan identifiers. Source dates are provider metadata, not fire-event dates.
+Frozen worldwide 1024-pixel lattice crops, fully inside source district boundaries, with complete native-zoom metadata coverage. The collection contains 600 scenes: 140 original Fatehabad scenes and 460 October/November scenes across eight additional districts. This expansion preserves all 500 previous scenes and adds 100 unused autumn samples. Preserve every existing scene; distribute additions evenly across eight expansion districts in alphabetical order (remainder to the first districts), filling least-represented geographic groups in frozen original case order. Only complete October/November source footprints qualify. No model outputs, labels or successes used. The earlier 500-scene selection retained 32 already-dispatched Kaithal scenes when the user reduced the initial 1,400-scene target. Stable source-plan IDs are retained, so gaps are expected. Purposive geographic sampling, not a random prevalence or accuracy benchmark. Source dates are provider metadata, not fire-event dates.
 
-All **360 new scenes** have only October/November acquisition dates in the intersecting native-zoom metadata footprints. The original 140 retain their original dates, including other seasons. The collection includes 48 mixed-date crops; resolve each field's source footprint before temporal matching. The original 36 nominated student candidates include 20 date discrepancies. Raw district samples have no student prediction/date to compare.
+All **460 district expansion scenes** have only October/November acquisition dates in the intersecting native-zoom metadata footprints. The original 140 retain their original dates, including other seasons. The collection includes 49 mixed-date crops; resolve each field's source footprint before temporal matching. The original 36 nominated student candidates include 20 date discrepancies. Raw district samples have no student prediction/date to compare.
 
 Crops contain no overlapping source pixels across the expansion and original scenes. Entire new crop envelopes are contained in the frozen source district polygons. District names and shape IDs come from the original student application's boundary dataset; they do not assert current official government boundaries. The full boundary GeoJSON and checksum are retained in source-metadata.zip.
 
-Each image combines sixteen 256 × 256 tiles at native zoom 18, with no resizing, from Wayback release **32553 (2024-08-15)**. Full native-layer-5 footprint responses were fetched once per district, then intersected locally with Shapely. Per-scene metadata retains exact source attributes and clipped GeoJSON geometries; full provider footprints are stored once with SHA-256 references. Independent provider point queries matched all 64 original cluster checks (including the 62 autumn clusters retained in this smaller release). Acquire dates describe source footprints and may vary within a crop.
+Each image combines sixteen 256 × 256 tiles at native zoom 18, with no resizing, from Wayback release **32553 (2024-08-15)**. Full native-layer-5 footprint responses were fetched once per district, then intersected locally with Shapely. Per-scene metadata retains exact source attributes and clipped GeoJSON geometries; full provider footprints are stored once with SHA-256 references. Independent provider point queries matched all 64 original cluster checks (including the 62 autumn clusters retained in this release). Acquire dates describe source footprints and may vary within a crop.
 
-The user reduced the original 1,400-scene target to 500 while 32 Kaithal jobs were already dispatched. Those jobs were retained; remaining selections fill the least represented geographic groups in frozen order. No model outputs, labels, scores or successes were used to choose the subset. IDs retain their original plan identifiers, so gaps and IDs above C500 are expected. These are deliberate geographic samples, not random estimates of prevalence or generalization accuracy.
+The earlier 500-scene release followed a reduction from a 1,400-scene plan while 32 Kaithal jobs were dispatched. That complete release is preserved. Subsequent additions fill the least represented geographic groups in frozen order. No model outputs, labels, scores or successes were used to choose the samples. IDs retain their original plan identifiers, so gaps are expected. These are deliberate geographic samples, not random estimates of prevalence or generalization accuracy.
 
 ## How annotations and geometry were produced
 
@@ -54,17 +54,17 @@ Codex received unmasked images. Original nominated scenes include candidate coor
 
 Axis-aligned boxes use polygon coordinate extrema. Oriented boxes are minimum-area rectangles around each polygon's convex hull. Binary masks use pixel-center even-odd rasterization (0 or 255, holes preserved, no antialiasing). WGS84 polygons, coordinates and approximate physical areas are derived from the native Web Mercator tile origin; positional accuracy inherits imagery and annotation error. Native-tile display and PNGs use identical source pixel placement; compressed previews are display-only.
 
-All records pass schema, finite bounds, nondegeneracy, self-intersection and hole checks; all PNG hashes match their runs. The pixel-center overlap audit flags 266 regions with at least 16 shared pixels and 1% mask overlap. 0 regions need tag-format review. These checks do not prove class correctness, field completeness or boundary accuracy. Dark soil, moisture, water, shadows, residue and char remain confounders.
+All records pass schema, finite bounds, nondegeneracy, self-intersection and hole checks; all PNG hashes match their runs. The pixel-center overlap audit flags 313 regions with at least 16 shared pixels and 1% mask overlap. 0 regions need tag-format review. These checks do not prove class correctness, field completeness or boundary accuracy. Dark soil, moisture, water, shadows, residue and char remain confounders.
 
 ## Downloads
 
-GitHub Release: https://github.com/nipunbatra/fieldwork-scene/releases/tag/crop-burn-500-2026-09-10
+GitHub Release: https://github.com/nipunbatra/fieldwork-scene/releases/tag/crop-burn-600-2026-09-11
 
-- `fieldwork-500-annotations.zip`: all geographic/pixel polygons, oriented boxes, exact sanitized model records, manifest, review queue, checks, source-date and Sentinel planning files, plus pipeline scripts.
-- `fieldwork-500-portable.html.zip`: one self-contained HTML for all 500 scenes, including previews, labels and model records. It is large; district review files are more convenient on phones. Native tile switching and original-download links require internet.
+- `fieldwork-600-annotations.zip`: all geographic/pixel polygons, oriented boxes, exact sanitized model records, manifest, review queue, checks, source-date and Sentinel planning files, plus pipeline scripts.
+- `fieldwork-600-portable.html.zip`: one self-contained HTML for all 600 scenes, including previews, labels and model records. It is large; district review files are more convenient on phones. Native tile switching and original-download links require internet.
 - `fieldwork-<district>-review.zip`: a smaller self-contained district HTML, annotations, source records and district review queue.
 - `fieldwork-<district>-native.zip`: exact PNG inference inputs, per-image hashes and source tile provenance. Extract alongside district annotations for research use.
-- `source-metadata.zip`: frozen district boundaries, complete official footprint responses, provider spot checks and both sampling plans.
+- `source-metadata.zip`: frozen district boundaries, complete official footprint responses, provider spot checks and sampling plans and expansion history.
 - `SHA256SUMS.txt`: checksums for every release archive. Inside each native ZIP, `images.json` gives exact per-image SHA-256 values.
 
 For scripted retrieval, place `download-native-images.py` beside `manifest.json` and run `python3 download-native-images.py --district Ludhiana` (omit the district to retrieve all). It verifies each exact PNG hash.
@@ -73,17 +73,17 @@ The Pages viewer downloads compressed district indexes and loads only visible pr
 
 ## Review and next modeling stage
 
-`review-queue.csv` has 28,263 rows with blank human decisions, reviewer, date and feedback; every status is pending. Start with burned/partial proposals, uncertainty and overlap flags, then review a balanced sample of no-burn scenes across districts and dates. Check masks off as well as on, trace whole parcels and record disagreements. Correct missed parcels too. Do not silently treat unresolved fields as background negatives.
+`review-queue.csv` has 34,085 rows with blank human decisions, reviewer, date and feedback; every status is pending. Start with burned/partial proposals, uncertainty and overlap flags, then review a balanced sample of no-burn scenes across districts and dates. Check masks off as well as on, trace whole parcels and record disagreements. Correct missed parcels too. Do not silently treat unresolved fields as background negatives.
 
-Suggested spatial holdout components join anchors and crops separated by <=1024 native pixels (roughly half a kilometre here). There are 82 components; no train/validation/test split has been assigned. Keep nearby and same-acquisition imagery together, consider whole-district holdouts, and freeze evaluation before RF-DETR training or model-driven sample selection.
+Suggested spatial holdout components join anchors and crops separated by <=1024 native pixels (roughly half a kilometre here). There are 80 components; no train/validation/test split has been assigned. Keep nearby and same-acquisition imagery together, consider whole-district holdouts, and freeze evaluation before RF-DETR training or model-driven sample selection.
 
 `sentinel-scene-footprints.geojson` and `sentinel-handoff.json` are planning aids only. Match actual source dates, cloud cover, before/after context, alignment and field support. Small fields and mixed pixels matter at Sentinel-2's 10 m visible/NIR and 20 m SWIR resolutions. No RF-DETR training or Sentinel retrieval has been run in this release.
 
-Successful retained runs report 7,140,135 input and 3,826,107 output tokens, including 915,923 reasoning tokens (part of output). These exclude failed attempts and software-development work. No OpenAI API key was used for annotations; Codex subscription usage applies.
+Successful retained runs report 8,589,682 input and 4,582,697 output tokens, including 1,082,886 reasoning tokens (part of output). These exclude failed attempts and software-development work. No OpenAI API key was used for annotations; Codex subscription usage applies.
 
 ## Reproduce or resume in gpt-label-vision
 
-Use the existing Node dependencies and Codex sign-in. The frozen plans, exact inputs and successful outputs are authoritative; preserve C01–C140.
+Use the existing Node dependencies and Codex sign-in. The frozen plans, exact inputs and successful outputs are authoritative; preserve all completed cases from earlier releases.
 
 ```sh
 uv venv work/crop-burn-review/district-expansion/venv

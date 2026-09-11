@@ -1,131 +1,131 @@
 {
-  "tag": "crop-burn-500-2026-09-10",
+  "tag": "crop-burn-600-2026-09-11",
   "assets": [
     {
-      "file": "fieldwork-500-annotations.zip",
-      "bytes": 20714110,
-      "sha256": "0667e65df922d9a3ca9e8ecf01dce147c4fd4933582bfc2606417a7a6c8c1368",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-500-annotations.zip"
+      "file": "fieldwork-600-annotations.zip",
+      "bytes": 23540338,
+      "sha256": "8c0bf40b66c2188da85c1a28a8bb6c43afe57a566e3f5004d6290cdc3eee7ba0",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-600-annotations.zip"
     },
     {
-      "file": "fieldwork-500-portable.html.zip",
-      "bytes": 77400843,
-      "sha256": "785ed1e4ea94661e92d60cd5186c5387e03d445753ccef2c4bf8ae031826ba56",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-500-portable.html.zip"
+      "file": "fieldwork-600-portable.html.zip",
+      "bytes": 90978309,
+      "sha256": "6e3b5e89c67f6cd2b64d92f5e8f3da730079ae29cbb7ad9a4f9c6a98acd7373c",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-600-portable.html.zip"
     },
     {
       "file": "fieldwork-bathinda-native.zip",
-      "bytes": 88711514,
-      "sha256": "148b160204884477ebfd008d4c6b4e11f12858ad13a2c20956f2fa08d46f0e43",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-bathinda-native.zip"
+      "bytes": 113781095,
+      "sha256": "4f3f983a2c34baa3e84adb9f89caecd765397150f06e54198c16b835a24c79b5",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-bathinda-native.zip"
     },
     {
       "file": "fieldwork-bathinda-review.zip",
-      "bytes": 8327723,
-      "sha256": "c490300cd75c1d2b5d13f4c6f0d6bf60301a515f1c29d8163a32fd5e7910bbc6",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-bathinda-review.zip"
+      "bytes": 10646376,
+      "sha256": "690bc0a9051fbfbded1ea3851943bdbd3d73be06b0b1341c23c9b8d511354363",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-bathinda-review.zip"
     },
     {
       "file": "fieldwork-fatehabad-native.zip",
       "bytes": 263697208,
-      "sha256": "93c193141cb10a739e11fa754e9690d5e72241d9df496b60b0b1ada82b329e0f",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-fatehabad-native.zip"
+      "sha256": "d8224d3d4accf7a3ba163f017a1d92ddb2714c4c87e5dac3d36562132d2cf524",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-fatehabad-native.zip"
     },
     {
       "file": "fieldwork-fatehabad-review.zip",
-      "bytes": 38913427,
-      "sha256": "214fba931fd1e09f8f76811b3baa8880f92b0dfc2147d6cd2d74cc626f9dab76",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-fatehabad-review.zip"
+      "bytes": 38914026,
+      "sha256": "b3078bab0e370a7794b03218d70f7c0fa734ab9626175e09b6e8be421fb2aaf5",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-fatehabad-review.zip"
     },
     {
       "file": "fieldwork-jalandhar-native.zip",
-      "bytes": 85396974,
-      "sha256": "7e4ffc43fd9a014d2466d88b11319f6f19329cda3212d24fb6c1b6cfb109035f",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-jalandhar-native.zip"
+      "bytes": 109387656,
+      "sha256": "b4d35118e447bf3dbecff74fc53b56182e03badac37cb6346a28376e9e8e6679",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-jalandhar-native.zip"
     },
     {
       "file": "fieldwork-jalandhar-review.zip",
-      "bytes": 7821954,
-      "sha256": "3817accf0dadfe5b7c31b12d0e4bcfa620aefe88370daf93b8d9335c1c35bcc0",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-jalandhar-review.zip"
+      "bytes": 10014596,
+      "sha256": "81a07838e60a7c8519cbf6908ab9921f5b27fad1fbe85f2816b60b200d386867",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-jalandhar-review.zip"
     },
     {
       "file": "fieldwork-kaithal-native.zip",
-      "bytes": 86830394,
-      "sha256": "0d5dc24e8cd2433d5b72bc49d31abc17768e0417437e53801f35fb3366c7bcc2",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-kaithal-native.zip"
+      "bytes": 111640565,
+      "sha256": "670148fb8df75f7376c7854d8ba609841ee8e9888778ca47d96c06a6415d9ae2",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-kaithal-native.zip"
     },
     {
       "file": "fieldwork-kaithal-review.zip",
-      "bytes": 8285388,
-      "sha256": "29e787b3287824622845d9ba767994de11a18d59ec2885c373e61f14657f6bed",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-kaithal-review.zip"
+      "bytes": 10611098,
+      "sha256": "fec9f9c5da026408f108e714c4fabf288627608e661a69cbc0c86a4a5e2e0be7",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-kaithal-review.zip"
     },
     {
       "file": "fieldwork-kapurthala-native.zip",
-      "bytes": 81594017,
-      "sha256": "79eaff96ac80571996caf77cc53f9c0a98617b677c11efe131a72f3ccb3c121b",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-kapurthala-native.zip"
+      "bytes": 105579730,
+      "sha256": "c85789f6997806e4ff60f77b535871c1860b2ee8ade3c189c5a481966d262d61",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-kapurthala-native.zip"
     },
     {
       "file": "fieldwork-kapurthala-review.zip",
-      "bytes": 7303765,
-      "sha256": "1cf8551137479a2b96cad1d2e0996674b4c7ce43fb07e50e57409003f4a3bb4c",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-kapurthala-review.zip"
+      "bytes": 9413235,
+      "sha256": "076f26207271976f9691aa4687075d204590baa6315837973f752dee71c0b462",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-kapurthala-review.zip"
     },
     {
       "file": "fieldwork-karnal-native.zip",
-      "bytes": 72045682,
-      "sha256": "da29a9f0a68f0e7f9a922ede982ff422472b29370f410a583c5eb434734c2c02",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-karnal-native.zip"
+      "bytes": 91570050,
+      "sha256": "aa14d700f8ea9a8f80646df432f9155e3eb770b399223367382882f3531dda16",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-karnal-native.zip"
     },
     {
       "file": "fieldwork-karnal-review.zip",
-      "bytes": 6965765,
-      "sha256": "7fcf9d5cc96657955f4eb69955dfc198647fd73380e6c9f7f6d303e56df26ebc",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-karnal-review.zip"
+      "bytes": 8839667,
+      "sha256": "8ff4e5d7f2e24d0883037d5688e42c73f8edcdc171d484bd27a306b2c9e19efc",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-karnal-review.zip"
     },
     {
       "file": "fieldwork-ludhiana-native.zip",
-      "bytes": 76364776,
-      "sha256": "3b41a66509eab71a893c1bac4f8b6fe6c8f944a615cb18c114be993e72b4dce3",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-ludhiana-native.zip"
+      "bytes": 95214456,
+      "sha256": "b25bd063ff45ac81fa31b6358cb3705833cd6d0187545265906d58e848499a7e",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-ludhiana-native.zip"
     },
     {
       "file": "fieldwork-ludhiana-review.zip",
-      "bytes": 6868786,
-      "sha256": "e5ead65d96a7028ec98857cc876a1b6f72be186bc2b1c382e211c6eac4d3ac7b",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-ludhiana-review.zip"
+      "bytes": 8596978,
+      "sha256": "431631195ce6e9c89892c8107ea473bc8d843edde20502f996fc92dff8858bdb",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-ludhiana-review.zip"
     },
     {
       "file": "fieldwork-patiala-native.zip",
-      "bytes": 76124796,
-      "sha256": "44d1811929f6b9ff99566b14b481c9177e9803ebab6157c14ee652469f6e41d5",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-patiala-native.zip"
+      "bytes": 97449667,
+      "sha256": "e6bf99606dfe8d0e09f9d05662fe8de8c0f96fde89f1d8c6b73e489d27bc269d",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-patiala-native.zip"
     },
     {
       "file": "fieldwork-patiala-review.zip",
-      "bytes": 7447310,
-      "sha256": "da1ce629b8cf8ae70c1b68748f7d11e67870fe98b073a1fb8f6000df928b094a",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-patiala-review.zip"
+      "bytes": 9528108,
+      "sha256": "af4c840a27189b30598b302c87a11c9ad73c5d15ac1846565cc994fb9f2a9478",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-patiala-review.zip"
     },
     {
       "file": "fieldwork-sangrur-native.zip",
-      "bytes": 68394868,
-      "sha256": "76b771b99ca1676624ae99888d15d77cad9caed84f964ab7e836fe4cbe6d8a2b",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-sangrur-native.zip"
+      "bytes": 87384363,
+      "sha256": "a19a68bdad6c19267cdcdfcb934801a7dd1f59ad2a9d4b660338a806b933ad0e",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-sangrur-native.zip"
     },
     {
       "file": "fieldwork-sangrur-review.zip",
-      "bytes": 6600711,
-      "sha256": "286b8582a503160f1d6d3624bd6af583db816bfaeda2b311486216b16c55e133",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/fieldwork-sangrur-review.zip"
+      "bytes": 8388207,
+      "sha256": "718168ca88122c627f65dcc5be287d1a9b594509a077027ad39dca3043e47ec1",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/fieldwork-sangrur-review.zip"
     },
     {
       "file": "source-metadata.zip",
-      "bytes": 17743614,
-      "sha256": "b500ecf6d8be3db439d9ddc4c438223dfff4a29da4ad77ea5b1dc3b764fdc93d",
-      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-500-2026-09-10/source-metadata.zip"
+      "bytes": 17761073,
+      "sha256": "4e3cd8bd16d2104a9e51c57a9637aa40d0c237c3215c426b5631a0fe21069431",
+      "url": "https://github.com/nipunbatra/fieldwork-scene/releases/download/crop-burn-600-2026-09-11/source-metadata.zip"
     }
   ]
 }

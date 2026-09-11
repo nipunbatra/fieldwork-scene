@@ -2,7 +2,7 @@
 
 Use RF-DETR instance segmentation to predict whole visible field parcels with three eventual supervised classes: burnt, partially burnt, and unburnt. Agree on the visible burned-fraction criteria before assigning those classes. Existing labels describe appearance and remain provisional.
 
-Current review: 500 images across nine districts, 28,263 AI proposals. None is accepted human ground truth. The original 140 Fatehabad scenes are preserved; 360 new October/November scenes cover eight additional districts. Use district/acquisition/spatial holdouts and expert-corrected parcels before training.
+Current review: 600 images across nine districts, 34,085 AI proposals. None is accepted human ground truth. The original 140 Fatehabad scenes are preserved; 460 October/November district expansion scenes cover eight additional districts. Use district/acquisition/spatial holdouts and expert-corrected parcels before training.
 
 ## Iterative workflow
 

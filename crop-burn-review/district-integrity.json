@@ -1,27 +1,31 @@
 {
-  "checkedAt": "2026-09-10T17:20:02.083372+00:00",
-  "scenes": 500,
-  "regions": 28263,
+  "checkedAt": "2026-09-11T05:29:21.792658+00:00",
+  "scenes": 600,
+  "regions": 34085,
   "districts": {
     "Fatehabad": 140,
-    "Kaithal": 45,
-    "Karnal": 45,
-    "Ludhiana": 45,
-    "Sangrur": 45,
-    "Patiala": 45,
-    "Bathinda": 45,
-    "Jalandhar": 45,
-    "Kapurthala": 45
+    "Bathinda": 58,
+    "Jalandhar": 58,
+    "Kaithal": 58,
+    "Kapurthala": 58,
+    "Karnal": 57,
+    "Ludhiana": 57,
+    "Patiala": 57,
+    "Sangrur": 57
   },
   "baseline140BitForBitPreserved": true,
+  "preservedPriorReleaseSceneCounts": [
+    140,
+    500
+  ],
   "geometryAndCatalogAgree": true,
   "allNativeHashesVerified": true,
   "allReleaseArchiveCRCsPass": true,
   "allReviewRowsPending": true,
   "publicPrivacyScanPassed": true,
-  "portableEmbeddedCases": 500,
+  "portableEmbeddedCases": 600,
   "releaseAssets": 21,
-  "siteBytes": 688322352,
+  "siteBytes": 727862884,
   "allNewSourceDatesOctoberNovember": true,
   "targetReached": true
 }

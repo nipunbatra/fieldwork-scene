@@ -1052,6 +1052,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C184",
+      "unionPixels": 870970,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C185",
+      "unionPixels": 783013,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C201",
       "unionPixels": 881063,
       "overlapPixels": 0,
@@ -1064,6 +1076,24 @@
       "boundaryReviewRegions": 1
     },
     {
+      "caseId": "C203",
+      "unionPixels": 870580,
+      "overlapPixels": 460,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C204",
+      "unionPixels": 892378,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C205",
+      "unionPixels": 817442,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C221",
       "unionPixels": 846061,
       "overlapPixels": 0,
@@ -1072,6 +1102,18 @@
     {
       "caseId": "C222",
       "unionPixels": 771768,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C223",
+      "unionPixels": 748272,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C224",
+      "unionPixels": 837868,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
@@ -1088,6 +1130,18 @@
       "boundaryReviewRegions": 1
     },
     {
+      "caseId": "C243",
+      "unionPixels": 755408,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C244",
+      "unionPixels": 869411,
+      "overlapPixels": 64,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C261",
       "unionPixels": 907997,
       "overlapPixels": 0,
@@ -1096,6 +1150,18 @@
     {
       "caseId": "C262",
       "unionPixels": 821086,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C263",
+      "unionPixels": 764583,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C264",
+      "unionPixels": 956115,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
@@ -1109,6 +1175,18 @@
       "caseId": "C281",
       "unionPixels": 919207,
       "overlapPixels": 2,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C282",
+      "unionPixels": 879971,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C283",
+      "unionPixels": 813981,
+      "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
     {
@@ -1148,6 +1226,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C305",
+      "unionPixels": 882459,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C306",
+      "unionPixels": 921224,
+      "overlapPixels": 5,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C319",
       "unionPixels": 800702,
       "overlapPixels": 467,
@@ -1184,6 +1274,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C325",
+      "unionPixels": 876705,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C339",
       "unionPixels": 884169,
       "overlapPixels": 0,
@@ -1216,6 +1312,12 @@
     {
       "caseId": "C344",
       "unionPixels": 585478,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C345",
+      "unionPixels": 632112,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
@@ -1256,6 +1358,12 @@
       "boundaryReviewRegions": 2
     },
     {
+      "caseId": "C365",
+      "unionPixels": 424557,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C379",
       "unionPixels": 950771,
       "overlapPixels": 245,
@@ -1292,6 +1400,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C385",
+      "unionPixels": 872653,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C399",
       "unionPixels": 843206,
       "overlapPixels": 0,
@@ -1318,6 +1432,18 @@
     {
       "caseId": "C403",
       "unionPixels": 832263,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C404",
+      "unionPixels": 776291,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C405",
+      "unionPixels": 801781,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
@@ -1352,6 +1478,18 @@
       "boundaryReviewRegions": 3
     },
     {
+      "caseId": "C424",
+      "unionPixels": 701612,
+      "overlapPixels": 252,
+      "boundaryReviewRegions": 3
+    },
+    {
+      "caseId": "C425",
+      "unionPixels": 930681,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C438",
       "unionPixels": 891734,
       "overlapPixels": 0,
@@ -1380,6 +1518,18 @@
       "unionPixels": 879595,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C443",
+      "unionPixels": 840206,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C444",
+      "unionPixels": 922457,
+      "overlapPixels": 2369,
+      "boundaryReviewRegions": 5
     },
     {
       "caseId": "C457",
@@ -1415,6 +1565,18 @@
       "caseId": "C462",
       "unionPixels": 633100,
       "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C463",
+      "unionPixels": 789407,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C464",
+      "unionPixels": 775694,
+      "overlapPixels": 9,
       "boundaryReviewRegions": 0
     },
     {
@@ -1454,6 +1616,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C483",
+      "unionPixels": 769545,
+      "overlapPixels": 552,
+      "boundaryReviewRegions": 2
+    },
+    {
       "caseId": "C497",
       "unionPixels": 822412,
       "overlapPixels": 7,
@@ -1490,6 +1658,12 @@
       "boundaryReviewRegions": 2
     },
     {
+      "caseId": "C503",
+      "unionPixels": 814138,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C517",
       "unionPixels": 914686,
       "overlapPixels": 0,
@@ -1522,6 +1696,12 @@
     {
       "caseId": "C522",
       "unionPixels": 904866,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C523",
+      "unionPixels": 825622,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
@@ -1562,6 +1742,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C543",
+      "unionPixels": 1048576,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C557",
       "unionPixels": 540441,
       "overlapPixels": 6,
@@ -1589,6 +1775,18 @@
       "caseId": "C561",
       "unionPixels": 603335,
       "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C562",
+      "unionPixels": 829326,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C563",
+      "unionPixels": 838587,
+      "overlapPixels": 43,
       "boundaryReviewRegions": 0
     },
     {
@@ -1622,6 +1820,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C582",
+      "unionPixels": 865607,
+      "overlapPixels": 26,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C583",
+      "unionPixels": 855061,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C596",
       "unionPixels": 908200,
       "overlapPixels": 518,
@@ -1650,6 +1860,18 @@
       "unionPixels": 920607,
       "overlapPixels": 332,
       "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C601",
+      "unionPixels": 864484,
+      "overlapPixels": 51,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C602",
+      "unionPixels": 753706,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
     },
     {
       "caseId": "C615",
@@ -1688,6 +1910,18 @@
       "boundaryReviewRegions": 10
     },
     {
+      "caseId": "C621",
+      "unionPixels": 924283,
+      "overlapPixels": 844,
+      "boundaryReviewRegions": 3
+    },
+    {
+      "caseId": "C622",
+      "unionPixels": 828759,
+      "overlapPixels": 610,
+      "boundaryReviewRegions": 4
+    },
+    {
       "caseId": "C635",
       "unionPixels": 829441,
       "overlapPixels": 0,
@@ -1724,6 +1958,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C641",
+      "unionPixels": 500265,
+      "overlapPixels": 60,
+      "boundaryReviewRegions": 1
+    },
+    {
       "caseId": "C655",
       "unionPixels": 503903,
       "overlapPixels": 389,
@@ -1756,6 +1996,12 @@
     {
       "caseId": "C660",
       "unionPixels": 886560,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C661",
+      "unionPixels": 911401,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
@@ -1796,6 +2042,12 @@
       "boundaryReviewRegions": 2
     },
     {
+      "caseId": "C681",
+      "unionPixels": 948209,
+      "overlapPixels": 61,
+      "boundaryReviewRegions": 1
+    },
+    {
       "caseId": "C695",
       "unionPixels": 910217,
       "overlapPixels": 24,
@@ -1832,6 +2084,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C701",
+      "unionPixels": 158017,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C715",
       "unionPixels": 782295,
       "overlapPixels": 69,
@@ -1860,6 +2118,18 @@
       "unionPixels": 835070,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C720",
+      "unionPixels": 823158,
+      "overlapPixels": 30,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C721",
+      "unionPixels": 715816,
+      "overlapPixels": 819,
+      "boundaryReviewRegions": 5
     },
     {
       "caseId": "C735",
@@ -1892,6 +2162,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C740",
+      "unionPixels": 822597,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C741",
+      "unionPixels": 797679,
+      "overlapPixels": 15,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C754",
       "unionPixels": 906034,
       "overlapPixels": 791,
@@ -1920,6 +2202,18 @@
       "unionPixels": 894946,
       "overlapPixels": 327,
       "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C759",
+      "unionPixels": 865635,
+      "overlapPixels": 3306,
+      "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C760",
+      "unionPixels": 786267,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
     },
     {
       "caseId": "C773",
@@ -1955,6 +2249,18 @@
       "caseId": "C778",
       "unionPixels": 934932,
       "overlapPixels": 7,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C779",
+      "unionPixels": 902802,
+      "overlapPixels": 119,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C780",
+      "unionPixels": 952714,
+      "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
     {
@@ -1994,6 +2300,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C799",
+      "unionPixels": 751008,
+      "overlapPixels": 7,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C813",
       "unionPixels": 643979,
       "overlapPixels": 48,
@@ -2027,6 +2339,12 @@
       "caseId": "C818",
       "unionPixels": 663938,
       "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C819",
+      "unionPixels": 744729,
+      "overlapPixels": 11,
       "boundaryReviewRegions": 0
     },
     {
@@ -2066,6 +2384,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C839",
+      "unionPixels": 834374,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C853",
       "unionPixels": 950222,
       "overlapPixels": 87,
@@ -2102,6 +2426,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C859",
+      "unionPixels": 805999,
+      "overlapPixels": 300,
+      "boundaryReviewRegions": 2
+    },
+    {
       "caseId": "C873",
       "unionPixels": 825855,
       "overlapPixels": 5,
@@ -2130,6 +2460,18 @@
       "unionPixels": 922877,
       "overlapPixels": 100,
       "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C878",
+      "unionPixels": 847742,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C879",
+      "unionPixels": 536772,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
     },
     {
       "caseId": "C892",
@@ -2162,6 +2504,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C897",
+      "unionPixels": 577617,
+      "overlapPixels": 55,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C898",
+      "unionPixels": 834347,
+      "overlapPixels": 1,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C911",
       "unionPixels": 772097,
       "overlapPixels": 63,
@@ -2189,6 +2543,18 @@
       "caseId": "C915",
       "unionPixels": 901171,
       "overlapPixels": 129,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C916",
+      "unionPixels": 882052,
+      "overlapPixels": 265,
+      "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C917",
+      "unionPixels": 872643,
+      "overlapPixels": 107,
       "boundaryReviewRegions": 1
     },
     {
@@ -2236,6 +2602,18 @@
     {
       "caseId": "C937",
       "unionPixels": 893543,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C938",
+      "unionPixels": 779013,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C939",
+      "unionPixels": 903865,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
@@ -2288,6 +2666,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C959",
+      "unionPixels": 769201,
+      "overlapPixels": 14,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C960",
+      "unionPixels": 896392,
+      "overlapPixels": 986,
+      "boundaryReviewRegions": 4
+    },
+    {
       "caseId": "C972",
       "unionPixels": 326018,
       "overlapPixels": 0,
@@ -2336,6 +2726,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C980",
+      "unionPixels": 931478,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C981",
+      "unionPixels": 915989,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C993",
       "unionPixels": 810956,
       "overlapPixels": 0,
@@ -2374,6 +2776,24 @@
     {
       "caseId": "C999",
       "unionPixels": 838522,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1000",
+      "unionPixels": 859506,
+      "overlapPixels": 14,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1001",
+      "unionPixels": 898203,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1002",
+      "unionPixels": 863141,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
@@ -2420,6 +2840,18 @@
       "boundaryReviewRegions": 2
     },
     {
+      "caseId": "C1020",
+      "unionPixels": 788831,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1021",
+      "unionPixels": 810135,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C1033",
       "unionPixels": 799894,
       "overlapPixels": 0,
@@ -2462,6 +2894,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C1040",
+      "unionPixels": 794350,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1041",
+      "unionPixels": 652018,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C1087",
       "unionPixels": 885406,
       "overlapPixels": 72,
@@ -2494,6 +2938,18 @@
     {
       "caseId": "C1092",
       "unionPixels": 868429,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1093",
+      "unionPixels": 658192,
+      "overlapPixels": 4,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1094",
+      "unionPixels": 703308,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
@@ -2534,6 +2990,18 @@
       "boundaryReviewRegions": 1
     },
     {
+      "caseId": "C1113",
+      "unionPixels": 794318,
+      "overlapPixels": 120,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1114",
+      "unionPixels": 838400,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C1127",
       "unionPixels": 821751,
       "overlapPixels": 70,
@@ -2567,6 +3035,12 @@
       "caseId": "C1132",
       "unionPixels": 630294,
       "overlapPixels": 100,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1133",
+      "unionPixels": 774814,
+      "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
     {
@@ -2606,6 +3080,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C1153",
+      "unionPixels": 903386,
+      "overlapPixels": 9,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C1167",
       "unionPixels": 880973,
       "overlapPixels": 0,
@@ -2642,6 +3122,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C1173",
+      "unionPixels": 794150,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C1187",
       "unionPixels": 944097,
       "overlapPixels": 0,
@@ -2670,6 +3156,18 @@
       "unionPixels": 669864,
       "overlapPixels": 330,
       "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C1192",
+      "unionPixels": 729399,
+      "overlapPixels": 218,
+      "boundaryReviewRegions": 1
+    },
+    {
+      "caseId": "C1193",
+      "unionPixels": 687480,
+      "overlapPixels": 130,
+      "boundaryReviewRegions": 1
     },
     {
       "caseId": "C1206",
@@ -2702,6 +3200,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C1211",
+      "unionPixels": 802848,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1212",
+      "unionPixels": 833841,
+      "overlapPixels": 13,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C1225",
       "unionPixels": 508292,
       "overlapPixels": 424,
@@ -2728,6 +3238,18 @@
     {
       "caseId": "C1229",
       "unionPixels": 718235,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1230",
+      "unionPixels": 800449,
+      "overlapPixels": 3,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1231",
+      "unionPixels": 893622,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
@@ -2768,6 +3290,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C1250",
+      "unionPixels": 803460,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1251",
+      "unionPixels": 821007,
+      "overlapPixels": 1935,
+      "boundaryReviewRegions": 2
+    },
+    {
       "caseId": "C1264",
       "unionPixels": 809072,
       "overlapPixels": 0,
@@ -2804,6 +3338,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C1270",
+      "unionPixels": 718188,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1271",
+      "unionPixels": 820611,
+      "overlapPixels": 151,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C1284",
       "unionPixels": 843498,
       "overlapPixels": 0,
@@ -2836,6 +3382,12 @@
     {
       "caseId": "C1289",
       "unionPixels": 933478,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1290",
+      "unionPixels": 261451,
       "overlapPixels": 0,
       "boundaryReviewRegions": 0
     },
@@ -2876,6 +3428,12 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C1310",
+      "unionPixels": 887689,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C1324",
       "unionPixels": 718490,
       "overlapPixels": 0,
@@ -2912,6 +3470,12 @@
       "boundaryReviewRegions": 1
     },
     {
+      "caseId": "C1330",
+      "unionPixels": 894553,
+      "overlapPixels": 440,
+      "boundaryReviewRegions": 1
+    },
+    {
       "caseId": "C1344",
       "unionPixels": 880894,
       "overlapPixels": 172,
@@ -2940,6 +3504,18 @@
       "unionPixels": 886103,
       "overlapPixels": 92,
       "boundaryReviewRegions": 2
+    },
+    {
+      "caseId": "C1349",
+      "unionPixels": 828676,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1350",
+      "unionPixels": 863247,
+      "overlapPixels": 33,
+      "boundaryReviewRegions": 0
     },
     {
       "caseId": "C1363",
@@ -2972,6 +3548,18 @@
       "boundaryReviewRegions": 0
     },
     {
+      "caseId": "C1368",
+      "unionPixels": 558838,
+      "overlapPixels": 346,
+      "boundaryReviewRegions": 4
+    },
+    {
+      "caseId": "C1369",
+      "unionPixels": 684729,
+      "overlapPixels": 0,
+      "boundaryReviewRegions": 0
+    },
+    {
       "caseId": "C1382",
       "unionPixels": 856587,
       "overlapPixels": 138,
@@ -2999,6 +3587,18 @@
       "caseId": "C1386",
       "unionPixels": 783213,
       "overlapPixels": 22,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1387",
+      "unionPixels": 949152,
+      "overlapPixels": 16,
+      "boundaryReviewRegions": 0
+    },
+    {
+      "caseId": "C1388",
+      "unionPixels": 778768,
+      "overlapPixels": 0,
       "boundaryReviewRegions": 0
     }
   ]
